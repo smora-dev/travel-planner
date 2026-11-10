@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-10T08:00+00:00",
- "demo": true,
+ "updated_at": "2026-11-10T20:34+00:00",
+ "demo": false,
  "currency": "USD",
  "nights": 7,
  "origin": "SJO",
@@ -28,1040 +28,388 @@
    "months": [
     {
      "month": "2026-11",
-     "days": {
-      "2026-11-13": 418,
-      "2026-11-14": 386,
-      "2026-11-15": 480,
-      "2026-11-16": 371,
-      "2026-11-17": 458,
-      "2026-11-18": 426,
-      "2026-11-19": 368,
-      "2026-11-20": 453,
-      "2026-11-21": 364,
-      "2026-11-22": 439,
-      "2026-11-23": 370,
-      "2026-11-24": 374,
-      "2026-11-25": 437,
-      "2026-11-26": 513,
-      "2026-11-27": 380,
-      "2026-11-28": 399,
-      "2026-11-29": 476,
-      "2026-11-30": 536
-     },
      "flight": {
-      "date": "2026-11-21",
-      "return": "2026-11-28",
-      "price": 364,
+      "date": "2026-11-15",
+      "return": "2026-11-22",
+      "price": 403,
       "sources": {
-       "viajante": 364,
-       "fli": 382,
-       "trvl": 401
+       "viajante": 403,
+       "trvl": 403
       },
       "check": false,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202026-11-21%20through%202026-11-28"
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202026-11-15%20through%202026-11-22"
+     },
+     "days": {
+      "2026-11-13": 613,
+      "2026-11-14": 476,
+      "2026-11-15": 403,
+      "2026-11-16": 403,
+      "2026-11-17": 403,
+      "2026-11-18": 403,
+      "2026-11-19": 403,
+      "2026-11-20": 403,
+      "2026-11-21": 403,
+      "2026-11-22": 570,
+      "2026-11-23": 476,
+      "2026-11-24": 584,
+      "2026-11-25": 599,
+      "2026-11-26": 460,
+      "2026-11-27": 616,
+      "2026-11-28": 580,
+      "2026-11-29": 613,
+      "2026-11-30": 613
      },
      "hotels": [
       {
-       "name": "Hotel Ejemplo Resort",
-       "total": 2514,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
+       "name": "Baymont by Wyndham International Drive/Universal Boulevard",
+       "total": 329,
+       "rating": 4.1,
+       "reviews": 4098,
+       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2026-11-15,2026-11-22",
+       "src": "trvl"
       },
       {
-       "name": "Suites Ejemplo",
-       "total": 2554,
-       "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
+       "name": "Rosen Inn International",
+       "total": 371,
+       "rating": 4.1,
+       "reviews": 7270,
+       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2026-11-15,2026-11-22",
+       "src": "trvl"
       },
       {
-       "name": "Inn Ejemplo",
-       "total": 2595,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
+       "name": "Rosen Inn Closest to Universal",
+       "total": 413,
+       "rating": 4.0,
+       "reviews": 4011,
+       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2026-11-15,2026-11-22",
+       "src": "trvl"
       }
      ],
-     "car": {
-      "small": {
-       "price": 1890,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 3276,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "car": {}
     },
     {
      "month": "2026-12",
-     "days": {
-      "2026-12-01": 731,
-      "2026-12-02": 494,
-      "2026-12-03": 701,
-      "2026-12-04": 556,
-      "2026-12-05": 519,
-      "2026-12-06": 512,
-      "2026-12-07": 561,
-      "2026-12-08": 690,
-      "2026-12-09": 528,
-      "2026-12-10": 630,
-      "2026-12-11": 645,
-      "2026-12-12": 577,
-      "2026-12-13": 622,
-      "2026-12-14": 498,
-      "2026-12-15": 497,
-      "2026-12-16": 535,
-      "2026-12-17": 656,
-      "2026-12-18": 591,
-      "2026-12-19": 562,
-      "2026-12-20": 631,
-      "2026-12-21": 598,
-      "2026-12-22": 558,
-      "2026-12-23": 685,
-      "2026-12-24": 660,
-      "2026-12-25": 544,
-      "2026-12-26": 629,
-      "2026-12-27": 616,
-      "2026-12-28": 705,
-      "2026-12-29": 668,
-      "2026-12-30": 555,
-      "2026-12-31": 732
-     },
      "flight": {
-      "date": "2026-12-02",
-      "return": "2026-12-09",
-      "price": 494,
+      "date": "2026-12-09",
+      "return": "2026-12-16",
+      "price": 358,
       "sources": {
-       "viajante": 494,
-       "fli": 497,
-       "trvl": 526
+       "trvl": 358
       },
       "check": false,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202026-12-02%20through%202026-12-09"
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202026-12-09%20through%202026-12-16"
+     },
+     "days": {
+      "2026-12-01": 476,
+      "2026-12-02": 609,
+      "2026-12-03": 377,
+      "2026-12-04": 473,
+      "2026-12-05": 577,
+      "2026-12-06": 537,
+      "2026-12-07": 429,
+      "2026-12-08": 557,
+      "2026-12-09": 358,
+      "2026-12-10": 397,
+      "2026-12-11": 504,
+      "2026-12-12": 464,
+      "2026-12-13": 460,
+      "2026-12-14": 527,
+      "2026-12-15": 422,
+      "2026-12-16": 527,
+      "2026-12-17": 545,
+      "2026-12-18": 558,
+      "2026-12-19": 734,
+      "2026-12-20": 494,
+      "2026-12-21": 543,
+      "2026-12-22": 524,
+      "2026-12-23": 443,
+      "2026-12-24": 447,
+      "2026-12-25": 465,
+      "2026-12-26": 533,
+      "2026-12-27": 749,
+      "2026-12-28": 606,
+      "2026-12-29": 745,
+      "2026-12-30": 579,
+      "2026-12-31": 682
      },
      "hotels": [
       {
-       "name": "Hotel Ejemplo Resort",
-       "total": 3393,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
+       "name": "Baymont by Wyndham International Drive/Universal Boulevard",
+       "total": 329,
+       "rating": 4.1,
+       "reviews": 4098,
+       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2026-12-09,2026-12-16",
+       "src": "trvl"
       },
       {
-       "name": "Suites Ejemplo",
-       "total": 3434,
-       "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
+       "name": "Rosen Inn Closest to Universal",
+       "total": 357,
+       "rating": 4.0,
+       "reviews": 4011,
+       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2026-12-09,2026-12-16",
+       "src": "trvl"
       },
       {
-       "name": "Inn Ejemplo",
-       "total": 3474,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
+       "name": "Rosen Inn International",
+       "total": 371,
+       "rating": 4.1,
+       "reviews": 7270,
+       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2026-12-09,2026-12-16",
+       "src": "trvl"
       }
      ],
-     "car": {
-      "small": {
-       "price": 2552,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 4423,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "car": {}
     },
     {
      "month": "2027-01",
-     "days": {
-      "2027-01-01": 625,
-      "2027-01-02": 482,
-      "2027-01-03": 562,
-      "2027-01-04": 456,
-      "2027-01-05": 604,
-      "2027-01-06": 627,
-      "2027-01-07": 582,
-      "2027-01-08": 653,
-      "2027-01-09": 520,
-      "2027-01-10": 611,
-      "2027-01-11": 587,
-      "2027-01-12": 583,
-      "2027-01-13": 554,
-      "2027-01-14": 645,
-      "2027-01-15": 669,
-      "2027-01-16": 558,
-      "2027-01-17": 603,
-      "2027-01-18": 461,
-      "2027-01-19": 612,
-      "2027-01-20": 599,
-      "2027-01-21": 681,
-      "2027-01-22": 640,
-      "2027-01-23": 513,
-      "2027-01-24": 537,
-      "2027-01-25": 604,
-      "2027-01-26": 452,
-      "2027-01-27": 555,
-      "2027-01-28": 486,
-      "2027-01-29": 474,
-      "2027-01-30": 460,
-      "2027-01-31": 628
-     },
      "flight": {
-      "date": "2027-01-26",
-      "return": "2027-02-02",
-      "price": 452,
+      "date": "2027-01-14",
+      "return": "2027-01-21",
+      "price": 319,
       "sources": {
-       "viajante": 452,
-       "fli": 456,
-       "trvl": 499
+       "trvl": 319
       },
       "check": false,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202027-01-26%20through%202027-02-02"
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202027-01-14%20through%202027-01-21"
+     },
+     "days": {
+      "2027-01-01": 443,
+      "2027-01-02": 878,
+      "2027-01-03": 534,
+      "2027-01-04": 596,
+      "2027-01-05": 522,
+      "2027-01-06": 358,
+      "2027-01-07": 473,
+      "2027-01-08": 496,
+      "2027-01-09": 682,
+      "2027-01-10": 422,
+      "2027-01-11": 588,
+      "2027-01-12": 538,
+      "2027-01-13": 338,
+      "2027-01-14": 319,
+      "2027-01-15": 325,
+      "2027-01-16": 357,
+      "2027-01-17": 469,
+      "2027-01-18": 351,
+      "2027-01-19": 351,
+      "2027-01-20": 330,
+      "2027-01-21": 325,
+      "2027-01-22": 325,
+      "2027-01-23": 325,
+      "2027-01-24": 331,
+      "2027-01-25": 319,
+      "2027-01-26": 319,
+      "2027-01-27": 319,
+      "2027-01-28": 319,
+      "2027-01-29": 339,
+      "2027-01-30": 319,
+      "2027-01-31": 319
      },
      "hotels": [
       {
-       "name": "Hotel Ejemplo Resort",
-       "total": 3142,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
+       "name": "Baymont by Wyndham International Drive/Universal Boulevard",
+       "total": 329,
+       "rating": 4.1,
+       "reviews": 4098,
+       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2027-01-14,2027-01-21",
+       "src": "trvl"
       },
       {
-       "name": "Suites Ejemplo",
-       "total": 3182,
-       "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
+       "name": "Rosen Inn International",
+       "total": 371,
+       "rating": 4.1,
+       "reviews": 7270,
+       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2027-01-14,2027-01-21",
+       "src": "trvl"
       },
       {
-       "name": "Inn Ejemplo",
-       "total": 3223,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
+       "name": "Four Points by Sheraton Orlando International Drive",
+       "total": 462,
+       "rating": 4.0,
+       "reviews": 3867,
+       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2027-01-14,2027-01-21",
+       "src": "trvl"
       }
      ],
-     "car": {
-      "small": {
-       "price": 2362,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 4095,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "car": {}
     },
     {
      "month": "2027-02",
-     "days": {
-      "2027-02-01": 388,
-      "2027-02-02": 470,
-      "2027-02-03": 335,
-      "2027-02-04": 398,
-      "2027-02-05": 415,
-      "2027-02-06": 472,
-      "2027-02-07": 461,
-      "2027-02-08": 468,
-      "2027-02-09": 369,
-      "2027-02-10": 392,
-      "2027-02-11": 382,
-      "2027-02-12": 472,
-      "2027-02-13": 484,
-      "2027-02-14": 347,
-      "2027-02-15": 351,
-      "2027-02-16": 361,
-      "2027-02-17": 361,
-      "2027-02-18": 404,
-      "2027-02-19": 422,
-      "2027-02-20": 366,
-      "2027-02-21": 322,
-      "2027-02-22": 393,
-      "2027-02-23": 384,
-      "2027-02-24": 418,
-      "2027-02-25": 483,
-      "2027-02-26": 439,
-      "2027-02-27": 409,
-      "2027-02-28": 426
-     },
      "flight": {
-      "date": "2027-02-21",
-      "return": "2027-02-28",
-      "price": 322,
+      "date": "2027-02-01",
+      "return": "2027-02-08",
+      "price": 319,
       "sources": {
-       "viajante": 322,
-       "fli": 343,
-       "trvl": 369
+       "trvl": 319
       },
-      "check": true,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202027-02-21%20through%202027-02-28"
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202027-02-01%20through%202027-02-08"
+     },
+     "days": {
+      "2027-02-01": 319,
+      "2027-02-02": 319,
+      "2027-02-03": 321,
+      "2027-02-04": 437,
+      "2027-02-05": 360,
+      "2027-02-06": 364,
+      "2027-02-07": 358,
+      "2027-02-08": 360,
+      "2027-02-09": 392,
+      "2027-02-10": 360,
+      "2027-02-11": 397,
+      "2027-02-12": 397,
+      "2027-02-13": 431,
+      "2027-02-14": 399,
+      "2027-02-15": 397,
+      "2027-02-16": 397,
+      "2027-02-17": 399,
+      "2027-02-18": 397,
+      "2027-02-19": 397,
+      "2027-02-20": 409,
+      "2027-02-21": 397,
+      "2027-02-22": 397,
+      "2027-02-23": 397,
+      "2027-02-24": 397,
+      "2027-02-25": 397,
+      "2027-02-26": 397,
+      "2027-02-27": 397,
+      "2027-02-28": 397
      },
      "hotels": [
       {
-       "name": "Hotel Ejemplo Resort",
-       "total": 2262,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
+       "name": "Baymont by Wyndham International Drive/Universal Boulevard",
+       "total": 329,
+       "rating": 4.1,
+       "reviews": 4098,
+       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2027-02-01,2027-02-08",
+       "src": "trvl"
       },
       {
-       "name": "Suites Ejemplo",
-       "total": 2303,
-       "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
+       "name": "Rosen Inn International",
+       "total": 371,
+       "rating": 4.1,
+       "reviews": 7270,
+       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2027-02-01,2027-02-08",
+       "src": "trvl"
       },
       {
-       "name": "Inn Ejemplo",
-       "total": 2343,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
+       "name": "Four Points by Sheraton Orlando International Drive",
+       "total": 462,
+       "rating": 4.0,
+       "reviews": 3867,
+       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2027-02-01,2027-02-08",
+       "src": "trvl"
       }
      ],
-     "car": {
-      "small": {
-       "price": 1701,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 2948,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "car": {}
     },
     {
      "month": "2027-03",
-     "days": {
-      "2027-03-01": 501,
-      "2027-03-02": 479,
-      "2027-03-03": 496,
-      "2027-03-04": 482,
-      "2027-03-05": 410,
-      "2027-03-06": 411,
-      "2027-03-07": 358,
-      "2027-03-08": 453,
-      "2027-03-09": 350,
-      "2027-03-10": 351,
-      "2027-03-11": 377,
-      "2027-03-12": 368,
-      "2027-03-13": 400,
-      "2027-03-14": 349,
-      "2027-03-15": 339,
-      "2027-03-16": 366,
-      "2027-03-17": 357,
-      "2027-03-18": 404,
-      "2027-03-19": 344,
-      "2027-03-20": 496,
-      "2027-03-21": 449,
-      "2027-03-22": 366,
-      "2027-03-23": 384,
-      "2027-03-24": 402,
-      "2027-03-25": 405,
-      "2027-03-26": 361,
-      "2027-03-27": 492,
-      "2027-03-28": 517,
-      "2027-03-29": 423,
-      "2027-03-30": 426,
-      "2027-03-31": 355
-     },
      "flight": {
-      "date": "2027-03-15",
-      "return": "2027-03-22",
-      "price": 339,
+      "date": "2027-03-01",
+      "return": "2027-03-08",
+      "price": 397,
       "sources": {
-       "viajante": 339,
-       "fli": 342,
-       "trvl": 386
+       "trvl": 397
       },
       "check": false,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202027-03-15%20through%202027-03-22"
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202027-03-01%20through%202027-03-08"
+     },
+     "days": {
+      "2027-03-01": 397,
+      "2027-03-02": 397,
+      "2027-03-03": 397,
+      "2027-03-04": 397,
+      "2027-03-05": 397,
+      "2027-03-06": 397,
+      "2027-03-07": 397,
+      "2027-03-08": 397,
+      "2027-03-09": 397,
+      "2027-03-10": 397,
+      "2027-03-11": 437,
+      "2027-03-12": 432,
+      "2027-03-13": 492,
+      "2027-03-14": 432,
+      "2027-03-15": 408,
+      "2027-03-16": 408,
+      "2027-03-17": 448,
+      "2027-03-18": 460,
+      "2027-03-19": 629,
+      "2027-03-20": 679,
+      "2027-03-21": 591,
+      "2027-03-22": 643,
+      "2027-03-23": 459,
+      "2027-03-24": 448,
+      "2027-03-25": 470,
+      "2027-03-26": 493,
+      "2027-03-27": 490,
+      "2027-03-28": 504,
+      "2027-03-29": 400,
+      "2027-03-30": 397,
+      "2027-03-31": 397
      },
      "hotels": [
       {
-       "name": "Hotel Ejemplo Resort",
-       "total": 2388,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Suites Ejemplo",
-       "total": 2429,
+       "name": "Rosen Inn Closest to Universal",
+       "total": 602,
        "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
+       "reviews": 1432,
+       "url": "https://www.agoda.com/rosen-inn-closest-to-universal_2/hotel/orlando-fl-us.html",
+       "src": "trvl"
+      },
+      {
+       "name": "Orlando Palms Hotel",
+       "total": 701,
+       "rating": 4.1,
+       "reviews": 2589,
+       "url": "https://www.google.com/travel/hotels/entity/ChkIu-TF2aXW5-ojGg0vZy8xMXJxc2MwcWhnEAE?q=Orlando%2C+FL+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxADGAESBwjrDxADGAgYBzICEAAqCwoHOgNVU0QgARoA",
        "src": "viajante"
       },
       {
-       "name": "Inn Ejemplo",
-       "total": 2469,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
+       "name": "Days Inn by Wyndham Orlando Conv. Center/International Dr",
+       "total": 707,
+       "rating": 4.2,
+       "reviews": 423,
+       "url": "https://www.agoda.com/days-inn-by-wyndham-orlando-conv-center-international-dr/hotel/orlando-fl-us.html",
+       "src": "trvl"
       }
      ],
-     "car": {
-      "small": {
-       "price": 1795,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 3112,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "car": {}
     },
     {
      "month": "2027-04",
-     "days": {
-      "2027-04-01": 448,
-      "2027-04-02": 565,
-      "2027-04-03": 426,
-      "2027-04-04": 398,
-      "2027-04-05": 590,
-      "2027-04-06": 503,
-      "2027-04-07": 423,
-      "2027-04-08": 506,
-      "2027-04-09": 398,
-      "2027-04-10": 502,
-      "2027-04-11": 596,
-      "2027-04-12": 572,
-      "2027-04-13": 537,
-      "2027-04-14": 447,
-      "2027-04-15": 469,
-      "2027-04-16": 427,
-      "2027-04-17": 553,
-      "2027-04-18": 503,
-      "2027-04-19": 555,
-      "2027-04-20": 461,
-      "2027-04-21": 439,
-      "2027-04-22": 561,
-      "2027-04-23": 597,
-      "2027-04-24": 570,
-      "2027-04-25": 560,
-      "2027-04-26": 563,
-      "2027-04-27": 547,
-      "2027-04-28": 440,
-      "2027-04-29": 500,
-      "2027-04-30": 467
-     },
-     "flight": {
-      "date": "2027-04-04",
-      "return": "2027-04-11",
-      "price": 398,
-      "sources": {
-       "viajante": 398,
-       "fli": 398,
-       "trvl": 399
-      },
-      "check": false,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202027-04-04%20through%202027-04-11"
-     },
-     "hotels": [
-      {
-       "name": "Hotel Ejemplo Resort",
-       "total": 2765,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Suites Ejemplo",
-       "total": 2806,
-       "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Inn Ejemplo",
-       "total": 2846,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      }
-     ],
-     "car": {
-      "small": {
-       "price": 2079,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 3604,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "flight": null,
+     "days": {}
     },
     {
      "month": "2027-05",
-     "days": {
-      "2027-05-01": 446,
-      "2027-05-02": 394,
-      "2027-05-03": 471,
-      "2027-05-04": 422,
-      "2027-05-05": 510,
-      "2027-05-06": 494,
-      "2027-05-07": 423,
-      "2027-05-08": 541,
-      "2027-05-09": 372,
-      "2027-05-10": 376,
-      "2027-05-11": 446,
-      "2027-05-12": 421,
-      "2027-05-13": 448,
-      "2027-05-14": 543,
-      "2027-05-15": 472,
-      "2027-05-16": 357,
-      "2027-05-17": 529,
-      "2027-05-18": 422,
-      "2027-05-19": 479,
-      "2027-05-20": 515,
-      "2027-05-21": 380,
-      "2027-05-22": 430,
-      "2027-05-23": 491,
-      "2027-05-24": 395,
-      "2027-05-25": 525,
-      "2027-05-26": 439,
-      "2027-05-27": 477,
-      "2027-05-28": 373,
-      "2027-05-29": 536,
-      "2027-05-30": 493,
-      "2027-05-31": 445
-     },
-     "flight": {
-      "date": "2027-05-16",
-      "return": "2027-05-23",
-      "price": 357,
-      "sources": {
-       "viajante": 357,
-       "fli": 380,
-       "trvl": 417
-      },
-      "check": true,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202027-05-16%20through%202027-05-23"
-     },
-     "hotels": [
-      {
-       "name": "Hotel Ejemplo Resort",
-       "total": 2514,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Suites Ejemplo",
-       "total": 2554,
-       "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Inn Ejemplo",
-       "total": 2595,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      }
-     ],
-     "car": {
-      "small": {
-       "price": 1890,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 3276,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "flight": null,
+     "days": {}
     },
     {
      "month": "2027-06",
-     "days": {
-      "2027-06-01": 406,
-      "2027-06-02": 572,
-      "2027-06-03": 380,
-      "2027-06-04": 492,
-      "2027-06-05": 467,
-      "2027-06-06": 505,
-      "2027-06-07": 496,
-      "2027-06-08": 493,
-      "2027-06-09": 469,
-      "2027-06-10": 561,
-      "2027-06-11": 406,
-      "2027-06-12": 484,
-      "2027-06-13": 379,
-      "2027-06-14": 533,
-      "2027-06-15": 519,
-      "2027-06-16": 395,
-      "2027-06-17": 524,
-      "2027-06-18": 402,
-      "2027-06-19": 571,
-      "2027-06-20": 414,
-      "2027-06-21": 548,
-      "2027-06-22": 380,
-      "2027-06-23": 417,
-      "2027-06-24": 474,
-      "2027-06-25": 526,
-      "2027-06-26": 440,
-      "2027-06-27": 483,
-      "2027-06-28": 540,
-      "2027-06-29": 387,
-      "2027-06-30": 522
-     },
-     "flight": {
-      "date": "2027-06-13",
-      "return": "2027-06-20",
-      "price": 379,
-      "sources": {
-       "viajante": 379,
-       "fli": 393,
-       "trvl": 421
-      },
-      "check": false,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202027-06-13%20through%202027-06-20"
-     },
-     "hotels": [
-      {
-       "name": "Hotel Ejemplo Resort",
-       "total": 2639,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Suites Ejemplo",
-       "total": 2680,
-       "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Inn Ejemplo",
-       "total": 2720,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      }
-     ],
-     "car": {
-      "small": {
-       "price": 1984,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 3440,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "flight": null,
+     "days": {}
     },
     {
      "month": "2027-07",
-     "days": {
-      "2027-07-01": 686,
-      "2027-07-02": 567,
-      "2027-07-03": 690,
-      "2027-07-04": 587,
-      "2027-07-05": 595,
-      "2027-07-06": 593,
-      "2027-07-07": 469,
-      "2027-07-08": 572,
-      "2027-07-09": 509,
-      "2027-07-10": 465,
-      "2027-07-11": 660,
-      "2027-07-12": 506,
-      "2027-07-13": 580,
-      "2027-07-14": 642,
-      "2027-07-15": 601,
-      "2027-07-16": 544,
-      "2027-07-17": 591,
-      "2027-07-18": 601,
-      "2027-07-19": 657,
-      "2027-07-20": 490,
-      "2027-07-21": 602,
-      "2027-07-22": 525,
-      "2027-07-23": 532,
-      "2027-07-24": 654,
-      "2027-07-25": 589,
-      "2027-07-26": 602,
-      "2027-07-27": 651,
-      "2027-07-28": 688,
-      "2027-07-29": 573,
-      "2027-07-30": 615,
-      "2027-07-31": 588
-     },
-     "flight": {
-      "date": "2027-07-10",
-      "return": "2027-07-17",
-      "price": 465,
-      "sources": {
-       "viajante": 465,
-       "fli": 481,
-       "trvl": 477
-      },
-      "check": false,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202027-07-10%20through%202027-07-17"
-     },
-     "hotels": [
-      {
-       "name": "Hotel Ejemplo Resort",
-       "total": 3268,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Suites Ejemplo",
-       "total": 3308,
-       "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Inn Ejemplo",
-       "total": 3349,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      }
-     ],
-     "car": {
-      "small": {
-       "price": 2457,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 4259,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "flight": null,
+     "days": {}
     },
     {
      "month": "2027-08",
-     "days": {
-      "2027-08-01": 531,
-      "2027-08-02": 549,
-      "2027-08-03": 537,
-      "2027-08-04": 642,
-      "2027-08-05": 587,
-      "2027-08-06": 627,
-      "2027-08-07": 642,
-      "2027-08-08": 487,
-      "2027-08-09": 555,
-      "2027-08-10": 642,
-      "2027-08-11": 619,
-      "2027-08-12": 460,
-      "2027-08-13": 456,
-      "2027-08-14": 529,
-      "2027-08-15": 445,
-      "2027-08-16": 483,
-      "2027-08-17": 445,
-      "2027-08-18": 580,
-      "2027-08-19": 606,
-      "2027-08-20": 632,
-      "2027-08-21": 463,
-      "2027-08-22": 591,
-      "2027-08-23": 578,
-      "2027-08-24": 461,
-      "2027-08-25": 629,
-      "2027-08-26": 648,
-      "2027-08-27": 478,
-      "2027-08-28": 644,
-      "2027-08-29": 519,
-      "2027-08-30": 539,
-      "2027-08-31": 653
-     },
-     "flight": {
-      "date": "2027-08-15",
-      "return": "2027-08-22",
-      "price": 445,
-      "sources": {
-       "viajante": 445,
-       "fli": 452,
-       "trvl": 455
-      },
-      "check": false,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202027-08-15%20through%202027-08-22"
-     },
-     "hotels": [
-      {
-       "name": "Hotel Ejemplo Resort",
-       "total": 3016,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Suites Ejemplo",
-       "total": 3057,
-       "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Inn Ejemplo",
-       "total": 3097,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      }
-     ],
-     "car": {
-      "small": {
-       "price": 2268,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 3931,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "flight": null,
+     "days": {}
     },
     {
      "month": "2027-09",
-     "days": {
-      "2027-09-01": 463,
-      "2027-09-02": 368,
-      "2027-09-03": 371,
-      "2027-09-04": 361,
-      "2027-09-05": 318,
-      "2027-09-06": 362,
-      "2027-09-07": 358,
-      "2027-09-08": 377,
-      "2027-09-09": 416,
-      "2027-09-10": 365,
-      "2027-09-11": 387,
-      "2027-09-12": 351,
-      "2027-09-13": 458,
-      "2027-09-14": 322,
-      "2027-09-15": 451,
-      "2027-09-16": 340,
-      "2027-09-17": 444,
-      "2027-09-18": 317,
-      "2027-09-19": 347,
-      "2027-09-20": 449,
-      "2027-09-21": 333,
-      "2027-09-22": 425,
-      "2027-09-23": 435,
-      "2027-09-24": 440,
-      "2027-09-25": 412,
-      "2027-09-26": 455,
-      "2027-09-27": 369,
-      "2027-09-28": 390,
-      "2027-09-29": 386,
-      "2027-09-30": 383
-     },
-     "flight": {
-      "date": "2027-09-18",
-      "return": "2027-09-25",
-      "price": 317,
-      "sources": {
-       "viajante": 317,
-       "fli": 327,
-       "trvl": 322
-      },
-      "check": false,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202027-09-18%20through%202027-09-25"
-     },
-     "hotels": [
-      {
-       "name": "Hotel Ejemplo Resort",
-       "total": 2137,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Suites Ejemplo",
-       "total": 2177,
-       "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Inn Ejemplo",
-       "total": 2218,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      }
-     ],
-     "car": {
-      "small": {
-       "price": 1606,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 2785,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "flight": null,
+     "days": {}
     },
     {
      "month": "2027-10",
-     "days": {
-      "2027-10-01": 447,
-      "2027-10-02": 345,
-      "2027-10-03": 463,
-      "2027-10-04": 359,
-      "2027-10-05": 317,
-      "2027-10-06": 329,
-      "2027-10-07": 357,
-      "2027-10-08": 415,
-      "2027-10-09": 351,
-      "2027-10-10": 358,
-      "2027-10-11": 334,
-      "2027-10-12": 316,
-      "2027-10-13": 480,
-      "2027-10-14": 384,
-      "2027-10-15": 466,
-      "2027-10-16": 418,
-      "2027-10-17": 321,
-      "2027-10-18": 432,
-      "2027-10-19": 470,
-      "2027-10-20": 475,
-      "2027-10-21": 358,
-      "2027-10-22": 344,
-      "2027-10-23": 469,
-      "2027-10-24": 419,
-      "2027-10-25": 402,
-      "2027-10-26": 348,
-      "2027-10-27": 388,
-      "2027-10-28": 426,
-      "2027-10-29": 359,
-      "2027-10-30": 448,
-      "2027-10-31": 480
-     },
-     "flight": {
-      "date": "2027-10-12",
-      "return": "2027-10-19",
-      "price": 316,
-      "sources": {
-       "viajante": 316,
-       "fli": 317,
-       "trvl": 316
-      },
-      "check": true,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202027-10-12%20through%202027-10-19"
-     },
-     "hotels": [
-      {
-       "name": "Hotel Ejemplo Resort",
-       "total": 2212,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Suites Ejemplo",
-       "total": 2253,
-       "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Inn Ejemplo",
-       "total": 2293,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      }
-     ],
-     "car": {
-      "small": {
-       "price": 1663,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 2883,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "flight": null,
+     "days": {}
     }
    ]
   },
@@ -1075,1040 +423,63 @@
    "months": [
     {
      "month": "2026-11",
-     "days": {
-      "2026-11-13": 356,
-      "2026-11-14": 426,
-      "2026-11-15": 357,
-      "2026-11-16": 317,
-      "2026-11-17": 347,
-      "2026-11-18": 378,
-      "2026-11-19": 377,
-      "2026-11-20": 378,
-      "2026-11-21": 362,
-      "2026-11-22": 412,
-      "2026-11-23": 425,
-      "2026-11-24": 326,
-      "2026-11-25": 312,
-      "2026-11-26": 315,
-      "2026-11-27": 310,
-      "2026-11-28": 411,
-      "2026-11-29": 389,
-      "2026-11-30": 301
-     },
-     "flight": {
-      "date": "2026-11-30",
-      "return": "2026-12-07",
-      "price": 301,
-      "sources": {
-       "viajante": 301,
-       "fli": 312,
-       "trvl": 304
-      },
-      "check": false,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MIA%20on%202026-11-30%20through%202026-12-07"
-     },
-     "hotels": [
-      {
-       "name": "Hotel Ejemplo Resort",
-       "total": 1975,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Suites Ejemplo",
-       "total": 2016,
-       "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Inn Ejemplo",
-       "total": 2056,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      }
-     ],
-     "car": {
-      "small": {
-       "price": 1485,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 2574,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "flight": null,
+     "days": {}
     },
     {
      "month": "2026-12",
-     "days": {
-      "2026-12-01": 382,
-      "2026-12-02": 504,
-      "2026-12-03": 555,
-      "2026-12-04": 465,
-      "2026-12-05": 390,
-      "2026-12-06": 512,
-      "2026-12-07": 455,
-      "2026-12-08": 480,
-      "2026-12-09": 573,
-      "2026-12-10": 499,
-      "2026-12-11": 518,
-      "2026-12-12": 388,
-      "2026-12-13": 416,
-      "2026-12-14": 433,
-      "2026-12-15": 379,
-      "2026-12-16": 452,
-      "2026-12-17": 445,
-      "2026-12-18": 576,
-      "2026-12-19": 444,
-      "2026-12-20": 386,
-      "2026-12-21": 556,
-      "2026-12-22": 422,
-      "2026-12-23": 415,
-      "2026-12-24": 446,
-      "2026-12-25": 395,
-      "2026-12-26": 435,
-      "2026-12-27": 510,
-      "2026-12-28": 428,
-      "2026-12-29": 534,
-      "2026-12-30": 397,
-      "2026-12-31": 542
-     },
-     "flight": {
-      "date": "2026-12-15",
-      "return": "2026-12-22",
-      "price": 379,
-      "sources": {
-       "viajante": 379,
-       "fli": 383,
-       "trvl": 404
-      },
-      "check": false,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MIA%20on%202026-12-15%20through%202026-12-22"
-     },
-     "hotels": [
-      {
-       "name": "Hotel Ejemplo Resort",
-       "total": 2666,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Suites Ejemplo",
-       "total": 2707,
-       "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Inn Ejemplo",
-       "total": 2747,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      }
-     ],
-     "car": {
-      "small": {
-       "price": 2005,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 3475,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "flight": null,
+     "days": {}
     },
     {
      "month": "2027-01",
-     "days": {
-      "2027-01-01": 424,
-      "2027-01-02": 406,
-      "2027-01-03": 468,
-      "2027-01-04": 366,
-      "2027-01-05": 528,
-      "2027-01-06": 509,
-      "2027-01-07": 379,
-      "2027-01-08": 516,
-      "2027-01-09": 496,
-      "2027-01-10": 461,
-      "2027-01-11": 493,
-      "2027-01-12": 484,
-      "2027-01-13": 442,
-      "2027-01-14": 403,
-      "2027-01-15": 465,
-      "2027-01-16": 377,
-      "2027-01-17": 504,
-      "2027-01-18": 483,
-      "2027-01-19": 446,
-      "2027-01-20": 430,
-      "2027-01-21": 481,
-      "2027-01-22": 444,
-      "2027-01-23": 520,
-      "2027-01-24": 490,
-      "2027-01-25": 456,
-      "2027-01-26": 502,
-      "2027-01-27": 354,
-      "2027-01-28": 478,
-      "2027-01-29": 499,
-      "2027-01-30": 483,
-      "2027-01-31": 528
-     },
-     "flight": {
-      "date": "2027-01-27",
-      "return": "2027-02-03",
-      "price": 354,
-      "sources": {
-       "viajante": 354,
-       "fli": 374,
-       "trvl": 368
-      },
-      "check": true,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MIA%20on%202027-01-27%20through%202027-02-03"
-     },
-     "hotels": [
-      {
-       "name": "Hotel Ejemplo Resort",
-       "total": 2469,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Suites Ejemplo",
-       "total": 2509,
-       "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Inn Ejemplo",
-       "total": 2550,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      }
-     ],
-     "car": {
-      "small": {
-       "price": 1856,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 3218,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "flight": null,
+     "days": {}
     },
     {
      "month": "2027-02",
-     "days": {
-      "2027-02-01": 258,
-      "2027-02-02": 338,
-      "2027-02-03": 381,
-      "2027-02-04": 303,
-      "2027-02-05": 313,
-      "2027-02-06": 259,
-      "2027-02-07": 255,
-      "2027-02-08": 323,
-      "2027-02-09": 285,
-      "2027-02-10": 288,
-      "2027-02-11": 314,
-      "2027-02-12": 262,
-      "2027-02-13": 377,
-      "2027-02-14": 372,
-      "2027-02-15": 265,
-      "2027-02-16": 323,
-      "2027-02-17": 352,
-      "2027-02-18": 316,
-      "2027-02-19": 361,
-      "2027-02-20": 366,
-      "2027-02-21": 284,
-      "2027-02-22": 354,
-      "2027-02-23": 283,
-      "2027-02-24": 339,
-      "2027-02-25": 314,
-      "2027-02-26": 365,
-      "2027-02-27": 263,
-      "2027-02-28": 374
-     },
-     "flight": {
-      "date": "2027-02-07",
-      "return": "2027-02-14",
-      "price": 255,
-      "sources": {
-       "viajante": 255,
-       "fli": 264,
-       "trvl": 304
-      },
-      "check": true,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MIA%20on%202027-02-07%20through%202027-02-14"
-     },
-     "hotels": [
-      {
-       "name": "Hotel Ejemplo Resort",
-       "total": 1778,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Suites Ejemplo",
-       "total": 1818,
-       "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Inn Ejemplo",
-       "total": 1858,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      }
-     ],
-     "car": {
-      "small": {
-       "price": 1336,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 2317,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "flight": null,
+     "days": {}
     },
     {
      "month": "2027-03",
-     "days": {
-      "2027-03-01": 356,
-      "2027-03-02": 294,
-      "2027-03-03": 351,
-      "2027-03-04": 313,
-      "2027-03-05": 358,
-      "2027-03-06": 364,
-      "2027-03-07": 354,
-      "2027-03-08": 285,
-      "2027-03-09": 335,
-      "2027-03-10": 335,
-      "2027-03-11": 404,
-      "2027-03-12": 281,
-      "2027-03-13": 297,
-      "2027-03-14": 336,
-      "2027-03-15": 366,
-      "2027-03-16": 307,
-      "2027-03-17": 332,
-      "2027-03-18": 375,
-      "2027-03-19": 407,
-      "2027-03-20": 344,
-      "2027-03-21": 310,
-      "2027-03-22": 279,
-      "2027-03-23": 333,
-      "2027-03-24": 307,
-      "2027-03-25": 277,
-      "2027-03-26": 338,
-      "2027-03-27": 407,
-      "2027-03-28": 407,
-      "2027-03-29": 321,
-      "2027-03-30": 396,
-      "2027-03-31": 398
-     },
-     "flight": {
-      "date": "2027-03-25",
-      "return": "2027-04-01",
-      "price": 277,
-      "sources": {
-       "viajante": 277,
-       "fli": 279,
-       "trvl": 314
-      },
-      "check": true,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MIA%20on%202027-03-25%20through%202027-04-01"
-     },
-     "hotels": [
-      {
-       "name": "Hotel Ejemplo Resort",
-       "total": 1876,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Suites Ejemplo",
-       "total": 1917,
-       "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Inn Ejemplo",
-       "total": 1958,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      }
-     ],
-     "car": {
-      "small": {
-       "price": 1411,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 2445,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "flight": null,
+     "days": {}
     },
     {
      "month": "2027-04",
-     "days": {
-      "2027-04-01": 431,
-      "2027-04-02": 351,
-      "2027-04-03": 367,
-      "2027-04-04": 407,
-      "2027-04-05": 412,
-      "2027-04-06": 354,
-      "2027-04-07": 327,
-      "2027-04-08": 368,
-      "2027-04-09": 390,
-      "2027-04-10": 452,
-      "2027-04-11": 373,
-      "2027-04-12": 335,
-      "2027-04-13": 464,
-      "2027-04-14": 420,
-      "2027-04-15": 375,
-      "2027-04-16": 427,
-      "2027-04-17": 377,
-      "2027-04-18": 370,
-      "2027-04-19": 328,
-      "2027-04-20": 363,
-      "2027-04-21": 362,
-      "2027-04-22": 364,
-      "2027-04-23": 374,
-      "2027-04-24": 462,
-      "2027-04-25": 341,
-      "2027-04-26": 310,
-      "2027-04-27": 429,
-      "2027-04-28": 350,
-      "2027-04-29": 319,
-      "2027-04-30": 372
-     },
-     "flight": {
-      "date": "2027-04-26",
-      "return": "2027-05-03",
-      "price": 310,
-      "sources": {
-       "viajante": 310,
-       "fli": 328,
-       "trvl": 314
-      },
-      "check": false,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MIA%20on%202027-04-26%20through%202027-05-03"
-     },
-     "hotels": [
-      {
-       "name": "Hotel Ejemplo Resort",
-       "total": 2173,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Suites Ejemplo",
-       "total": 2213,
-       "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Inn Ejemplo",
-       "total": 2254,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      }
-     ],
-     "car": {
-      "small": {
-       "price": 1634,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 2831,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "flight": null,
+     "days": {}
     },
     {
      "month": "2027-05",
-     "days": {
-      "2027-05-01": 344,
-      "2027-05-02": 321,
-      "2027-05-03": 288,
-      "2027-05-04": 296,
-      "2027-05-05": 404,
-      "2027-05-06": 323,
-      "2027-05-07": 419,
-      "2027-05-08": 318,
-      "2027-05-09": 320,
-      "2027-05-10": 356,
-      "2027-05-11": 309,
-      "2027-05-12": 336,
-      "2027-05-13": 422,
-      "2027-05-14": 412,
-      "2027-05-15": 401,
-      "2027-05-16": 374,
-      "2027-05-17": 416,
-      "2027-05-18": 420,
-      "2027-05-19": 362,
-      "2027-05-20": 387,
-      "2027-05-21": 288,
-      "2027-05-22": 389,
-      "2027-05-23": 347,
-      "2027-05-24": 392,
-      "2027-05-25": 376,
-      "2027-05-26": 323,
-      "2027-05-27": 288,
-      "2027-05-28": 418,
-      "2027-05-29": 299,
-      "2027-05-30": 351,
-      "2027-05-31": 332
-     },
-     "flight": {
-      "date": "2027-05-03",
-      "return": "2027-05-10",
-      "price": 288,
-      "sources": {
-       "viajante": 288,
-       "fli": 297,
-       "trvl": 304
-      },
-      "check": false,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MIA%20on%202027-05-03%20through%202027-05-10"
-     },
-     "hotels": [
-      {
-       "name": "Hotel Ejemplo Resort",
-       "total": 1975,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Suites Ejemplo",
-       "total": 2016,
-       "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Inn Ejemplo",
-       "total": 2056,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      }
-     ],
-     "car": {
-      "small": {
-       "price": 1485,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 2574,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "flight": null,
+     "days": {}
     },
     {
      "month": "2027-06",
-     "days": {
-      "2027-06-01": 447,
-      "2027-06-02": 335,
-      "2027-06-03": 397,
-      "2027-06-04": 341,
-      "2027-06-05": 381,
-      "2027-06-06": 356,
-      "2027-06-07": 321,
-      "2027-06-08": 320,
-      "2027-06-09": 327,
-      "2027-06-10": 436,
-      "2027-06-11": 372,
-      "2027-06-12": 329,
-      "2027-06-13": 436,
-      "2027-06-14": 450,
-      "2027-06-15": 365,
-      "2027-06-16": 316,
-      "2027-06-17": 325,
-      "2027-06-18": 309,
-      "2027-06-19": 348,
-      "2027-06-20": 309,
-      "2027-06-21": 332,
-      "2027-06-22": 335,
-      "2027-06-23": 383,
-      "2027-06-24": 433,
-      "2027-06-25": 411,
-      "2027-06-26": 359,
-      "2027-06-27": 359,
-      "2027-06-28": 376,
-      "2027-06-29": 353,
-      "2027-06-30": 347
-     },
-     "flight": {
-      "date": "2027-06-18",
-      "return": "2027-06-25",
-      "price": 309,
-      "sources": {
-       "viajante": 309,
-       "fli": 310,
-       "trvl": 340
-      },
-      "check": false,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MIA%20on%202027-06-18%20through%202027-06-25"
-     },
-     "hotels": [
-      {
-       "name": "Hotel Ejemplo Resort",
-       "total": 2074,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Suites Ejemplo",
-       "total": 2114,
-       "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Inn Ejemplo",
-       "total": 2155,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      }
-     ],
-     "car": {
-      "small": {
-       "price": 1559,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 2703,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "flight": null,
+     "days": {}
     },
     {
      "month": "2027-07",
-     "days": {
-      "2027-07-01": 551,
-      "2027-07-02": 389,
-      "2027-07-03": 462,
-      "2027-07-04": 486,
-      "2027-07-05": 531,
-      "2027-07-06": 406,
-      "2027-07-07": 417,
-      "2027-07-08": 413,
-      "2027-07-09": 442,
-      "2027-07-10": 451,
-      "2027-07-11": 549,
-      "2027-07-12": 528,
-      "2027-07-13": 533,
-      "2027-07-14": 369,
-      "2027-07-15": 371,
-      "2027-07-16": 502,
-      "2027-07-17": 538,
-      "2027-07-18": 456,
-      "2027-07-19": 478,
-      "2027-07-20": 365,
-      "2027-07-21": 440,
-      "2027-07-22": 544,
-      "2027-07-23": 524,
-      "2027-07-24": 530,
-      "2027-07-25": 552,
-      "2027-07-26": 413,
-      "2027-07-27": 386,
-      "2027-07-28": 394,
-      "2027-07-29": 465,
-      "2027-07-30": 496,
-      "2027-07-31": 546
-     },
-     "flight": {
-      "date": "2027-07-20",
-      "return": "2027-07-27",
-      "price": 365,
-      "sources": {
-       "viajante": 365,
-       "fli": 388,
-       "trvl": 409
-      },
-      "check": false,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MIA%20on%202027-07-20%20through%202027-07-27"
-     },
-     "hotels": [
-      {
-       "name": "Hotel Ejemplo Resort",
-       "total": 2568,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Suites Ejemplo",
-       "total": 2608,
-       "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Inn Ejemplo",
-       "total": 2649,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      }
-     ],
-     "car": {
-      "small": {
-       "price": 1930,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 3346,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "flight": null,
+     "days": {}
     },
     {
      "month": "2027-08",
-     "days": {
-      "2027-08-01": 473,
-      "2027-08-02": 418,
-      "2027-08-03": 435,
-      "2027-08-04": 344,
-      "2027-08-05": 476,
-      "2027-08-06": 378,
-      "2027-08-07": 501,
-      "2027-08-08": 452,
-      "2027-08-09": 391,
-      "2027-08-10": 359,
-      "2027-08-11": 381,
-      "2027-08-12": 450,
-      "2027-08-13": 461,
-      "2027-08-14": 357,
-      "2027-08-15": 349,
-      "2027-08-16": 430,
-      "2027-08-17": 440,
-      "2027-08-18": 406,
-      "2027-08-19": 376,
-      "2027-08-20": 444,
-      "2027-08-21": 338,
-      "2027-08-22": 390,
-      "2027-08-23": 419,
-      "2027-08-24": 507,
-      "2027-08-25": 451,
-      "2027-08-26": 494,
-      "2027-08-27": 421,
-      "2027-08-28": 378,
-      "2027-08-29": 381,
-      "2027-08-30": 508,
-      "2027-08-31": 462
-     },
-     "flight": {
-      "date": "2027-08-21",
-      "return": "2027-08-28",
-      "price": 338,
-      "sources": {
-       "viajante": 338,
-       "fli": 347,
-       "trvl": 341
-      },
-      "check": true,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MIA%20on%202027-08-21%20through%202027-08-28"
-     },
-     "hotels": [
-      {
-       "name": "Hotel Ejemplo Resort",
-       "total": 2370,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Suites Ejemplo",
-       "total": 2411,
-       "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Inn Ejemplo",
-       "total": 2451,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      }
-     ],
-     "car": {
-      "small": {
-       "price": 1782,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 3089,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "flight": null,
+     "days": {}
     },
     {
      "month": "2027-09",
-     "days": {
-      "2027-09-01": 301,
-      "2027-09-02": 324,
-      "2027-09-03": 291,
-      "2027-09-04": 271,
-      "2027-09-05": 323,
-      "2027-09-06": 355,
-      "2027-09-07": 267,
-      "2027-09-08": 243,
-      "2027-09-09": 281,
-      "2027-09-10": 292,
-      "2027-09-11": 325,
-      "2027-09-12": 263,
-      "2027-09-13": 339,
-      "2027-09-14": 332,
-      "2027-09-15": 302,
-      "2027-09-16": 264,
-      "2027-09-17": 361,
-      "2027-09-18": 278,
-      "2027-09-19": 342,
-      "2027-09-20": 268,
-      "2027-09-21": 266,
-      "2027-09-22": 334,
-      "2027-09-23": 276,
-      "2027-09-24": 359,
-      "2027-09-25": 301,
-      "2027-09-26": 262,
-      "2027-09-27": 267,
-      "2027-09-28": 291,
-      "2027-09-29": 322,
-      "2027-09-30": 358
-     },
-     "flight": {
-      "date": "2027-09-08",
-      "return": "2027-09-15",
-      "price": 243,
-      "sources": {
-       "viajante": 243,
-       "fli": 247,
-       "trvl": 302
-      },
-      "check": false,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MIA%20on%202027-09-08%20through%202027-09-15"
-     },
-     "hotels": [
-      {
-       "name": "Hotel Ejemplo Resort",
-       "total": 1679,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Suites Ejemplo",
-       "total": 1719,
-       "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Inn Ejemplo",
-       "total": 1760,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      }
-     ],
-     "car": {
-      "small": {
-       "price": 1262,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 2188,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "flight": null,
+     "days": {}
     },
     {
      "month": "2027-10",
-     "days": {
-      "2027-10-01": 275,
-      "2027-10-02": 374,
-      "2027-10-03": 265,
-      "2027-10-04": 254,
-      "2027-10-05": 255,
-      "2027-10-06": 298,
-      "2027-10-07": 364,
-      "2027-10-08": 362,
-      "2027-10-09": 343,
-      "2027-10-10": 377,
-      "2027-10-11": 369,
-      "2027-10-12": 290,
-      "2027-10-13": 271,
-      "2027-10-14": 369,
-      "2027-10-15": 344,
-      "2027-10-16": 251,
-      "2027-10-17": 334,
-      "2027-10-18": 296,
-      "2027-10-19": 296,
-      "2027-10-20": 290,
-      "2027-10-21": 269,
-      "2027-10-22": 247,
-      "2027-10-23": 283,
-      "2027-10-24": 293,
-      "2027-10-25": 372,
-      "2027-10-26": 263,
-      "2027-10-27": 373,
-      "2027-10-28": 274,
-      "2027-10-29": 293,
-      "2027-10-30": 354,
-      "2027-10-31": 354
-     },
-     "flight": {
-      "date": "2027-10-22",
-      "return": "2027-10-29",
-      "price": 247,
-      "sources": {
-       "viajante": 247,
-       "fli": 260,
-       "trvl": 252
-      },
-      "check": true,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MIA%20on%202027-10-22%20through%202027-10-29"
-     },
-     "hotels": [
-      {
-       "name": "Hotel Ejemplo Resort",
-       "total": 1738,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Suites Ejemplo",
-       "total": 1778,
-       "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Inn Ejemplo",
-       "total": 1819,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      }
-     ],
-     "car": {
-      "small": {
-       "price": 1307,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 2265,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "flight": null,
+     "days": {}
     }
    ]
   },
@@ -2135,1040 +506,180 @@
    "months": [
     {
      "month": "2026-11",
-     "days": {
-      "2026-11-13": 595,
-      "2026-11-14": 570,
-      "2026-11-15": 708,
-      "2026-11-16": 525,
-      "2026-11-17": 568,
-      "2026-11-18": 702,
-      "2026-11-19": 484,
-      "2026-11-20": 580,
-      "2026-11-21": 681,
-      "2026-11-22": 669,
-      "2026-11-23": 486,
-      "2026-11-24": 485,
-      "2026-11-25": 492,
-      "2026-11-26": 708,
-      "2026-11-27": 541,
-      "2026-11-28": 664,
-      "2026-11-29": 702,
-      "2026-11-30": 561
-     },
      "flight": {
-      "date": "2026-11-19",
-      "return": "2026-11-26",
-      "price": 484,
+      "date": "2026-11-13",
+      "return": "2026-11-20",
+      "price": 730,
       "sources": {
-       "viajante": 484,
-       "fli": 492,
-       "trvl": 505
+       "viajante": 730
       },
       "check": false,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20LAX%20on%202026-11-19%20through%202026-11-26"
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20LAX%20on%202026-11-13%20through%202026-11-20"
+     },
+     "days": {
+      "2026-11-13": 730
      },
      "hotels": [
       {
-       "name": "Hotel Ejemplo Resort",
-       "total": 3724,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
+       "name": "Queens Inn Anaheim",
+       "total": 713,
+       "rating": 4.0,
+       "reviews": 460,
+       "url": "https://www.agoda.com/anaheim-express-inn_2/hotel/los-angeles-ca-us.html",
+       "src": "trvl"
       },
       {
-       "name": "Suites Ejemplo",
-       "total": 3765,
+       "name": "Motel 6 Anaheim, CA - Maingate",
+       "total": 803,
+       "rating": 4.0,
+       "reviews": 390,
+       "url": "https://www.agoda.com/motel-6-anaheim-maingate/hotel/los-angeles-ca-us.html",
+       "src": "trvl"
+      },
+      {
+       "name": "Stanford Inn & Suites Anaheim",
+       "total": 877,
        "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Inn Ejemplo",
-       "total": 3805,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
+       "reviews": 130,
+       "url": "https://www.agoda.com/stanford-inn-suites-anaheim_3/hotel/los-angeles-ca-us.html",
+       "src": "trvl"
       }
      ],
-     "car": {
-      "small": {
-       "price": 2520,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 4368,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "car": {}
     },
     {
      "month": "2026-12",
-     "days": {
-      "2026-12-01": 852,
-      "2026-12-02": 732,
-      "2026-12-03": 886,
-      "2026-12-04": 750,
-      "2026-12-05": 736,
-      "2026-12-06": 644,
-      "2026-12-07": 900,
-      "2026-12-08": 954,
-      "2026-12-09": 858,
-      "2026-12-10": 963,
-      "2026-12-11": 651,
-      "2026-12-12": 722,
-      "2026-12-13": 804,
-      "2026-12-14": 968,
-      "2026-12-15": 967,
-      "2026-12-16": 774,
-      "2026-12-17": 728,
-      "2026-12-18": 789,
-      "2026-12-19": 810,
-      "2026-12-20": 958,
-      "2026-12-21": 705,
-      "2026-12-22": 916,
-      "2026-12-23": 894,
-      "2026-12-24": 923,
-      "2026-12-25": 906,
-      "2026-12-26": 849,
-      "2026-12-27": 754,
-      "2026-12-28": 751,
-      "2026-12-29": 766,
-      "2026-12-30": 909,
-      "2026-12-31": 669
-     },
      "flight": {
-      "date": "2026-12-06",
-      "return": "2026-12-13",
-      "price": 644,
+      "date": "2026-12-01",
+      "return": "2026-12-08",
+      "price": 667,
       "sources": {
-       "viajante": 644,
-       "fli": 650,
-       "trvl": 669
+       "viajante": 667
       },
       "check": false,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20LAX%20on%202026-12-06%20through%202026-12-13"
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20LAX%20on%202026-12-01%20through%202026-12-08"
+     },
+     "days": {
+      "2026-12-01": 667
      },
      "hotels": [
       {
-       "name": "Hotel Ejemplo Resort",
-       "total": 5027,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
+       "name": "Queens Inn Anaheim",
+       "total": 897,
+       "rating": 4.0,
+       "reviews": 460,
+       "url": "https://www.agoda.com/anaheim-express-inn_2/hotel/los-angeles-ca-us.html",
+       "src": "trvl"
       },
       {
-       "name": "Suites Ejemplo",
-       "total": 5068,
-       "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
+       "name": "Sonesta Anaheim Resort Area",
+       "total": 1020,
+       "rating": 4.1,
+       "reviews": 365,
+       "url": "https://www.agoda.com/holiday-inn-h27904960/hotel/los-angeles-ca-us.html",
+       "src": "trvl"
       },
       {
-       "name": "Inn Ejemplo",
-       "total": 5108,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
+       "name": "Residence Inn by Marriott Anaheim Hills Yorba Linda",
+       "total": 1077,
+       "rating": 4.1,
+       "reviews": 641,
+       "url": "https://www.google.com/travel/hotels/entity/ChgIi8eN0Jznz8iLARoLL2cvMXR5Y3d6MHEQAQ?q=Anaheim%2C+CA+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjqDxAMGAESBwjqDxAMGAgYBzICEAAqCwoHOgNVU0QgARoA",
        "src": "viajante"
       }
      ],
-     "car": {
-      "small": {
-       "price": 3402,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 5897,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "car": {}
     },
     {
      "month": "2027-01",
-     "days": {
-      "2027-01-01": 673,
-      "2027-01-02": 615,
-      "2027-01-03": 606,
-      "2027-01-04": 769,
-      "2027-01-05": 698,
-      "2027-01-06": 904,
-      "2027-01-07": 873,
-      "2027-01-08": 906,
-      "2027-01-09": 678,
-      "2027-01-10": 621,
-      "2027-01-11": 625,
-      "2027-01-12": 752,
-      "2027-01-13": 819,
-      "2027-01-14": 736,
-      "2027-01-15": 669,
-      "2027-01-16": 726,
-      "2027-01-17": 790,
-      "2027-01-18": 807,
-      "2027-01-19": 831,
-      "2027-01-20": 862,
-      "2027-01-21": 804,
-      "2027-01-22": 633,
-      "2027-01-23": 860,
-      "2027-01-24": 688,
-      "2027-01-25": 774,
-      "2027-01-26": 712,
-      "2027-01-27": 827,
-      "2027-01-28": 658,
-      "2027-01-29": 673,
-      "2027-01-30": 672,
-      "2027-01-31": 643
-     },
-     "flight": {
-      "date": "2027-01-03",
-      "return": "2027-01-10",
-      "price": 606,
-      "sources": {
-       "viajante": 606,
-       "fli": 624,
-       "trvl": 618
-      },
-      "check": false,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20LAX%20on%202027-01-03%20through%202027-01-10"
-     },
-     "hotels": [
-      {
-       "name": "Hotel Ejemplo Resort",
-       "total": 4655,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Suites Ejemplo",
-       "total": 4695,
-       "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Inn Ejemplo",
-       "total": 4736,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      }
-     ],
-     "car": {
-      "small": {
-       "price": 3150,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 5460,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "flight": null,
+     "days": {}
     },
     {
      "month": "2027-02",
-     "days": {
-      "2027-02-01": 518,
-      "2027-02-02": 653,
-      "2027-02-03": 543,
-      "2027-02-04": 481,
-      "2027-02-05": 612,
-      "2027-02-06": 577,
-      "2027-02-07": 653,
-      "2027-02-08": 452,
-      "2027-02-09": 536,
-      "2027-02-10": 614,
-      "2027-02-11": 619,
-      "2027-02-12": 636,
-      "2027-02-13": 438,
-      "2027-02-14": 495,
-      "2027-02-15": 455,
-      "2027-02-16": 471,
-      "2027-02-17": 649,
-      "2027-02-18": 561,
-      "2027-02-19": 639,
-      "2027-02-20": 513,
-      "2027-02-21": 625,
-      "2027-02-22": 530,
-      "2027-02-23": 487,
-      "2027-02-24": 605,
-      "2027-02-25": 643,
-      "2027-02-26": 452,
-      "2027-02-27": 564,
-      "2027-02-28": 569
-     },
-     "flight": {
-      "date": "2027-02-13",
-      "return": "2027-02-20",
-      "price": 438,
-      "sources": {
-       "viajante": 438,
-       "fli": 444,
-       "trvl": 440
-      },
-      "check": false,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20LAX%20on%202027-02-13%20through%202027-02-20"
-     },
-     "hotels": [
-      {
-       "name": "Hotel Ejemplo Resort",
-       "total": 3352,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Suites Ejemplo",
-       "total": 3392,
-       "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Inn Ejemplo",
-       "total": 3433,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      }
-     ],
-     "car": {
-      "small": {
-       "price": 2268,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 3931,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "flight": null,
+     "days": {}
     },
     {
      "month": "2027-03",
-     "days": {
-      "2027-03-01": 486,
-      "2027-03-02": 501,
-      "2027-03-03": 513,
-      "2027-03-04": 596,
-      "2027-03-05": 608,
-      "2027-03-06": 501,
-      "2027-03-07": 455,
-      "2027-03-08": 531,
-      "2027-03-09": 615,
-      "2027-03-10": 497,
-      "2027-03-11": 527,
-      "2027-03-12": 501,
-      "2027-03-13": 643,
-      "2027-03-14": 583,
-      "2027-03-15": 467,
-      "2027-03-16": 476,
-      "2027-03-17": 547,
-      "2027-03-18": 584,
-      "2027-03-19": 605,
-      "2027-03-20": 474,
-      "2027-03-21": 491,
-      "2027-03-22": 619,
-      "2027-03-23": 550,
-      "2027-03-24": 520,
-      "2027-03-25": 526,
-      "2027-03-26": 680,
-      "2027-03-27": 527,
-      "2027-03-28": 588,
-      "2027-03-29": 538,
-      "2027-03-30": 552,
-      "2027-03-31": 659
-     },
      "flight": {
-      "date": "2027-03-07",
-      "return": "2027-03-14",
-      "price": 455,
+      "date": "2027-03-02",
+      "return": "2027-03-09",
+      "price": 626,
       "sources": {
-       "viajante": 455,
-       "fli": 480,
-       "trvl": 478
+       "viajante": 626
       },
       "check": false,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20LAX%20on%202027-03-07%20through%202027-03-14"
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20LAX%20on%202027-03-02%20through%202027-03-09"
+     },
+     "days": {
+      "2027-03-01": 633,
+      "2027-03-02": 626,
+      "2027-03-03": 628,
+      "2027-03-04": 666
      },
      "hotels": [
       {
-       "name": "Hotel Ejemplo Resort",
-       "total": 3538,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Suites Ejemplo",
-       "total": 3578,
+       "name": "Solara Inn and Suites",
+       "total": 1061,
        "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
+       "reviews": 492,
+       "url": "https://www.agoda.com/ramada-by-wyndham-anaheim-maingate-north/hotel/los-angeles-ca-us.html",
+       "src": "trvl"
       },
       {
-       "name": "Inn Ejemplo",
-       "total": 3619,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
+       "name": "Anaheim Astoria Inn & Suites",
+       "total": 1103,
+       "rating": 4.2,
+       "reviews": 140,
+       "url": "https://www.agoda.com/anaheim-astoria-inn-suites/hotel/all/los-angeles-ca-us.html",
+       "src": "trvl"
+      },
+      {
+       "name": "Residence Inn by Marriott Anaheim Hills Yorba Linda",
+       "total": 1121,
+       "rating": 4.1,
+       "reviews": 641,
+       "url": "https://www.google.com/travel/hotels/entity/ChgIi8eN0Jznz8iLARoLL2cvMXR5Y3d6MHEQAQ?q=Anaheim%2C+CA+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxADGAISBwjrDxADGAkYBzICEAAqCwoHOgNVU0QgARoA",
        "src": "viajante"
       }
      ],
-     "car": {
-      "small": {
-       "price": 2394,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 4150,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "car": {}
     },
     {
      "month": "2027-04",
-     "days": {
-      "2027-04-01": 632,
-      "2027-04-02": 636,
-      "2027-04-03": 785,
-      "2027-04-04": 644,
-      "2027-04-05": 567,
-      "2027-04-06": 555,
-      "2027-04-07": 549,
-      "2027-04-08": 684,
-      "2027-04-09": 625,
-      "2027-04-10": 738,
-      "2027-04-11": 560,
-      "2027-04-12": 538,
-      "2027-04-13": 563,
-      "2027-04-14": 747,
-      "2027-04-15": 634,
-      "2027-04-16": 682,
-      "2027-04-17": 781,
-      "2027-04-18": 728,
-      "2027-04-19": 571,
-      "2027-04-20": 620,
-      "2027-04-21": 568,
-      "2027-04-22": 571,
-      "2027-04-23": 542,
-      "2027-04-24": 630,
-      "2027-04-25": 732,
-      "2027-04-26": 743,
-      "2027-04-27": 747,
-      "2027-04-28": 607,
-      "2027-04-29": 756,
-      "2027-04-30": 536
-     },
-     "flight": {
-      "date": "2027-04-30",
-      "return": "2027-05-07",
-      "price": 536,
-      "sources": {
-       "viajante": 536,
-       "fli": 551,
-       "trvl": 556
-      },
-      "check": true,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20LAX%20on%202027-04-30%20through%202027-05-07"
-     },
-     "hotels": [
-      {
-       "name": "Hotel Ejemplo Resort",
-       "total": 4096,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Suites Ejemplo",
-       "total": 4137,
-       "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Inn Ejemplo",
-       "total": 4177,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      }
-     ],
-     "car": {
-      "small": {
-       "price": 2772,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 4805,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "flight": null,
+     "days": {}
     },
     {
      "month": "2027-05",
-     "days": {
-      "2027-05-01": 709,
-      "2027-05-02": 574,
-      "2027-05-03": 704,
-      "2027-05-04": 632,
-      "2027-05-05": 684,
-      "2027-05-06": 516,
-      "2027-05-07": 674,
-      "2027-05-08": 532,
-      "2027-05-09": 578,
-      "2027-05-10": 689,
-      "2027-05-11": 685,
-      "2027-05-12": 522,
-      "2027-05-13": 531,
-      "2027-05-14": 577,
-      "2027-05-15": 607,
-      "2027-05-16": 573,
-      "2027-05-17": 507,
-      "2027-05-18": 538,
-      "2027-05-19": 659,
-      "2027-05-20": 702,
-      "2027-05-21": 486,
-      "2027-05-22": 618,
-      "2027-05-23": 667,
-      "2027-05-24": 486,
-      "2027-05-25": 687,
-      "2027-05-26": 506,
-      "2027-05-27": 627,
-      "2027-05-28": 615,
-      "2027-05-29": 634,
-      "2027-05-30": 553,
-      "2027-05-31": 582
-     },
-     "flight": {
-      "date": "2027-05-21",
-      "return": "2027-05-28",
-      "price": 486,
-      "sources": {
-       "viajante": 486,
-       "fli": 504,
-       "trvl": 501
-      },
-      "check": false,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20LAX%20on%202027-05-21%20through%202027-05-28"
-     },
-     "hotels": [
-      {
-       "name": "Hotel Ejemplo Resort",
-       "total": 3724,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Suites Ejemplo",
-       "total": 3765,
-       "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Inn Ejemplo",
-       "total": 3805,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      }
-     ],
-     "car": {
-      "small": {
-       "price": 2520,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 4368,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "flight": null,
+     "days": {}
     },
     {
      "month": "2027-06",
-     "days": {
-      "2027-06-01": 674,
-      "2027-06-02": 618,
-      "2027-06-03": 616,
-      "2027-06-04": 506,
-      "2027-06-05": 664,
-      "2027-06-06": 629,
-      "2027-06-07": 562,
-      "2027-06-08": 702,
-      "2027-06-09": 706,
-      "2027-06-10": 621,
-      "2027-06-11": 547,
-      "2027-06-12": 625,
-      "2027-06-13": 528,
-      "2027-06-14": 534,
-      "2027-06-15": 614,
-      "2027-06-16": 524,
-      "2027-06-17": 617,
-      "2027-06-18": 635,
-      "2027-06-19": 511,
-      "2027-06-20": 668,
-      "2027-06-21": 522,
-      "2027-06-22": 694,
-      "2027-06-23": 706,
-      "2027-06-24": 635,
-      "2027-06-25": 514,
-      "2027-06-26": 633,
-      "2027-06-27": 600,
-      "2027-06-28": 751,
-      "2027-06-29": 536,
-      "2027-06-30": 727
-     },
-     "flight": {
-      "date": "2027-06-04",
-      "return": "2027-06-11",
-      "price": 506,
-      "sources": {
-       "viajante": 506,
-       "fli": 525,
-       "trvl": 552
-      },
-      "check": false,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20LAX%20on%202027-06-04%20through%202027-06-11"
-     },
-     "hotels": [
-      {
-       "name": "Hotel Ejemplo Resort",
-       "total": 3910,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Suites Ejemplo",
-       "total": 3951,
-       "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Inn Ejemplo",
-       "total": 3991,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      }
-     ],
-     "car": {
-      "small": {
-       "price": 2646,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 4586,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "flight": null,
+     "days": {}
     },
     {
      "month": "2027-07",
-     "days": {
-      "2027-07-01": 655,
-      "2027-07-02": 662,
-      "2027-07-03": 909,
-      "2027-07-04": 713,
-      "2027-07-05": 884,
-      "2027-07-06": 879,
-      "2027-07-07": 844,
-      "2027-07-08": 855,
-      "2027-07-09": 691,
-      "2027-07-10": 892,
-      "2027-07-11": 819,
-      "2027-07-12": 701,
-      "2027-07-13": 725,
-      "2027-07-14": 820,
-      "2027-07-15": 915,
-      "2027-07-16": 768,
-      "2027-07-17": 702,
-      "2027-07-18": 935,
-      "2027-07-19": 776,
-      "2027-07-20": 813,
-      "2027-07-21": 821,
-      "2027-07-22": 697,
-      "2027-07-23": 741,
-      "2027-07-24": 684,
-      "2027-07-25": 751,
-      "2027-07-26": 827,
-      "2027-07-27": 710,
-      "2027-07-28": 726,
-      "2027-07-29": 742,
-      "2027-07-30": 878,
-      "2027-07-31": 705
-     },
-     "flight": {
-      "date": "2027-07-01",
-      "return": "2027-07-08",
-      "price": 655,
-      "sources": {
-       "viajante": 655,
-       "fli": 679,
-       "trvl": 688
-      },
-      "check": true,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20LAX%20on%202027-07-01%20through%202027-07-08"
-     },
-     "hotels": [
-      {
-       "name": "Hotel Ejemplo Resort",
-       "total": 4841,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Suites Ejemplo",
-       "total": 4882,
-       "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Inn Ejemplo",
-       "total": 4922,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      }
-     ],
-     "car": {
-      "small": {
-       "price": 3276,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 5678,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "flight": null,
+     "days": {}
     },
     {
      "month": "2027-08",
-     "days": {
-      "2027-08-01": 831,
-      "2027-08-02": 863,
-      "2027-08-03": 708,
-      "2027-08-04": 729,
-      "2027-08-05": 779,
-      "2027-08-06": 842,
-      "2027-08-07": 647,
-      "2027-08-08": 733,
-      "2027-08-09": 830,
-      "2027-08-10": 794,
-      "2027-08-11": 684,
-      "2027-08-12": 685,
-      "2027-08-13": 683,
-      "2027-08-14": 615,
-      "2027-08-15": 671,
-      "2027-08-16": 596,
-      "2027-08-17": 641,
-      "2027-08-18": 757,
-      "2027-08-19": 861,
-      "2027-08-20": 661,
-      "2027-08-21": 727,
-      "2027-08-22": 665,
-      "2027-08-23": 863,
-      "2027-08-24": 834,
-      "2027-08-25": 852,
-      "2027-08-26": 842,
-      "2027-08-27": 793,
-      "2027-08-28": 797,
-      "2027-08-29": 638,
-      "2027-08-30": 659,
-      "2027-08-31": 760
-     },
-     "flight": {
-      "date": "2027-08-16",
-      "return": "2027-08-23",
-      "price": 596,
-      "sources": {
-       "viajante": 596,
-       "fli": 609,
-       "trvl": 628
-      },
-      "check": false,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20LAX%20on%202027-08-16%20through%202027-08-23"
-     },
-     "hotels": [
-      {
-       "name": "Hotel Ejemplo Resort",
-       "total": 4469,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Suites Ejemplo",
-       "total": 4509,
-       "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Inn Ejemplo",
-       "total": 4550,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      }
-     ],
-     "car": {
-      "small": {
-       "price": 3024,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 5242,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "flight": null,
+     "days": {}
     },
     {
      "month": "2027-09",
-     "days": {
-      "2027-09-01": 415,
-      "2027-09-02": 509,
-      "2027-09-03": 536,
-      "2027-09-04": 414,
-      "2027-09-05": 416,
-      "2027-09-06": 526,
-      "2027-09-07": 470,
-      "2027-09-08": 517,
-      "2027-09-09": 519,
-      "2027-09-10": 493,
-      "2027-09-11": 469,
-      "2027-09-12": 433,
-      "2027-09-13": 483,
-      "2027-09-14": 582,
-      "2027-09-15": 439,
-      "2027-09-16": 408,
-      "2027-09-17": 576,
-      "2027-09-18": 556,
-      "2027-09-19": 501,
-      "2027-09-20": 418,
-      "2027-09-21": 436,
-      "2027-09-22": 547,
-      "2027-09-23": 462,
-      "2027-09-24": 578,
-      "2027-09-25": 612,
-      "2027-09-26": 417,
-      "2027-09-27": 580,
-      "2027-09-28": 596,
-      "2027-09-29": 532,
-      "2027-09-30": 529
-     },
-     "flight": {
-      "date": "2027-09-16",
-      "return": "2027-09-23",
-      "price": 408,
-      "sources": {
-       "viajante": 408,
-       "fli": 427,
-       "trvl": 467
-      },
-      "check": false,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20LAX%20on%202027-09-16%20through%202027-09-23"
-     },
-     "hotels": [
-      {
-       "name": "Hotel Ejemplo Resort",
-       "total": 3165,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Suites Ejemplo",
-       "total": 3206,
-       "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Inn Ejemplo",
-       "total": 3246,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      }
-     ],
-     "car": {
-      "small": {
-       "price": 2142,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 3713,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "flight": null,
+     "days": {}
     },
     {
      "month": "2027-10",
-     "days": {
-      "2027-10-01": 528,
-      "2027-10-02": 455,
-      "2027-10-03": 419,
-      "2027-10-04": 433,
-      "2027-10-05": 424,
-      "2027-10-06": 460,
-      "2027-10-07": 454,
-      "2027-10-08": 621,
-      "2027-10-09": 442,
-      "2027-10-10": 555,
-      "2027-10-11": 565,
-      "2027-10-12": 463,
-      "2027-10-13": 511,
-      "2027-10-14": 534,
-      "2027-10-15": 561,
-      "2027-10-16": 562,
-      "2027-10-17": 511,
-      "2027-10-18": 555,
-      "2027-10-19": 532,
-      "2027-10-20": 433,
-      "2027-10-21": 558,
-      "2027-10-22": 639,
-      "2027-10-23": 580,
-      "2027-10-24": 525,
-      "2027-10-25": 538,
-      "2027-10-26": 502,
-      "2027-10-27": 516,
-      "2027-10-28": 621,
-      "2027-10-29": 437,
-      "2027-10-30": 564,
-      "2027-10-31": 458
-     },
-     "flight": {
-      "date": "2027-10-03",
-      "return": "2027-10-10",
-      "price": 419,
-      "sources": {
-       "viajante": 419,
-       "fli": 422,
-       "trvl": 435
-      },
-      "check": false,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20LAX%20on%202027-10-03%20through%202027-10-10"
-     },
-     "hotels": [
-      {
-       "name": "Hotel Ejemplo Resort",
-       "total": 3277,
-       "rating": 4.4,
-       "reviews": 2310,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Suites Ejemplo",
-       "total": 3317,
-       "rating": 4.2,
-       "reviews": 980,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      },
-      {
-       "name": "Inn Ejemplo",
-       "total": 3358,
-       "rating": 4.5,
-       "reviews": 1520,
-       "url": "https://www.google.com/travel/hotels",
-       "src": "viajante"
-      }
-     ],
-     "car": {
-      "small": {
-       "price": 2218,
-       "name": "SUV mediana",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      },
-      "van": {
-       "price": 3844,
-       "name": "Minivan 7-8 pax",
-       "provider": "Ejemplo",
-       "url": "https://www.google.com"
-      }
-     }
+     "flight": null,
+     "days": {}
     }
    ]
   }
