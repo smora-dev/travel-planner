@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-10T20:34+00:00",
+ "updated_at": "2026-11-10T20:59+00:00",
  "demo": false,
  "currency": "USD",
  "nights": 7,
@@ -33,11 +33,12 @@
       "return": "2026-11-22",
       "price": 403,
       "sources": {
-       "viajante": 403,
-       "trvl": 403
+       "trvl": 403,
+       "viajante": 403
       },
       "check": false,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202026-11-15%20through%202026-11-22"
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202026-11-15%20through%202026-11-22",
+      "seen": "2026-11-10T20:43+00:00"
      },
      "days": {
       "2026-11-13": 613,
@@ -54,7 +55,7 @@
       "2026-11-24": 584,
       "2026-11-25": 599,
       "2026-11-26": 460,
-      "2026-11-27": 616,
+      "2026-11-27": 618,
       "2026-11-28": 580,
       "2026-11-29": 613,
       "2026-11-30": 613
@@ -69,18 +70,18 @@
        "src": "trvl"
       },
       {
+       "name": "Nobile Hotel Parkway at Celebration Orlando Very Close to Disney Theme Parks",
+       "total": 343,
+       "rating": 4.0,
+       "reviews": 1483,
+       "url": "https://www.agoda.com/grand-hotel-kissimmee-at-celebration_20/hotel/all/orlando-fl-us.html",
+       "src": "trvl"
+      },
+      {
        "name": "Rosen Inn International",
        "total": 371,
        "rating": 4.1,
        "reviews": 7270,
-       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2026-11-15,2026-11-22",
-       "src": "trvl"
-      },
-      {
-       "name": "Rosen Inn Closest to Universal",
-       "total": 413,
-       "rating": 4.0,
-       "reviews": 4011,
        "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2026-11-15,2026-11-22",
        "src": "trvl"
       }
@@ -97,7 +98,8 @@
        "trvl": 358
       },
       "check": false,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202026-12-09%20through%202026-12-16"
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202026-12-09%20through%202026-12-16",
+      "seen": "2026-11-10T20:43+00:00"
      },
      "days": {
       "2026-12-01": 476,
@@ -109,7 +111,7 @@
       "2026-12-07": 429,
       "2026-12-08": 557,
       "2026-12-09": 358,
-      "2026-12-10": 397,
+      "2026-12-10": 377,
       "2026-12-11": 504,
       "2026-12-12": 464,
       "2026-12-13": 460,
@@ -142,11 +144,11 @@
        "src": "trvl"
       },
       {
-       "name": "Rosen Inn Closest to Universal",
-       "total": 357,
+       "name": "Nobile Hotel Parkway at Celebration Orlando Very Close to Disney Theme Parks",
+       "total": 337,
        "rating": 4.0,
-       "reviews": 4011,
-       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2026-12-09,2026-12-16",
+       "reviews": 1483,
+       "url": "https://www.agoda.com/grand-hotel-kissimmee-at-celebration_20/hotel/all/orlando-fl-us.html",
        "src": "trvl"
       },
       {
@@ -167,10 +169,12 @@
       "return": "2027-01-21",
       "price": 319,
       "sources": {
-       "trvl": 319
+       "trvl": 319,
+       "viajante": 319
       },
       "check": false,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202027-01-14%20through%202027-01-21"
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202027-01-14%20through%202027-01-21",
+      "seen": "2026-11-10T20:43+00:00"
      },
      "days": {
       "2027-01-01": 443,
@@ -223,10 +227,10 @@
        "src": "trvl"
       },
       {
-       "name": "Four Points by Sheraton Orlando International Drive",
-       "total": 462,
+       "name": "Rosen Inn Closest to Universal",
+       "total": 413,
        "rating": 4.0,
-       "reviews": 3867,
+       "reviews": 4011,
        "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2027-01-14,2027-01-21",
        "src": "trvl"
       }
@@ -240,10 +244,12 @@
       "return": "2027-02-08",
       "price": 319,
       "sources": {
-       "trvl": 319
+       "trvl": 319,
+       "viajante": 319
       },
       "check": false,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202027-02-01%20through%202027-02-08"
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202027-02-01%20through%202027-02-08",
+      "seen": "2026-11-10T20:43+00:00"
      },
      "days": {
       "2027-02-01": 319,
@@ -278,7 +284,7 @@
      "hotels": [
       {
        "name": "Baymont by Wyndham International Drive/Universal Boulevard",
-       "total": 329,
+       "total": 336,
        "rating": 4.1,
        "reviews": 4098,
        "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2027-02-01,2027-02-08",
@@ -293,10 +299,10 @@
        "src": "trvl"
       },
       {
-       "name": "Four Points by Sheraton Orlando International Drive",
-       "total": 462,
+       "name": "Rosen Inn Closest to Universal",
+       "total": 413,
        "rating": 4.0,
-       "reviews": 3867,
+       "reviews": 4011,
        "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2027-02-01,2027-02-08",
        "src": "trvl"
       }
@@ -313,7 +319,8 @@
        "trvl": 397
       },
       "check": false,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202027-03-01%20through%202027-03-08"
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202027-03-01%20through%202027-03-08",
+      "seen": "2026-11-10T20:43+00:00"
      },
      "days": {
       "2027-03-01": 397,
@@ -350,27 +357,27 @@
      },
      "hotels": [
       {
-       "name": "Rosen Inn Closest to Universal",
-       "total": 602,
-       "rating": 4.2,
-       "reviews": 1432,
-       "url": "https://www.agoda.com/rosen-inn-closest-to-universal_2/hotel/orlando-fl-us.html",
+       "name": "Baymont by Wyndham International Drive/Universal Boulevard",
+       "total": 336,
+       "rating": 4.1,
+       "reviews": 4098,
+       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2027-03-01,2027-03-08",
        "src": "trvl"
       },
       {
-       "name": "Orlando Palms Hotel",
-       "total": 701,
+       "name": "Rosen Inn International",
+       "total": 371,
        "rating": 4.1,
-       "reviews": 2589,
-       "url": "https://www.google.com/travel/hotels/entity/ChkIu-TF2aXW5-ojGg0vZy8xMXJxc2MwcWhnEAE?q=Orlando%2C+FL+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxADGAESBwjrDxADGAgYBzICEAAqCwoHOgNVU0QgARoA",
-       "src": "viajante"
+       "reviews": 7270,
+       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2027-03-01,2027-03-08",
+       "src": "trvl"
       },
       {
-       "name": "Days Inn by Wyndham Orlando Conv. Center/International Dr",
-       "total": 707,
-       "rating": 4.2,
-       "reviews": 423,
-       "url": "https://www.agoda.com/days-inn-by-wyndham-orlando-conv-center-international-dr/hotel/orlando-fl-us.html",
+       "name": "Nobile Hotel Parkway at Celebration Orlando Very Close to Disney Theme Parks",
+       "total": 434,
+       "rating": 4.0,
+       "reviews": 1483,
+       "url": "https://www.agoda.com/grand-hotel-kissimmee-at-celebration_20/hotel/all/orlando-fl-us.html",
        "src": "trvl"
       }
      ],
@@ -378,33 +385,448 @@
     },
     {
      "month": "2027-04",
-     "flight": null,
-     "days": {}
+     "flight": {
+      "date": "2027-04-01",
+      "return": "2027-04-08",
+      "price": 397,
+      "sources": {
+       "trvl": 397,
+       "viajante": 397
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202027-04-01%20through%202027-04-08",
+      "seen": "2026-11-10T20:43+00:00"
+     },
+     "days": {
+      "2027-04-01": 397,
+      "2027-04-02": 397,
+      "2027-04-03": 409,
+      "2027-04-04": 397,
+      "2027-04-05": 397,
+      "2027-04-06": 397,
+      "2027-04-07": 397,
+      "2027-04-08": 397,
+      "2027-04-09": 397,
+      "2027-04-10": 397,
+      "2027-04-11": 397,
+      "2027-04-12": 397,
+      "2027-04-13": 397,
+      "2027-04-14": 397,
+      "2027-04-15": 403,
+      "2027-04-16": 399,
+      "2027-04-17": 397,
+      "2027-04-18": 399,
+      "2027-04-19": 397,
+      "2027-04-20": 397,
+      "2027-04-21": 397,
+      "2027-04-22": 397,
+      "2027-04-23": 399,
+      "2027-04-24": 476,
+      "2027-04-25": 397,
+      "2027-04-26": 397,
+      "2027-04-27": 397,
+      "2027-04-28": 397,
+      "2027-04-29": 397,
+      "2027-04-30": 399
+     },
+     "hotels": [
+      {
+       "name": "Baymont by Wyndham International Drive/Universal Boulevard",
+       "total": 336,
+       "rating": 4.1,
+       "reviews": 4098,
+       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2027-04-01,2027-04-08",
+       "src": "trvl"
+      },
+      {
+       "name": "Rosen Inn International",
+       "total": 371,
+       "rating": 4.1,
+       "reviews": 7270,
+       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2027-04-01,2027-04-08",
+       "src": "trvl"
+      },
+      {
+       "name": "Four Points by Sheraton Orlando International Drive",
+       "total": 462,
+       "rating": 4.0,
+       "reviews": 3867,
+       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2027-04-01,2027-04-08",
+       "src": "trvl"
+      }
+     ],
+     "car": {}
     },
     {
      "month": "2027-05",
-     "flight": null,
-     "days": {}
+     "flight": {
+      "date": "2027-05-02",
+      "return": "2027-05-09",
+      "price": 397,
+      "sources": {
+       "trvl": 397,
+       "viajante": 397
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202027-05-02%20through%202027-05-09",
+      "seen": "2026-11-10T20:43+00:00"
+     },
+     "days": {
+      "2027-05-01": 403,
+      "2027-05-02": 397,
+      "2027-05-03": 397,
+      "2027-05-04": 397,
+      "2027-05-05": 397,
+      "2027-05-06": 397,
+      "2027-05-07": 397,
+      "2027-05-08": 403,
+      "2027-05-09": 397,
+      "2027-05-10": 397,
+      "2027-05-11": 397,
+      "2027-05-12": 397,
+      "2027-05-13": 397,
+      "2027-05-14": 397,
+      "2027-05-15": 403,
+      "2027-05-16": 397,
+      "2027-05-17": 397,
+      "2027-05-18": 397,
+      "2027-05-19": 397,
+      "2027-05-20": 577,
+      "2027-05-21": 399,
+      "2027-05-22": 450,
+      "2027-05-23": 397,
+      "2027-05-24": 397,
+      "2027-05-25": 397,
+      "2027-05-26": 477,
+      "2027-05-27": 476,
+      "2027-05-28": 477,
+      "2027-05-29": 524,
+      "2027-05-30": 447,
+      "2027-05-31": 511
+     },
+     "hotels": [
+      {
+       "name": "Baymont by Wyndham International Drive/Universal Boulevard",
+       "total": 336,
+       "rating": 4.1,
+       "reviews": 4098,
+       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2027-05-02,2027-05-09",
+       "src": "trvl"
+      },
+      {
+       "name": "Rosen Inn International",
+       "total": 364,
+       "rating": 4.1,
+       "reviews": 7270,
+       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2027-05-02,2027-05-09",
+       "src": "trvl"
+      },
+      {
+       "name": "Four Points by Sheraton Orlando International Drive",
+       "total": 462,
+       "rating": 4.0,
+       "reviews": 3867,
+       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2027-05-02,2027-05-09",
+       "src": "trvl"
+      }
+     ],
+     "car": {}
     },
     {
      "month": "2027-06",
-     "flight": null,
-     "days": {}
+     "flight": {
+      "date": "2027-06-01",
+      "return": "2027-06-08",
+      "price": 403,
+      "sources": {
+       "trvl": 403,
+       "viajante": 403
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202027-06-01%20through%202027-06-08",
+      "seen": "2026-11-10T20:43+00:00"
+     },
+     "days": {
+      "2027-06-01": 403,
+      "2027-06-02": 403,
+      "2027-06-03": 403,
+      "2027-06-04": 430,
+      "2027-06-05": 460,
+      "2027-06-06": 436,
+      "2027-06-07": 404,
+      "2027-06-08": 438,
+      "2027-06-09": 403,
+      "2027-06-10": 528,
+      "2027-06-11": 593,
+      "2027-06-12": 447,
+      "2027-06-13": 442,
+      "2027-06-14": 497,
+      "2027-06-15": 543,
+      "2027-06-16": 533,
+      "2027-06-17": 543,
+      "2027-06-18": 607,
+      "2027-06-19": 596,
+      "2027-06-20": 556,
+      "2027-06-21": 476,
+      "2027-06-22": 518,
+      "2027-06-23": 556,
+      "2027-06-24": 403,
+      "2027-06-25": 403,
+      "2027-06-26": 405,
+      "2027-06-27": 556,
+      "2027-06-28": 600,
+      "2027-06-29": 572,
+      "2027-06-30": 577
+     },
+     "hotels": [
+      {
+       "name": "Baymont by Wyndham International Drive/Universal Boulevard",
+       "total": 336,
+       "rating": 4.1,
+       "reviews": 4098,
+       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2027-06-01,2027-06-08",
+       "src": "trvl"
+      },
+      {
+       "name": "Rosen Inn International",
+       "total": 364,
+       "rating": 4.1,
+       "reviews": 7270,
+       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2027-06-01,2027-06-08",
+       "src": "trvl"
+      },
+      {
+       "name": "Rosen Inn Closest to Universal",
+       "total": 413,
+       "rating": 4.0,
+       "reviews": 4011,
+       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2027-06-01,2027-06-08",
+       "src": "trvl"
+      }
+     ],
+     "car": {}
     },
     {
      "month": "2027-07",
-     "flight": null,
-     "days": {}
+     "flight": {
+      "date": "2027-07-19",
+      "return": "2027-07-26",
+      "price": 403,
+      "sources": {
+       "trvl": 403
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202027-07-19%20through%202027-07-26",
+      "seen": "2026-11-10T20:43+00:00"
+     },
+     "days": {
+      "2027-07-01": 674,
+      "2027-07-02": 631,
+      "2027-07-03": 623,
+      "2027-07-04": 606,
+      "2027-07-05": 557,
+      "2027-07-06": 572,
+      "2027-07-07": 482,
+      "2027-07-08": 476,
+      "2027-07-09": 633,
+      "2027-07-10": 602,
+      "2027-07-11": 556,
+      "2027-07-12": 476,
+      "2027-07-13": 550,
+      "2027-07-14": 556,
+      "2027-07-15": 550,
+      "2027-07-16": 599,
+      "2027-07-17": 587,
+      "2027-07-18": 482,
+      "2027-07-19": 403,
+      "2027-07-20": 403,
+      "2027-07-21": 438,
+      "2027-07-22": 403,
+      "2027-07-23": 403,
+      "2027-07-24": 403,
+      "2027-07-25": 538,
+      "2027-07-26": 403,
+      "2027-07-27": 403,
+      "2027-07-28": 403,
+      "2027-07-29": 403,
+      "2027-07-30": 476,
+      "2027-07-31": 429
+     },
+     "hotels": [
+      {
+       "name": "Baymont by Wyndham International Drive/Universal Boulevard",
+       "total": 336,
+       "rating": 4.1,
+       "reviews": 4098,
+       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2027-07-19,2027-07-26",
+       "src": "trvl"
+      },
+      {
+       "name": "Rosen Inn International",
+       "total": 364,
+       "rating": 4.1,
+       "reviews": 7270,
+       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2027-07-19,2027-07-26",
+       "src": "trvl"
+      },
+      {
+       "name": "Four Points by Sheraton Orlando International Drive",
+       "total": 462,
+       "rating": 4.0,
+       "reviews": 3867,
+       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2027-07-19,2027-07-26",
+       "src": "trvl"
+      }
+     ],
+     "car": {}
     },
     {
      "month": "2027-08",
-     "flight": null,
-     "days": {}
+     "flight": {
+      "date": "2027-08-03",
+      "return": "2027-08-10",
+      "price": 397,
+      "sources": {
+       "trvl": 397
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202027-08-03%20through%202027-08-10",
+      "seen": "2026-11-10T20:43+00:00"
+     },
+     "days": {
+      "2027-08-01": 458,
+      "2027-08-02": 403,
+      "2027-08-03": 397,
+      "2027-08-04": 397,
+      "2027-08-05": 397,
+      "2027-08-06": 397,
+      "2027-08-07": 408,
+      "2027-08-08": 397,
+      "2027-08-09": 397,
+      "2027-08-10": 397,
+      "2027-08-11": 397,
+      "2027-08-12": 397,
+      "2027-08-13": 397,
+      "2027-08-14": 397,
+      "2027-08-15": 397,
+      "2027-08-16": 397,
+      "2027-08-17": 397,
+      "2027-08-18": 397,
+      "2027-08-19": 397,
+      "2027-08-20": 397,
+      "2027-08-21": 397,
+      "2027-08-22": 397,
+      "2027-08-23": 397,
+      "2027-08-24": 397,
+      "2027-08-25": 397,
+      "2027-08-26": 397,
+      "2027-08-27": 397,
+      "2027-08-28": 397,
+      "2027-08-29": 397,
+      "2027-08-30": 397,
+      "2027-08-31": 397
+     },
+     "hotels": [
+      {
+       "name": "Baymont by Wyndham International Drive/Universal Boulevard",
+       "total": 336,
+       "rating": 4.1,
+       "reviews": 4098,
+       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2027-08-03,2027-08-10",
+       "src": "trvl"
+      },
+      {
+       "name": "Rosen Inn International",
+       "total": 364,
+       "rating": 4.1,
+       "reviews": 7270,
+       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2027-08-03,2027-08-10",
+       "src": "trvl"
+      },
+      {
+       "name": "Rosen Inn Closest to Universal",
+       "total": 413,
+       "rating": 4.0,
+       "reviews": 4011,
+       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2027-08-03,2027-08-10",
+       "src": "trvl"
+      }
+     ],
+     "car": {}
     },
     {
      "month": "2027-09",
-     "flight": null,
-     "days": {}
+     "flight": {
+      "date": "2027-09-01",
+      "return": "2027-09-08",
+      "price": 397,
+      "sources": {
+       "trvl": 397,
+       "viajante": 397
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202027-09-01%20through%202027-09-08",
+      "seen": "2026-11-10T20:43+00:00"
+     },
+     "days": {
+      "2027-09-01": 397,
+      "2027-09-02": 397,
+      "2027-09-03": 397,
+      "2027-09-04": 397,
+      "2027-09-05": 397,
+      "2027-09-06": 397,
+      "2027-09-07": 397,
+      "2027-09-08": 397,
+      "2027-09-09": 397,
+      "2027-09-10": 397,
+      "2027-09-11": 397,
+      "2027-09-12": 397,
+      "2027-09-13": 397,
+      "2027-09-14": 397,
+      "2027-09-15": 397,
+      "2027-09-16": 397,
+      "2027-09-17": 397,
+      "2027-09-18": 397,
+      "2027-09-19": 397,
+      "2027-09-20": 397,
+      "2027-09-21": 397,
+      "2027-09-22": 397,
+      "2027-09-23": 397,
+      "2027-09-24": 397,
+      "2027-09-25": 397,
+      "2027-09-26": 397,
+      "2027-09-27": 397,
+      "2027-09-28": 397,
+      "2027-09-29": 397,
+      "2027-09-30": 397
+     },
+     "hotels": [
+      {
+       "name": "Baymont by Wyndham International Drive/Universal Boulevard",
+       "total": 336,
+       "rating": 4.1,
+       "reviews": 4098,
+       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2027-09-01,2027-09-08",
+       "src": "trvl"
+      },
+      {
+       "name": "Rosen Inn International",
+       "total": 364,
+       "rating": 4.1,
+       "reviews": 7270,
+       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2027-09-01,2027-09-08",
+       "src": "trvl"
+      },
+      {
+       "name": "Four Points by Sheraton Orlando International Drive",
+       "total": 462,
+       "rating": 4.0,
+       "reviews": 3867,
+       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2027-09-01,2027-09-08",
+       "src": "trvl"
+      }
+     ],
+     "car": {}
     },
     {
      "month": "2027-10",
@@ -423,58 +845,809 @@
    "months": [
     {
      "month": "2026-11",
-     "flight": null,
-     "days": {}
+     "flight": {
+      "date": "2026-11-17",
+      "return": "2026-11-24",
+      "price": 475,
+      "sources": {
+       "trvl": 475,
+       "viajante": 475
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MIA%20on%202026-11-17%20through%202026-11-24",
+      "seen": "2026-11-10T20:43+00:00"
+     },
+     "days": {
+      "2026-11-13": 683,
+      "2026-11-14": 691,
+      "2026-11-15": 644,
+      "2026-11-16": 477,
+      "2026-11-17": 475,
+      "2026-11-18": 475,
+      "2026-11-19": 475,
+      "2026-11-20": 475,
+      "2026-11-21": 475,
+      "2026-11-22": 475,
+      "2026-11-23": 475,
+      "2026-11-24": 496,
+      "2026-11-25": 475,
+      "2026-11-26": 496,
+      "2026-11-27": 581,
+      "2026-11-28": 624,
+      "2026-11-29": 644,
+      "2026-11-30": 665
+     },
+     "hotels": [
+      {
+       "name": "Metropole Suites South Beach",
+       "total": 455,
+       "rating": 4.3,
+       "reviews": 1615,
+       "url": "https://www.google.com/travel/hotels/Miami%20Beach%2C%20FL?q=Miami+Beach%2C+FL+hotels&dates=2026-11-17,2026-11-24",
+       "src": "trvl"
+      },
+      {
+       "name": "Corendon South Beach Miami",
+       "total": 469,
+       "rating": 4.1,
+       "reviews": 1140,
+       "url": "https://www.google.com/travel/hotels/Miami%20Beach%2C%20FL?q=Miami+Beach%2C+FL+hotels&dates=2026-11-17,2026-11-24",
+       "src": "trvl"
+      },
+      {
+       "name": "Hotel Belleza",
+       "total": 539,
+       "rating": 4.6,
+       "reviews": 2620,
+       "url": "https://www.agoda.com/hotel-belleza_2/hotel/miami-beach-fl-us.html",
+       "src": "trvl"
+      }
+     ],
+     "car": {}
     },
     {
      "month": "2026-12",
-     "flight": null,
-     "days": {}
+     "flight": {
+      "date": "2026-12-24",
+      "return": "2026-12-31",
+      "price": 432,
+      "sources": {
+       "trvl": 432,
+       "viajante": 436
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MIA%20on%202026-12-24%20through%202026-12-31",
+      "seen": "2026-11-10T20:43+00:00"
+     },
+     "days": {
+      "2026-12-01": 448,
+      "2026-12-02": 448,
+      "2026-12-03": 448,
+      "2026-12-04": 475,
+      "2026-12-05": 477,
+      "2026-12-06": 580,
+      "2026-12-07": 549,
+      "2026-12-08": 527,
+      "2026-12-09": 453,
+      "2026-12-10": 643,
+      "2026-12-11": 601,
+      "2026-12-12": 643,
+      "2026-12-13": 643,
+      "2026-12-14": 583,
+      "2026-12-15": 583,
+      "2026-12-16": 577,
+      "2026-12-17": 560,
+      "2026-12-18": 611,
+      "2026-12-19": 644,
+      "2026-12-20": 641,
+      "2026-12-21": 601,
+      "2026-12-22": 491,
+      "2026-12-23": 436,
+      "2026-12-24": 432,
+      "2026-12-25": 515,
+      "2026-12-26": 677,
+      "2026-12-27": 750,
+      "2026-12-28": 644,
+      "2026-12-29": 671,
+      "2026-12-30": 582,
+      "2026-12-31": 558
+     },
+     "hotels": [
+      {
+       "name": "Posh Hostel South Beach",
+       "total": 364,
+       "rating": 4.0,
+       "reviews": 796,
+       "url": "https://www.google.com/travel/hotels/Miami%20Beach%2C%20FL?q=Miami+Beach%2C+FL+hotels&dates=2026-12-24,2026-12-31",
+       "src": "trvl"
+      },
+      {
+       "name": "Corendon South Beach Miami",
+       "total": 455,
+       "rating": 4.1,
+       "reviews": 1140,
+       "url": "https://www.google.com/travel/hotels/Miami%20Beach%2C%20FL?q=Miami+Beach%2C+FL+hotels&dates=2026-12-24,2026-12-31",
+       "src": "trvl"
+      },
+      {
+       "name": "Metropole Suites South Beach",
+       "total": 455,
+       "rating": 4.3,
+       "reviews": 1615,
+       "url": "https://www.google.com/travel/hotels/Miami%20Beach%2C%20FL?q=Miami+Beach%2C+FL+hotels&dates=2026-12-24,2026-12-31",
+       "src": "trvl"
+      }
+     ],
+     "car": {}
     },
     {
      "month": "2027-01",
-     "flight": null,
-     "days": {}
+     "flight": {
+      "date": "2027-01-13",
+      "return": "2027-01-20",
+      "price": 431,
+      "sources": {
+       "trvl": 431,
+       "viajante": 431
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MIA%20on%202027-01-13%20through%202027-01-20",
+      "seen": "2026-11-10T20:43+00:00"
+     },
+     "days": {
+      "2027-01-01": 643,
+      "2027-01-02": 733,
+      "2027-01-03": 937,
+      "2027-01-04": 670,
+      "2027-01-05": 636,
+      "2027-01-06": 538,
+      "2027-01-07": 528,
+      "2027-01-08": 528,
+      "2027-01-09": 570,
+      "2027-01-10": 540,
+      "2027-01-11": 497,
+      "2027-01-12": 498,
+      "2027-01-13": 431,
+      "2027-01-14": 431,
+      "2027-01-15": 431,
+      "2027-01-16": 431,
+      "2027-01-17": 431,
+      "2027-01-18": 432,
+      "2027-01-19": 431,
+      "2027-01-20": 431,
+      "2027-01-21": 431,
+      "2027-01-22": 431,
+      "2027-01-23": 436,
+      "2027-01-24": 445,
+      "2027-01-25": 436,
+      "2027-01-26": 436,
+      "2027-01-27": 436,
+      "2027-01-28": 432,
+      "2027-01-29": 431,
+      "2027-01-30": 436,
+      "2027-01-31": 431
+     },
+     "hotels": [
+      {
+       "name": "Corendon South Beach Miami",
+       "total": 455,
+       "rating": 4.1,
+       "reviews": 1140,
+       "url": "https://www.google.com/travel/hotels/Miami%20Beach%2C%20FL?q=Miami+Beach%2C+FL+hotels&dates=2027-01-13,2027-01-20",
+       "src": "trvl"
+      },
+      {
+       "name": "Metropole Suites South Beach",
+       "total": 455,
+       "rating": 4.3,
+       "reviews": 1615,
+       "url": "https://www.google.com/travel/hotels/Miami%20Beach%2C%20FL?q=Miami+Beach%2C+FL+hotels&dates=2027-01-13,2027-01-20",
+       "src": "trvl"
+      },
+      {
+       "name": "Hotel Croydon Miami Beach",
+       "total": 532,
+       "rating": 4.5,
+       "reviews": 4241,
+       "url": "https://www.google.com/travel/hotels/Miami%20Beach%2C%20FL?q=Miami+Beach%2C+FL+hotels&dates=2027-01-13,2027-01-20",
+       "src": "trvl"
+      }
+     ],
+     "car": {}
     },
     {
      "month": "2027-02",
-     "flight": null,
-     "days": {}
+     "flight": {
+      "date": "2027-02-01",
+      "return": "2027-02-08",
+      "price": 431,
+      "sources": {
+       "trvl": 431,
+       "viajante": 431
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MIA%20on%202027-02-01%20through%202027-02-08",
+      "seen": "2026-11-10T20:43+00:00"
+     },
+     "days": {
+      "2027-02-01": 431,
+      "2027-02-02": 432,
+      "2027-02-03": 445,
+      "2027-02-04": 454,
+      "2027-02-05": 453,
+      "2027-02-06": 471,
+      "2027-02-07": 472,
+      "2027-02-08": 439,
+      "2027-02-09": 453,
+      "2027-02-10": 453,
+      "2027-02-11": 475,
+      "2027-02-12": 475,
+      "2027-02-13": 448,
+      "2027-02-14": 448,
+      "2027-02-15": 448,
+      "2027-02-16": 448,
+      "2027-02-17": 448,
+      "2027-02-18": 448,
+      "2027-02-19": 448,
+      "2027-02-20": 448,
+      "2027-02-21": 448,
+      "2027-02-22": 448,
+      "2027-02-23": 448,
+      "2027-02-24": 448,
+      "2027-02-25": 448,
+      "2027-02-26": 448,
+      "2027-02-27": 448,
+      "2027-02-28": 448
+     },
+     "hotels": [
+      {
+       "name": "Posh Hostel South Beach",
+       "total": 364,
+       "rating": 4.0,
+       "reviews": 796,
+       "url": "https://www.google.com/travel/hotels/Miami%20Beach%2C%20FL?q=Miami+Beach%2C+FL+hotels&dates=2027-02-01,2027-02-08",
+       "src": "trvl"
+      },
+      {
+       "name": "Corendon South Beach Miami",
+       "total": 455,
+       "rating": 4.1,
+       "reviews": 1140,
+       "url": "https://www.google.com/travel/hotels/Miami%20Beach%2C%20FL?q=Miami+Beach%2C+FL+hotels&dates=2027-02-01,2027-02-08",
+       "src": "trvl"
+      },
+      {
+       "name": "Metropole Suites South Beach",
+       "total": 455,
+       "rating": 4.3,
+       "reviews": 1615,
+       "url": "https://www.google.com/travel/hotels/Miami%20Beach%2C%20FL?q=Miami+Beach%2C+FL+hotels&dates=2027-02-01,2027-02-08",
+       "src": "trvl"
+      }
+     ],
+     "car": {}
     },
     {
      "month": "2027-03",
-     "flight": null,
-     "days": {}
+     "flight": {
+      "date": "2027-03-01",
+      "return": "2027-03-08",
+      "price": 448,
+      "sources": {
+       "trvl": 448,
+       "viajante": 448
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MIA%20on%202027-03-01%20through%202027-03-08",
+      "seen": "2026-11-10T20:43+00:00"
+     },
+     "days": {
+      "2027-03-01": 448,
+      "2027-03-02": 448,
+      "2027-03-03": 448,
+      "2027-03-04": 448,
+      "2027-03-05": 448,
+      "2027-03-06": 448,
+      "2027-03-07": 448,
+      "2027-03-08": 448,
+      "2027-03-09": 448,
+      "2027-03-10": 448,
+      "2027-03-11": 448,
+      "2027-03-12": 448,
+      "2027-03-13": 448,
+      "2027-03-14": 496,
+      "2027-03-15": 475,
+      "2027-03-16": 475,
+      "2027-03-17": 475,
+      "2027-03-18": 617,
+      "2027-03-19": 790,
+      "2027-03-20": 758,
+      "2027-03-21": 752,
+      "2027-03-22": 547,
+      "2027-03-23": 475,
+      "2027-03-24": 498,
+      "2027-03-25": 448,
+      "2027-03-26": 448,
+      "2027-03-27": 448,
+      "2027-03-28": 448,
+      "2027-03-29": 448,
+      "2027-03-30": 448,
+      "2027-03-31": 448
+     },
+     "hotels": [
+      {
+       "name": "Posh Hostel South Beach",
+       "total": 364,
+       "rating": 4.0,
+       "reviews": 796,
+       "url": "https://www.google.com/travel/hotels/Miami%20Beach%2C%20FL?q=Miami+Beach%2C+FL+hotels&dates=2027-03-01,2027-03-08",
+       "src": "trvl"
+      },
+      {
+       "name": "Corendon South Beach Miami",
+       "total": 455,
+       "rating": 4.1,
+       "reviews": 1140,
+       "url": "https://www.google.com/travel/hotels/Miami%20Beach%2C%20FL?q=Miami+Beach%2C+FL+hotels&dates=2027-03-01,2027-03-08",
+       "src": "trvl"
+      },
+      {
+       "name": "Metropole Suites South Beach",
+       "total": 455,
+       "rating": 4.3,
+       "reviews": 1615,
+       "url": "https://www.google.com/travel/hotels/Miami%20Beach%2C%20FL?q=Miami+Beach%2C+FL+hotels&dates=2027-03-01,2027-03-08",
+       "src": "trvl"
+      }
+     ],
+     "car": {}
     },
     {
      "month": "2027-04",
-     "flight": null,
-     "days": {}
+     "flight": {
+      "date": "2027-04-01",
+      "return": "2027-04-08",
+      "price": 448,
+      "sources": {
+       "trvl": 448,
+       "viajante": 448
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MIA%20on%202027-04-01%20through%202027-04-08",
+      "seen": "2026-11-10T20:43+00:00"
+     },
+     "days": {
+      "2027-04-01": 448,
+      "2027-04-02": 448,
+      "2027-04-03": 448,
+      "2027-04-04": 448,
+      "2027-04-05": 448,
+      "2027-04-06": 448,
+      "2027-04-07": 448,
+      "2027-04-08": 448,
+      "2027-04-09": 448,
+      "2027-04-10": 448,
+      "2027-04-11": 448,
+      "2027-04-12": 448,
+      "2027-04-13": 448,
+      "2027-04-14": 448,
+      "2027-04-15": 448,
+      "2027-04-16": 448,
+      "2027-04-17": 448,
+      "2027-04-18": 448,
+      "2027-04-19": 475,
+      "2027-04-20": 448,
+      "2027-04-21": 453,
+      "2027-04-22": 475,
+      "2027-04-23": 475,
+      "2027-04-24": 475,
+      "2027-04-25": 475,
+      "2027-04-26": 475,
+      "2027-04-27": 448,
+      "2027-04-28": 453,
+      "2027-04-29": 475,
+      "2027-04-30": 475
+     },
+     "hotels": [
+      {
+       "name": "Posh Hostel South Beach",
+       "total": 364,
+       "rating": 4.0,
+       "reviews": 796,
+       "url": "https://www.google.com/travel/hotels/Miami%20Beach%2C%20FL?q=Miami+Beach%2C+FL+hotels&dates=2027-04-01,2027-04-08",
+       "src": "trvl"
+      },
+      {
+       "name": "Corendon South Beach Miami",
+       "total": 455,
+       "rating": 4.1,
+       "reviews": 1140,
+       "url": "https://www.google.com/travel/hotels/Miami%20Beach%2C%20FL?q=Miami+Beach%2C+FL+hotels&dates=2027-04-01,2027-04-08",
+       "src": "trvl"
+      },
+      {
+       "name": "Metropole Suites South Beach",
+       "total": 455,
+       "rating": 4.3,
+       "reviews": 1615,
+       "url": "https://www.google.com/travel/hotels/Miami%20Beach%2C%20FL?q=Miami+Beach%2C+FL+hotels&dates=2027-04-01,2027-04-08",
+       "src": "trvl"
+      }
+     ],
+     "car": {}
     },
     {
      "month": "2027-05",
-     "flight": null,
-     "days": {}
+     "flight": {
+      "date": "2027-05-04",
+      "return": "2027-05-11",
+      "price": 448,
+      "sources": {
+       "trvl": 448,
+       "viajante": 448
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MIA%20on%202027-05-04%20through%202027-05-11",
+      "seen": "2026-11-10T20:43+00:00"
+     },
+     "days": {
+      "2027-05-01": 475,
+      "2027-05-02": 475,
+      "2027-05-03": 475,
+      "2027-05-04": 448,
+      "2027-05-05": 453,
+      "2027-05-06": 475,
+      "2027-05-07": 475,
+      "2027-05-08": 475,
+      "2027-05-09": 475,
+      "2027-05-10": 475,
+      "2027-05-11": 448,
+      "2027-05-12": 453,
+      "2027-05-13": 475,
+      "2027-05-14": 475,
+      "2027-05-15": 475,
+      "2027-05-16": 475,
+      "2027-05-17": 475,
+      "2027-05-18": 448,
+      "2027-05-19": 453,
+      "2027-05-20": 475,
+      "2027-05-21": 475,
+      "2027-05-22": 475,
+      "2027-05-23": 475,
+      "2027-05-24": 475,
+      "2027-05-25": 475,
+      "2027-05-26": 475,
+      "2027-05-27": 475,
+      "2027-05-28": 475,
+      "2027-05-29": 475,
+      "2027-05-30": 475,
+      "2027-05-31": 475
+     },
+     "hotels": [
+      {
+       "name": "Posh Hostel South Beach",
+       "total": 364,
+       "rating": 4.0,
+       "reviews": 796,
+       "url": "https://www.google.com/travel/hotels/Miami%20Beach%2C%20FL?q=Miami+Beach%2C+FL+hotels&dates=2027-05-04,2027-05-11",
+       "src": "trvl"
+      },
+      {
+       "name": "Corendon South Beach Miami",
+       "total": 455,
+       "rating": 4.1,
+       "reviews": 1140,
+       "url": "https://www.google.com/travel/hotels/Miami%20Beach%2C%20FL?q=Miami+Beach%2C+FL+hotels&dates=2027-05-04,2027-05-11",
+       "src": "trvl"
+      },
+      {
+       "name": "Metropole Suites South Beach",
+       "total": 455,
+       "rating": 4.3,
+       "reviews": 1615,
+       "url": "https://www.google.com/travel/hotels/Miami%20Beach%2C%20FL?q=Miami+Beach%2C+FL+hotels&dates=2027-05-04,2027-05-11",
+       "src": "trvl"
+      }
+     ],
+     "car": {}
     },
     {
      "month": "2027-06",
-     "flight": null,
-     "days": {}
+     "flight": {
+      "date": "2027-06-01",
+      "return": "2027-06-08",
+      "price": 475,
+      "sources": {
+       "trvl": 475,
+       "viajante": 475
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MIA%20on%202027-06-01%20through%202027-06-08",
+      "seen": "2026-11-10T20:43+00:00"
+     },
+     "days": {
+      "2027-06-01": 475,
+      "2027-06-02": 475,
+      "2027-06-03": 475,
+      "2027-06-04": 475,
+      "2027-06-05": 475,
+      "2027-06-06": 475,
+      "2027-06-07": 517,
+      "2027-06-08": 496,
+      "2027-06-09": 481,
+      "2027-06-10": 475,
+      "2027-06-11": 475,
+      "2027-06-12": 475,
+      "2027-06-13": 475,
+      "2027-06-14": 475,
+      "2027-06-15": 475,
+      "2027-06-16": 475,
+      "2027-06-17": 475,
+      "2027-06-18": 475,
+      "2027-06-19": 475,
+      "2027-06-20": 475,
+      "2027-06-21": 475,
+      "2027-06-22": 475,
+      "2027-06-23": 475,
+      "2027-06-24": 475,
+      "2027-06-25": 475,
+      "2027-06-26": 475,
+      "2027-06-27": 475,
+      "2027-06-28": 475,
+      "2027-06-29": 475,
+      "2027-06-30": 487
+     },
+     "hotels": [
+      {
+       "name": "Posh Hostel South Beach",
+       "total": 364,
+       "rating": 4.0,
+       "reviews": 796,
+       "url": "https://www.google.com/travel/hotels/Miami%20Beach%2C%20FL?q=Miami+Beach%2C+FL+hotels&dates=2027-06-01,2027-06-08",
+       "src": "trvl"
+      },
+      {
+       "name": "Corendon South Beach Miami",
+       "total": 455,
+       "rating": 4.1,
+       "reviews": 1140,
+       "url": "https://www.google.com/travel/hotels/Miami%20Beach%2C%20FL?q=Miami+Beach%2C+FL+hotels&dates=2027-06-01,2027-06-08",
+       "src": "trvl"
+      },
+      {
+       "name": "Metropole Suites South Beach",
+       "total": 455,
+       "rating": 4.3,
+       "reviews": 1615,
+       "url": "https://www.google.com/travel/hotels/Miami%20Beach%2C%20FL?q=Miami+Beach%2C+FL+hotels&dates=2027-06-01,2027-06-08",
+       "src": "trvl"
+      }
+     ],
+     "car": {}
     },
     {
      "month": "2027-07",
-     "flight": null,
-     "days": {}
+     "flight": {
+      "date": "2027-07-27",
+      "return": "2027-08-03",
+      "price": 448,
+      "sources": {
+       "trvl": 448,
+       "viajante": 448
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MIA%20on%202027-07-27%20through%202027-08-03",
+      "seen": "2026-11-10T20:43+00:00"
+     },
+     "days": {
+      "2027-07-01": 515,
+      "2027-07-02": 515,
+      "2027-07-03": 623,
+      "2027-07-04": 533,
+      "2027-07-05": 515,
+      "2027-07-06": 528,
+      "2027-07-07": 487,
+      "2027-07-08": 494,
+      "2027-07-09": 553,
+      "2027-07-10": 591,
+      "2027-07-11": 558,
+      "2027-07-12": 475,
+      "2027-07-13": 481,
+      "2027-07-14": 487,
+      "2027-07-15": 475,
+      "2027-07-16": 496,
+      "2027-07-17": 475,
+      "2027-07-18": 475,
+      "2027-07-19": 475,
+      "2027-07-20": 475,
+      "2027-07-21": 475,
+      "2027-07-22": 515,
+      "2027-07-23": 475,
+      "2027-07-24": 496,
+      "2027-07-25": 475,
+      "2027-07-26": 475,
+      "2027-07-27": 448,
+      "2027-07-28": 453,
+      "2027-07-29": 475,
+      "2027-07-30": 475,
+      "2027-07-31": 475
+     },
+     "hotels": [
+      {
+       "name": "Corendon South Beach Miami",
+       "total": 455,
+       "rating": 4.1,
+       "reviews": 1140,
+       "url": "https://www.google.com/travel/hotels/Miami%20Beach%2C%20FL?q=Miami+Beach%2C+FL+hotels&dates=2027-07-27,2027-08-03",
+       "src": "trvl"
+      },
+      {
+       "name": "Metropole Suites South Beach",
+       "total": 455,
+       "rating": 4.3,
+       "reviews": 1615,
+       "url": "https://www.google.com/travel/hotels/Miami%20Beach%2C%20FL?q=Miami+Beach%2C+FL+hotels&dates=2027-07-27,2027-08-03",
+       "src": "trvl"
+      },
+      {
+       "name": "Hotel Croydon Miami Beach",
+       "total": 532,
+       "rating": 4.5,
+       "reviews": 4241,
+       "url": "https://www.google.com/travel/hotels/Miami%20Beach%2C%20FL?q=Miami+Beach%2C+FL+hotels&dates=2027-07-27,2027-08-03",
+       "src": "trvl"
+      }
+     ],
+     "car": {}
     },
     {
      "month": "2027-08",
-     "flight": null,
-     "days": {}
+     "flight": {
+      "date": "2027-08-03",
+      "return": "2027-08-10",
+      "price": 448,
+      "sources": {
+       "trvl": 448,
+       "viajante": 448
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MIA%20on%202027-08-03%20through%202027-08-10",
+      "seen": "2026-11-10T20:43+00:00"
+     },
+     "days": {
+      "2027-08-01": 515,
+      "2027-08-02": 475,
+      "2027-08-03": 448,
+      "2027-08-04": 453,
+      "2027-08-05": 475,
+      "2027-08-06": 475,
+      "2027-08-07": 475,
+      "2027-08-08": 475,
+      "2027-08-09": 475,
+      "2027-08-10": 448,
+      "2027-08-11": 453,
+      "2027-08-12": 475,
+      "2027-08-13": 475,
+      "2027-08-14": 475,
+      "2027-08-15": 475,
+      "2027-08-16": 475,
+      "2027-08-17": 448,
+      "2027-08-18": 448,
+      "2027-08-19": 448,
+      "2027-08-20": 448,
+      "2027-08-21": 448,
+      "2027-08-22": 448,
+      "2027-08-23": 448,
+      "2027-08-24": 448,
+      "2027-08-25": 448,
+      "2027-08-26": 448,
+      "2027-08-27": 448,
+      "2027-08-28": 448,
+      "2027-08-29": 448,
+      "2027-08-30": 448,
+      "2027-08-31": 448
+     },
+     "hotels": [
+      {
+       "name": "Posh Hostel South Beach",
+       "total": 364,
+       "rating": 4.0,
+       "reviews": 796,
+       "url": "https://www.google.com/travel/hotels/Miami%20Beach%2C%20FL?q=Miami+Beach%2C+FL+hotels&dates=2027-08-03,2027-08-10",
+       "src": "trvl"
+      },
+      {
+       "name": "Corendon South Beach Miami",
+       "total": 455,
+       "rating": 4.1,
+       "reviews": 1140,
+       "url": "https://www.google.com/travel/hotels/Miami%20Beach%2C%20FL?q=Miami+Beach%2C+FL+hotels&dates=2027-08-03,2027-08-10",
+       "src": "trvl"
+      },
+      {
+       "name": "Metropole Suites South Beach",
+       "total": 455,
+       "rating": 4.3,
+       "reviews": 1615,
+       "url": "https://www.google.com/travel/hotels/Miami%20Beach%2C%20FL?q=Miami+Beach%2C+FL+hotels&dates=2027-08-03,2027-08-10",
+       "src": "trvl"
+      }
+     ],
+     "car": {}
     },
     {
      "month": "2027-09",
-     "flight": null,
-     "days": {}
+     "flight": {
+      "date": "2027-09-01",
+      "return": "2027-09-08",
+      "price": 448,
+      "sources": {
+       "trvl": 448,
+       "viajante": 448
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MIA%20on%202027-09-01%20through%202027-09-08",
+      "seen": "2026-11-10T20:43+00:00"
+     },
+     "days": {
+      "2027-09-01": 448,
+      "2027-09-02": 448,
+      "2027-09-03": 448,
+      "2027-09-04": 448,
+      "2027-09-05": 448,
+      "2027-09-06": 448,
+      "2027-09-07": 448,
+      "2027-09-08": 448,
+      "2027-09-09": 448,
+      "2027-09-10": 448,
+      "2027-09-11": 448,
+      "2027-09-12": 448,
+      "2027-09-13": 448,
+      "2027-09-14": 448,
+      "2027-09-15": 448,
+      "2027-09-16": 448,
+      "2027-09-17": 448,
+      "2027-09-18": 448,
+      "2027-09-19": 448,
+      "2027-09-20": 448,
+      "2027-09-21": 448,
+      "2027-09-22": 448,
+      "2027-09-23": 448,
+      "2027-09-24": 448,
+      "2027-09-25": 448,
+      "2027-09-26": 448,
+      "2027-09-27": 448,
+      "2027-09-28": 448,
+      "2027-09-29": 448,
+      "2027-09-30": 448
+     },
+     "hotels": [
+      {
+       "name": "Corendon South Beach Miami",
+       "total": 455,
+       "rating": 4.1,
+       "reviews": 1140,
+       "url": "https://www.google.com/travel/hotels/Miami%20Beach%2C%20FL?q=Miami+Beach%2C+FL+hotels&dates=2027-09-01,2027-09-08",
+       "src": "trvl"
+      },
+      {
+       "name": "Metropole Suites South Beach",
+       "total": 455,
+       "rating": 4.3,
+       "reviews": 1615,
+       "url": "https://www.google.com/travel/hotels/Miami%20Beach%2C%20FL?q=Miami+Beach%2C+FL+hotels&dates=2027-09-01,2027-09-08",
+       "src": "trvl"
+      },
+      {
+       "name": "Hotel Croydon Miami Beach",
+       "total": 532,
+       "rating": 4.5,
+       "reviews": 4241,
+       "url": "https://www.google.com/travel/hotels/Miami%20Beach%2C%20FL?q=Miami+Beach%2C+FL+hotels&dates=2027-09-01,2027-09-08",
+       "src": "trvl"
+      }
+     ],
+     "car": {}
     },
     {
      "month": "2027-10",
@@ -507,22 +1680,49 @@
     {
      "month": "2026-11",
      "flight": {
-      "date": "2026-11-13",
-      "return": "2026-11-20",
-      "price": 730,
+      "date": "2026-11-14",
+      "return": "2026-11-21",
+      "price": 666,
       "sources": {
-       "viajante": 730
+       "trvl": 666,
+       "viajante": 666
       },
       "check": false,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20LAX%20on%202026-11-13%20through%202026-11-20"
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20LAX%20on%202026-11-14%20through%202026-11-21",
+      "seen": "2026-11-10T20:42+00:00"
      },
      "days": {
-      "2026-11-13": 730
+      "2026-11-13": 730,
+      "2026-11-14": 666,
+      "2026-11-15": 667,
+      "2026-11-16": 667,
+      "2026-11-17": 666,
+      "2026-11-18": 666,
+      "2026-11-19": 666,
+      "2026-11-20": 666,
+      "2026-11-21": 667,
+      "2026-11-22": 667,
+      "2026-11-23": 678,
+      "2026-11-24": 667,
+      "2026-11-25": 666,
+      "2026-11-26": 666,
+      "2026-11-27": 666,
+      "2026-11-28": 667,
+      "2026-11-29": 676,
+      "2026-11-30": 721
      },
      "hotels": [
       {
+       "name": "Candlewood Suites Anaheim - Resort Area by IHG",
+       "total": 651,
+       "rating": 4.2,
+       "reviews": 1257,
+       "url": "https://www.google.com/travel/hotels/Anaheim%2C%20CA?q=Anaheim%2C+CA+hotels&dates=2026-11-14,2026-11-21",
+       "src": "trvl"
+      },
+      {
        "name": "Queens Inn Anaheim",
-       "total": 713,
+       "total": 665,
        "rating": 4.0,
        "reviews": 460,
        "url": "https://www.agoda.com/anaheim-express-inn_2/hotel/los-angeles-ca-us.html",
@@ -530,18 +1730,10 @@
       },
       {
        "name": "Motel 6 Anaheim, CA - Maingate",
-       "total": 803,
+       "total": 783,
        "rating": 4.0,
        "reviews": 390,
        "url": "https://www.agoda.com/motel-6-anaheim-maingate/hotel/los-angeles-ca-us.html",
-       "src": "trvl"
-      },
-      {
-       "name": "Stanford Inn & Suites Anaheim",
-       "total": 877,
-       "rating": 4.2,
-       "reviews": 130,
-       "url": "https://www.agoda.com/stanford-inn-suites-anaheim_3/hotel/los-angeles-ca-us.html",
        "src": "trvl"
       }
      ],
@@ -550,55 +1742,223 @@
     {
      "month": "2026-12",
      "flight": {
-      "date": "2026-12-01",
-      "return": "2026-12-08",
-      "price": 667,
+      "date": "2026-12-21",
+      "return": "2026-12-28",
+      "price": 600,
       "sources": {
-       "viajante": 667
+       "trvl": 600,
+       "viajante": 600
       },
       "check": false,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20LAX%20on%202026-12-01%20through%202026-12-08"
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20LAX%20on%202026-12-21%20through%202026-12-28",
+      "seen": "2026-11-10T20:42+00:00"
      },
      "days": {
-      "2026-12-01": 667
+      "2026-12-01": 667,
+      "2026-12-02": 668,
+      "2026-12-03": 668,
+      "2026-12-04": 733,
+      "2026-12-05": 706,
+      "2026-12-06": 737,
+      "2026-12-07": 750,
+      "2026-12-08": 777,
+      "2026-12-09": 830,
+      "2026-12-10": 808,
+      "2026-12-11": 924,
+      "2026-12-12": 952,
+      "2026-12-13": 820,
+      "2026-12-14": 820,
+      "2026-12-15": 822,
+      "2026-12-16": 709,
+      "2026-12-17": 674,
+      "2026-12-18": 691,
+      "2026-12-19": 751,
+      "2026-12-20": 679,
+      "2026-12-21": 600,
+      "2026-12-22": 666,
+      "2026-12-23": 640,
+      "2026-12-24": 667,
+      "2026-12-25": 637,
+      "2026-12-26": 777,
+      "2026-12-27": 734,
+      "2026-12-28": 732,
+      "2026-12-29": 671,
+      "2026-12-30": 703,
+      "2026-12-31": 668
      },
      "hotels": [
       {
+       "name": "Fairfield Inn Anaheim Hills Orange County",
+       "total": 735,
+       "rating": 4.0,
+       "reviews": 1089,
+       "url": "https://www.google.com/travel/hotels/Anaheim%2C%20CA?q=Anaheim%2C+CA+hotels&dates=2026-12-21,2026-12-28",
+       "src": "trvl"
+      },
+      {
        "name": "Queens Inn Anaheim",
-       "total": 897,
+       "total": 821,
        "rating": 4.0,
        "reviews": 460,
        "url": "https://www.agoda.com/anaheim-express-inn_2/hotel/los-angeles-ca-us.html",
        "src": "trvl"
       },
       {
-       "name": "Sonesta Anaheim Resort Area",
-       "total": 1020,
-       "rating": 4.1,
-       "reviews": 365,
-       "url": "https://www.agoda.com/holiday-inn-h27904960/hotel/los-angeles-ca-us.html",
-       "src": "trvl"
-      },
-      {
        "name": "Residence Inn by Marriott Anaheim Hills Yorba Linda",
-       "total": 1077,
+       "total": 855,
        "rating": 4.1,
        "reviews": 641,
-       "url": "https://www.google.com/travel/hotels/entity/ChgIi8eN0Jznz8iLARoLL2cvMXR5Y3d6MHEQAQ?q=Anaheim%2C+CA+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjqDxAMGAESBwjqDxAMGAgYBzICEAAqCwoHOgNVU0QgARoA",
-       "src": "viajante"
+       "url": "https://www.agoda.com/residence-inn-anaheim-hills-yorba-linda_3/hotel/los-angeles-ca-us.html",
+       "src": "trvl"
       }
      ],
      "car": {}
     },
     {
      "month": "2027-01",
-     "flight": null,
-     "days": {}
+     "flight": {
+      "date": "2027-01-27",
+      "return": "2027-02-03",
+      "price": 591,
+      "sources": {
+       "trvl": 591,
+       "viajante": 591
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20LAX%20on%202027-01-27%20through%202027-02-03",
+      "seen": "2026-11-10T20:42+00:00"
+     },
+     "days": {
+      "2027-01-01": 813,
+      "2027-01-02": 924,
+      "2027-01-03": 1045,
+      "2027-01-04": 978,
+      "2027-01-05": 679,
+      "2027-01-06": 668,
+      "2027-01-07": 833,
+      "2027-01-08": 794,
+      "2027-01-09": 694,
+      "2027-01-10": 694,
+      "2027-01-11": 679,
+      "2027-01-12": 655,
+      "2027-01-13": 648,
+      "2027-01-14": 655,
+      "2027-01-15": 633,
+      "2027-01-16": 667,
+      "2027-01-17": 666,
+      "2027-01-18": 667,
+      "2027-01-19": 650,
+      "2027-01-20": 628,
+      "2027-01-21": 614,
+      "2027-01-22": 626,
+      "2027-01-23": 643,
+      "2027-01-24": 674,
+      "2027-01-25": 633,
+      "2027-01-26": 628,
+      "2027-01-27": 591,
+      "2027-01-28": 612,
+      "2027-01-29": 612,
+      "2027-01-30": 633,
+      "2027-01-31": 612
+     },
+     "hotels": [
+      {
+       "name": "Beach Side Inn Anaheim",
+       "total": 406,
+       "rating": 5.0,
+       "reviews": 390,
+       "url": "https://www.google.com/travel/hotels/Anaheim%2C%20CA?q=Anaheim%2C+CA+hotels&dates=2027-01-27,2027-02-03",
+       "src": "trvl"
+      },
+      {
+       "name": "Super 8 By Wyndham Cypress Buena Park Area",
+       "total": 781,
+       "rating": 4.2,
+       "reviews": 191,
+       "url": "https://www.agoda.com/super-8-by-wyndham-cypress-buena-park-area/hotel/los-angeles-ca-us.html",
+       "src": "trvl"
+      },
+      {
+       "name": "Solara Inn and Suites",
+       "total": 856,
+       "rating": 4.2,
+       "reviews": 492,
+       "url": "https://www.agoda.com/ramada-by-wyndham-anaheim-maingate-north/hotel/los-angeles-ca-us.html",
+       "src": "trvl"
+      }
+     ],
+     "car": {}
     },
     {
      "month": "2027-02",
-     "flight": null,
-     "days": {}
+     "flight": {
+      "date": "2027-02-23",
+      "return": "2027-03-02",
+      "price": 591,
+      "sources": {
+       "trvl": 591
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20LAX%20on%202027-02-23%20through%202027-03-02",
+      "seen": "2026-11-10T20:42+00:00"
+     },
+     "days": {
+      "2027-02-01": 635,
+      "2027-02-02": 614,
+      "2027-02-03": 614,
+      "2027-02-04": 614,
+      "2027-02-05": 666,
+      "2027-02-06": 642,
+      "2027-02-07": 653,
+      "2027-02-08": 654,
+      "2027-02-09": 643,
+      "2027-02-10": 595,
+      "2027-02-11": 619,
+      "2027-02-12": 616,
+      "2027-02-13": 633,
+      "2027-02-14": 651,
+      "2027-02-15": 653,
+      "2027-02-16": 620,
+      "2027-02-17": 620,
+      "2027-02-18": 643,
+      "2027-02-19": 637,
+      "2027-02-20": 643,
+      "2027-02-21": 620,
+      "2027-02-22": 616,
+      "2027-02-23": 591,
+      "2027-02-24": 591,
+      "2027-02-25": 612,
+      "2027-02-26": 619,
+      "2027-02-27": 635,
+      "2027-02-28": 643
+     },
+     "hotels": [
+      {
+       "name": "Solara Inn and Suites",
+       "total": 841,
+       "rating": 4.2,
+       "reviews": 492,
+       "url": "https://www.agoda.com/ramada-by-wyndham-anaheim-maingate-north/hotel/los-angeles-ca-us.html",
+       "src": "trvl"
+      },
+      {
+       "name": "Anaheim Astoria Inn & Suites",
+       "total": 843,
+       "rating": 4.2,
+       "reviews": 140,
+       "url": "https://www.agoda.com/anaheim-astoria-inn-suites/hotel/all/los-angeles-ca-us.html",
+       "src": "trvl"
+      },
+      {
+       "name": "Queens Inn Anaheim",
+       "total": 929,
+       "rating": 4.0,
+       "reviews": 460,
+       "url": "https://www.agoda.com/anaheim-express-inn_2/hotel/los-angeles-ca-us.html",
+       "src": "trvl"
+      }
+     ],
+     "car": {}
     },
     {
      "month": "2027-03",
