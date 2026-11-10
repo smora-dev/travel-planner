@@ -1,0 +1,37 @@
+name: Buscar precios
+
+on:
+  schedule:
+    - cron: "0 8 * * *"   # 2:00 a.m. Costa Rica
+  workflow_dispatch:      # botón "Run workflow" para correrlo a mano
+
+permissions:
+  contents: write
+
+concurrency: collect
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - uses: actions/setup-go@v5
+        with: { go-version: stable, cache: false }
+      - name: Instalar fuentes (viajante, fli, trvl)
+        run: |
+          pip install -q viajante flights
+          go install github.com/MikkoParkkola/trvl/cmd/trvl@latest
+          echo "$(go env GOPATH)/bin" >> $GITHUB_PATH
+      - run: python test_collector.py
+      - name: Buscar precios
+        run: python collector.py
+      - name: Guardar resultados
+        run: |
+          git config user.name "travel-agent"
+          git config user.email "travel-agent@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "Precios $(date -u +%F)"
+          git push

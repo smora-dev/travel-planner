@@ -1,0 +1,39 @@
+{
+  "origin": "SJO",
+  "currency": "USD",
+  "nights": 7,
+  "months_ahead": 12,
+  "min_hotel_rating": 4.0,
+  "destinations": [
+    {
+      "id": "orlando",
+      "name": "Orlando",
+      "airport": "MCO",
+      "hotel_city": "Orlando, FL",
+      "car": true,
+      "parks": [
+        {"name": "Disney World (1 día, 1 parque)", "min": 119, "max": 229, "url": "https://disneyworld.disney.go.com/admission/tickets/"},
+        {"name": "Universal Orlando (1 día, 1 parque)", "min": 119, "max": 199, "url": "https://www.universalorlando.com/web/en/us/tickets-packages"}
+      ]
+    },
+    {
+      "id": "miami",
+      "name": "Miami",
+      "airport": "MIA",
+      "hotel_city": "Miami Beach, FL",
+      "car": true,
+      "parks": []
+    },
+    {
+      "id": "california",
+      "name": "Los Ángeles",
+      "airport": "LAX",
+      "hotel_city": "Anaheim, CA",
+      "car": true,
+      "parks": [
+        {"name": "Disneyland (1 día, 1 parque)", "min": 104, "max": 206, "url": "https://disneyland.disney.go.com/tickets/"},
+        {"name": "Universal Hollywood (1 día)", "min": 109, "max": 189, "url": "https://www.universalstudioshollywood.com/web/en/us/tickets-packages"}
+      ]
+    }
+  ]
+}

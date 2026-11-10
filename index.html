@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Planner de viajes</title>
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --ink:#1a1d23; --mute:#667085; --line:#e4e7ec; --brand:#0b6bcb;
+          --g:#d7f2e1; --g2:#0f7a3d; --y:#fdf1d3; --y2:#8a5a00; --r:#fde2e1; --r2:#b42318; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; background:var(--bg); color:var(--ink); }
+  header { padding:20px 20px 8px; max-width:1100px; margin:auto; }
+  h1 { margin:0 0 4px; font-size:22px; }
+  .sub { color:var(--mute); font-size:13px; }
+  main { max-width:1100px; margin:auto; padding:0 20px 40px; }
+  .banner { background:var(--y); color:var(--y2); padding:10px 14px; border-radius:10px; margin:12px 0; font-size:14px; }
+  .controls { display:flex; flex-wrap:wrap; gap:10px 18px; align-items:center; background:var(--card); border:1px solid var(--line);
+              border-radius:12px; padding:12px 14px; margin:12px 0; }
+  .tabs { display:flex; gap:6px; flex-wrap:wrap; }
+  .tabs button { border:1px solid var(--line); background:#fff; padding:7px 14px; border-radius:999px; cursor:pointer; font:inherit; }
+  .tabs button[aria-pressed="true"] { background:var(--brand); color:#fff; border-color:var(--brand); }
+  label { display:flex; gap:6px; align-items:center; font-size:14px; }
+  select, input[type=number] { font:inherit; padding:5px 8px; border:1px solid var(--line); border-radius:8px; }
+  input[type=number] { width:56px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(160px,1fr)); gap:10px; }
+  .m { border:1px solid var(--line); border-radius:12px; padding:12px; cursor:pointer; background:var(--card); text-align:left; font:inherit; color:inherit; }
+  .m:focus-visible, .tabs button:focus-visible { outline:3px solid var(--brand); outline-offset:2px; }
+  .m.sel { outline:3px solid var(--brand); }
+  .m .mn { font-weight:600; }
+  .m .pp { font-size:22px; font-weight:700; margin:4px 0 2px; }
+  .m .d { font-size:12px; color:var(--mute); }
+  .lv { font-size:11px; font-weight:600; padding:2px 8px; border-radius:999px; display:inline-block; margin-top:6px; }
+  .c0 { background:var(--g); } .c0 .lv { background:var(--g2); color:#fff; }
+  .c1 { background:var(--y); } .c1 .lv { background:var(--y2); color:#fff; }
+  .c2 { background:var(--r); } .c2 .lv { background:var(--r2); color:#fff; }
+  .na { opacity:.55; cursor:default; }
+  .detail { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px; margin-top:14px; }
+  .detail h2 { margin:0 0 4px; font-size:18px; }
+  .rows { display:grid; grid-template-columns:1fr auto; gap:6px 16px; margin:12px 0; }
+  .rows .t { font-weight:700; border-top:1px solid var(--line); padding-top:8px; }
+  .cols { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:14px; }
+  .box { border:1px solid var(--line); border-radius:10px; padding:12px; }
+  .box h3 { margin:0 0 8px; font-size:15px; }
+  .muted { color:var(--mute); font-size:13px; }
+  a { color:var(--brand); }
+  .cal { display:grid; grid-template-columns:repeat(7,1fr); gap:3px; font-size:11px; text-align:center; }
+  .cal div { padding:5px 0; border-radius:6px; }
+  .cal .h { color:var(--mute); font-weight:600; }
+  .warn { color:var(--y2); font-weight:600; }
+  .best { border:2px solid var(--g2); }
+</style>
+</head>
+<body>
+<header>
+  <h1>✈️ Planner de viajes</h1>
+  <div class="sub" id="sub">Cargando…</div>
+</header>
+<main>
+  <div id="banner"></div>
+  <div class="controls">
+    <div class="tabs" id="tabs" role="group" aria-label="Destino"></div>
+    <label>Personas <select id="people"></select></label>
+    <label><input type="checkbox" id="car" checked> Carro</label>
+    <label><input type="checkbox" id="parks" checked> Parques <input type="number" id="parkDays" min="0" max="10" value="2" aria-label="Días de parque"> días</label>
+  </div>
+  <p class="muted">Costo total por persona: vuelo ida y vuelta + hotel <span id="nights"></span> noches + carro + parques. Verde = de los meses más baratos.</p>
+  <div class="grid" id="grid"></div>
+  <div id="detail"></div>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+const money = n => '$' + Math.round(n).toLocaleString('en-US');
+const MES = d => { const s = new Date(d + '-15T12:00').toLocaleDateString('es-CR', { month: 'long', year: 'numeric' }); return s[0].toUpperCase() + s.slice(1); };
+const DIA = d => new Date(d + 'T12:00').toLocaleDateString('es-CR', { weekday: 'short', day: 'numeric', month: 'short' });
+let DATA, dest, selMonth;
+
+for (let i = 1; i <= 9; i++) $('people').add(new Option(i, i, false, i === 4));
+
+function cost(m) {
+  if (!m.flight) return null;
+  const p = +$('people').value, rooms = Math.ceil(p / 4);
+  const hotel = m.hotels?.[0];
+  const carOpt = $('car').checked && dest.car ? (p <= 5 ? m.car?.small : m.car?.van) : null;
+  const parkPP = $('parks').checked ? dest.parks.reduce((s, k) => s + (k.min + k.max) / 2, 0) * +$('parkDays').value : 0;
+  const parts = {
+    flight: m.flight.price * p,
+    hotel: hotel ? hotel.total * rooms : 0,
+    car: carOpt ? carOpt.price : 0,
+    parks: parkPP * p,
+  };
+  const total = Object.values(parts).reduce((a, b) => a + b, 0);
+  return { parts, total, pp: total / p, p, rooms, hotel, carOpt, parkPP };
+}
+
+function renderTabs() {
+  $('tabs').innerHTML = '';
+  DATA.destinations.forEach(d => {
+    const b = document.createElement('button');
+    b.textContent = d.name; b.setAttribute('aria-pressed', d === dest);
+    b.onclick = () => { dest = d; selMonth = null; render(); };
+    $('tabs').append(b);
+  });
+}
+
+function render() {
+  renderTabs();
+  const ms = dest.months.map(m => ({ m, c: cost(m) }));
+  const pps = ms.filter(x => x.c).map(x => x.c.pp).sort((a, b) => a - b);
+  const t1 = pps[Math.floor(pps.length / 3)], t2 = pps[Math.floor(2 * pps.length / 3)];
+  const best = ms.filter(x => x.c).reduce((a, b) => (!a || b.c.pp < a.c.pp ? b : a), null);
+  if (!selMonth && best) selMonth = best.m.month;
+  $('grid').innerHTML = '';
+  ms.forEach(({ m, c }) => {
+    const b = document.createElement('button');
+    if (!c) {
+      b.className = 'm na'; b.disabled = true;
+      b.innerHTML = `<div class="mn">${MES(m.month)}</div><div class="d">Sin precios aún</div>`;
+    } else {
+      const lvl = c.pp <= t1 ? 0 : c.pp <= t2 ? 1 : 2;
+      b.className = `m c${lvl}` + (m.month === selMonth ? ' sel' : '') + (m === best.m ? ' best' : '');
+      b.innerHTML = `<div class="mn">${MES(m.month)}</div><div class="pp">${money(c.pp)}</div>
+        <div class="d">por persona · sale ${DIA(m.flight.date)}</div>
+        <span class="lv">${m === best.m ? '★ Mejor mes' : ['Barato', 'Medio', 'Caro'][lvl]}</span>`;
+      b.onclick = () => { selMonth = m.month; render(); };
+    }
+    $('grid').append(b);
+  });
+  renderDetail(dest.months.find(m => m.month === selMonth));
+}
+
+function renderDetail(m) {
+  if (!m || !m.flight) { $('detail').innerHTML = ''; return; }
+  const c = cost(m), f = m.flight;
+  const srcs = Object.entries(f.sources).map(([k, v]) => `${k}: ${money(v)}`).join(' · ');
+  const hotels = (m.hotels || []).map((h, i) => `<div style="margin-bottom:8px">${i === 0 ? '⭐ ' : ''}<a href="${h.url || '#'}" target="_blank" rel="noopener">${h.name}</a><br>
+    <span class="muted">${money(h.total)} el cuarto (${DATA.nights} noches) · ${h.rating ?? '?'}★ · ${h.reviews ? h.reviews.toLocaleString() + ' reseñas' : ''} · ${h.src}</span></div>`).join('') || '<span class="muted">Sin hoteles con buena reseña encontrados</span>';
+  const car = c.carOpt ? `<a href="${c.carOpt.url || '#'}" target="_blank" rel="noopener">${c.carOpt.name || 'Carro'}</a> · ${c.carOpt.provider || ''}<br><span class="muted">${money(c.carOpt.price)} por ${DATA.nights} días (${c.p <= 5 ? 'hasta 5 personas' : 'van hasta 9'})</span>`
+    : `<span class="muted">${$('car').checked ? 'Sin precio de carro' : 'No incluido'}</span>`;
+  const parks = dest.parks.length && $('parks').checked
+    ? dest.parks.map(k => `<div><a href="${k.url}" target="_blank" rel="noopener">${k.name}</a><br><span class="muted">${money(k.min)}–${money(k.max)} por día según la fecha (estimado al medio)</span></div>`).join('')
+    : '<span class="muted">No incluido</span>';
+  // calendario del mes: precio de vuelo por día
+  const first = new Date(m.month + '-01T12:00'), dim = new Date(first.getFullYear(), first.getMonth() + 1, 0).getDate();
+  const vals = Object.values(m.days || {}); const lo = Math.min(...vals), hi = Math.max(...vals);
+  let cal = ['D', 'L', 'K', 'M', 'J', 'V', 'S'].map(x => `<div class="h">${x}</div>`).join('') + '<div></div>'.repeat(first.getDay());
+  for (let d = 1; d <= dim; d++) {
+    const k = `${m.month}-${String(d).padStart(2, '0')}`, v = m.days?.[k];
+    const lvl = v == null ? '' : `c${v <= lo + (hi - lo) / 3 ? 0 : v <= lo + 2 * (hi - lo) / 3 ? 1 : 2}`;
+    cal += `<div class="${lvl}" title="${k}">${d}<br>${v ? '$' + v : '–'}</div>`;
+  }
+  $('detail').innerHTML = `<div class="detail">
+    <h2>${dest.name} · ${MES(m.month)}</h2>
+    <div class="muted">${c.p} personas · ${c.rooms} cuarto(s) · ${DIA(f.date)} → ${DIA(f.return)}</div>
+    <div class="rows">
+      <div>✈️ Vuelos (${money(f.price)} c/u)</div><div>${money(c.parts.flight)}</div>
+      <div>🏨 Hotel (${c.rooms} cuarto${c.rooms > 1 ? 's' : ''})</div><div>${money(c.parts.hotel)}</div>
+      <div>🚗 Carro</div><div>${money(c.parts.car)}</div>
+      <div>🎢 Parques</div><div>${money(c.parts.parks)}</div>
+      <div class="t">Total grupo</div><div class="t">${money(c.total)}</div>
+      <div class="t">Por persona</div><div class="t">${money(c.pp)}</div>
+    </div>
+    <div class="cols">
+      <div class="box"><h3>✈️ Vuelo SJO → ${dest.airport}</h3>
+        <a href="${f.url}" target="_blank" rel="noopener">Ver en Google Flights</a><br>
+        <span class="muted">Fuentes: ${srcs}</span>
+        ${f.check ? '<div class="warn">⚠️ Las fuentes no coinciden (>10%). Confirmá el precio antes de comprar.</div>' : ''}
+        <h3 style="margin-top:12px">Precio por día (ida y vuelta, ${DATA.nights} noches)</h3><div class="cal">${cal}</div></div>
+      <div class="box"><h3>🏨 Hoteles (mejor calidad-precio, 4★+)</h3>${hotels}</div>
+      <div class="box"><h3>🚗 Carro</h3>${car}<h3 style="margin-top:12px">🎢 Parques</h3>${parks}</div>
+    </div></div>`;
+}
+
+['people', 'car', 'parks', 'parkDays'].forEach(id => $(id).addEventListener('input', render));
+
+fetch('data/latest.json?' + Date.now()).then(r => r.json()).then(d => {
+  DATA = d; dest = d.destinations[0];
+  $('nights').textContent = d.nights;
+  $('sub').textContent = `Desde ${d.origin} · precios en ${d.currency} · actualizado ${new Date(d.updated_at).toLocaleString('es-CR')}`;
+  if (d.demo) $('banner').innerHTML = '<div class="banner">⚠️ Datos de ejemplo. Se reemplazan solos con precios reales en la primera búsqueda del agente.</div>';
+  render();
+}).catch(() => $('sub').textContent = 'No se pudieron cargar los datos.');
+</script>
+</body>
+</html>
