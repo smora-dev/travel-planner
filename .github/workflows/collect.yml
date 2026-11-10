@@ -11,9 +11,14 @@ permissions:
 concurrency: collect
 
 jobs:
+  # Un destino por máquina: cada una tiene otra IP, así Google no bloquea tan rápido.
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 300
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        dest: [orlando, miami, california]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -25,13 +30,33 @@ jobs:
           pip install -q viajante flights
           go install github.com/MikkoParkkola/trvl/cmd/trvl@latest
           echo "$(go env GOPATH)/bin" >> $GITHUB_PATH
-      - run: python test_collector.py
-      - name: Buscar precios
-        run: python collector.py
+      - run: PAUSE=0 python test_collector.py
+      - name: Buscar precios ${{ matrix.dest }}
+        run: python collector.py ${{ matrix.dest }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: part-${{ matrix.dest }}
+          path: data/parts/
+
+  merge:
+    needs: collect
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: part-*
+          path: data/parts/
+          merge-multiple: true
+      - name: Unir resultados
+        run: python collector.py --merge
       - name: Guardar resultados
         run: |
           git config user.name "travel-agent"
           git config user.email "travel-agent@users.noreply.github.com"
-          git add data/
+          git add data/latest.json data/history.csv
           git diff --cached --quiet || git commit -m "Precios $(date -u +%F)"
           git push

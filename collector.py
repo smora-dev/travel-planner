@@ -3,7 +3,7 @@
 Corre en GitHub Actions (necesita internet abierto a Google). Cada fuente puede fallar
 sola; el resultado usa las que respondan y marca cuando no coinciden.
 """
-import calendar, csv, json, math, os, subprocess, sys, tempfile
+import calendar, csv, glob, json, os, subprocess, sys, tempfile, time
 from datetime import date, datetime, timedelta, timezone
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -18,20 +18,27 @@ def log(*a):
     print(*a, file=sys.stderr, flush=True)
 
 
+PAUSE = float(os.environ.get("PAUSE", "6"))  # segundos entre consultas: evita que Google bloquee
+
+
 def run_json(cmd, save_flag=None, timeout=240):
     """Corre un CLI y devuelve su JSON (por stdout o por --save). None si falla."""
+    time.sleep(PAUSE)
+    p = None
     try:
         if save_flag:
             with tempfile.NamedTemporaryFile(suffix=".json", delete=False) as f:
                 path = f.name
-            subprocess.run(cmd + [save_flag, path], capture_output=True, text=True, timeout=timeout)
+            p = subprocess.run(cmd + [save_flag, path], capture_output=True, text=True, timeout=timeout)
             with open(path) as f:
                 return json.load(f)
-        out = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout).stdout
+        p = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout)
+        out = p.stdout
         starts = [i for i in (out.find("{"), out.find("[")) if i >= 0]
         return json.loads(out[min(starts):]) if starts else None
     except Exception as e:
-        log("  fallo", cmd[0], type(e).__name__, str(e)[:120])
+        err = (p.stderr if p else "")[-300:].replace("\n", " ")
+        log("  fallo", cmd[:2], type(e).__name__, str(e)[:120], err)
         return None
 
 
@@ -77,13 +84,19 @@ def day_prices(data):
 def flights_month(airport, start, end):
     s, e = start.isoformat(), end.isoformat()
     src = {
-        "viajante": day_prices(run_json(["viajante", "dates", f"{ORIGIN}-{airport}", "--from", s, "--to", e,
-                                         "--nights", str(NIGHTS), "--currency", CUR, "--max-stops", "1"], "--save")),
-        "fli": day_prices(run_json(["fli", "dates", ORIGIN, airport, "--from", s, "--to", e, "--round",
-                                    "--duration", str(NIGHTS), "--currency", CUR, "--format", "json"])),
         "trvl": day_prices(run_json(["trvl", "dates", ORIGIN, airport, "--from", s, "--to", e, "--round-trip",
                                      "--duration", str(NIGHTS), "--currency", CUR, "--format", "json"])),
+        "fli": day_prices(run_json(["fli", "dates", ORIGIN, airport, "--from", s, "--to", e, "--round",
+                                    "--duration", str(NIGHTS), "--currency", CUR, "--format", "json"])),
     }
+    cal = {}
+    for prices in src.values():
+        for ds, p in prices.items():
+            cal[ds] = min(p, cal.get(ds, p))
+    # viajante: verifica el mejor día del calendario (o barre el mes si ninguna fuente respondió)
+    vfrom, vto = (min(cal, key=cal.get),) * 2 if cal else (s, e)
+    src["viajante"] = day_prices(run_json(["viajante", "dates", f"{ORIGIN}-{airport}", "--from", vfrom, "--to", vto,
+                                           "--nights", str(NIGHTS), "--currency", CUR, "--max-stops", "1"], "--save"))
     days = {}
     for name, prices in src.items():
         for ds, p in prices.items():
@@ -162,11 +175,12 @@ def months_ahead(n):
         y, m = (y + 1, 1) if m == 12 else (y, m + 1)
 
 
-def main():
-    only = sys.argv[1:]  # opcional: python collector.py orlando
-    out = {"updated_at": datetime.now(timezone.utc).isoformat(timespec="minutes"), "demo": False,
-           "currency": CUR, "nights": NIGHTS, "origin": ORIGIN, "destinations": []}
-    hist_rows = []
+DATA = os.path.join(ROOT, "data")
+
+
+def collect(only):
+    """python collector.py orlando -> data/parts/orlando.json"""
+    now = datetime.now(timezone.utc).isoformat(timespec="minutes")
     for dest in CFG["destinations"]:
         if only and dest["id"] not in only:
             continue
@@ -180,26 +194,67 @@ def main():
                  "days": {ds: round(min(v.values())) for ds, v in days.items()}}
             if fl:
                 fl["url"] = fl["url"].replace("{AIRPORT}", dest["airport"])
+                fl["seen"] = now
                 m["hotels"] = hotels(dest["hotel_city"], fl["date"], fl["return"])
                 if dest.get("car"):
                     m["car"] = cars(dest["airport"], fl["date"], fl["return"])
-                hist_rows.append([out["updated_at"][:10], dest["id"], m["month"], fl["date"], fl["price"],
-                                  m["hotels"][0]["total"] if m["hotels"] else ""])
+            months.append(m)
+        os.makedirs(os.path.join(DATA, "parts"), exist_ok=True)
+        json.dump({**dest, "months": months}, open(os.path.join(DATA, "parts", dest["id"] + ".json"), "w"),
+                  ensure_ascii=False)
+
+
+def merge():
+    """Une data/parts/*.json en latest.json. Si un mes falló hoy, conserva el último precio bueno."""
+    now = datetime.now(timezone.utc).isoformat(timespec="minutes")
+    try:
+        old = {d["id"]: {m["month"]: m for m in d["months"]} for d in json.load(open(os.path.join(DATA, "latest.json")))["destinations"]}
+        if json.load(open(os.path.join(DATA, "latest.json"))).get("demo"):
+            old = {}
+    except (OSError, ValueError, KeyError):
+        old = {}
+    parts = {}
+    for p in glob.glob(os.path.join(DATA, "parts", "*.json")):
+        d = json.load(open(p))
+        parts[d["id"]] = d
+    out = {"updated_at": now, "demo": False, "currency": CUR, "nights": NIGHTS, "origin": ORIGIN, "destinations": []}
+    hist_rows, fresh = [], 0
+    for dest in CFG["destinations"]:
+        new = {m["month"]: m for m in parts.get(dest["id"], {}).get("months", [])}
+        months = []
+        for start, _ in months_ahead(CFG["months_ahead"]):
+            k = start.strftime("%Y-%m")
+            m = new.get(k)
+            if m and m.get("flight"):
+                fresh += 1
+                f = m["flight"]
+                hist_rows.append([now[:10], dest["id"], k, f["date"], f["price"],
+                                  m["hotels"][0]["total"] if m.get("hotels") else ""])
+            elif old.get(dest["id"], {}).get(k, {}).get("flight") and old[dest["id"]][k]["flight"]["date"] >= now[:10]:
+                m = old[dest["id"]][k]  # precio anterior; el dashboard muestra de cuándo es (flight.seen)
+            else:
+                m = m or {"month": k, "flight": None, "days": {}}
             months.append(m)
         out["destinations"].append({**dest, "months": months})
-
-    os.makedirs(os.path.join(ROOT, "data"), exist_ok=True)
-    if not any(m["flight"] for d in out["destinations"] for m in d["months"]):
-        log("Ninguna fuente devolvió precios; no se sobreescribe latest.json")
+    log(f"merge: {fresh} meses con precio nuevo")
+    if not fresh:
+        log("Ninguna fuente devolvió precios; no se toca latest.json")
         sys.exit(1)
-    json.dump(out, open(os.path.join(ROOT, "data", "latest.json"), "w"), ensure_ascii=False, indent=1)
-    hist = os.path.join(ROOT, "data", "history.csv")
-    new = not os.path.exists(hist)
+    json.dump(out, open(os.path.join(DATA, "latest.json"), "w"), ensure_ascii=False, indent=1)
+    hist = os.path.join(DATA, "history.csv")
+    first = not os.path.exists(hist)
     with open(hist, "a", newline="") as f:
         w = csv.writer(f)
-        if new:
+        if first:
             w.writerow(["run_date", "dest", "month", "best_date", "flight_pp", "hotel_total"])
         w.writerows(hist_rows)
+
+
+def main():
+    if sys.argv[1:] == ["--merge"]:
+        merge()
+    else:
+        collect(sys.argv[1:])
 
 
 if __name__ == "__main__":

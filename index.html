@@ -162,6 +162,7 @@ function renderDetail(m) {
     <div class="cols">
       <div class="box"><h3>✈️ Vuelo SJO → ${dest.airport}</h3>
         <a href="${f.url}" target="_blank" rel="noopener">Ver en Google Flights</a><br>
+        ${f.seen && f.seen.slice(0, 10) < DATA.updated_at.slice(0, 10) ? `<div class="warn">Precio del ${f.seen.slice(0, 10)} (hoy no se pudo actualizar)</div>` : ''}
         <span class="muted">Fuentes: ${srcs}</span>
         ${f.check ? '<div class="warn">⚠️ Las fuentes no coinciden (>10%). Confirmá el precio antes de comprar.</div>' : ''}
         <h3 style="margin-top:12px">Precio por día (ida y vuelta, ${DATA.nights} noches)</h3><div class="cal">${cal}</div></div>
