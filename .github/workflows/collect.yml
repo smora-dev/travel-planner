@@ -11,14 +11,25 @@ permissions:
 concurrency: collect
 
 jobs:
+  # La lista de destinos sale de config.json: agregar uno ahí basta.
+  setup:
+    runs-on: ubuntu-latest
+    outputs:
+      dests: ${{ steps.d.outputs.dests }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: d
+        run: echo "dests=$(jq -c '[.destinations[].id]' config.json)" >> $GITHUB_OUTPUT
+
   # Un destino por máquina: cada una tiene otra IP, así Google no bloquea tan rápido.
   collect:
+    needs: setup
     runs-on: ubuntu-latest
     timeout-minutes: 120
     strategy:
       fail-fast: false
       matrix:
-        dest: [orlando, miami, california]
+        dest: ${{ fromJson(needs.setup.outputs.dests) }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

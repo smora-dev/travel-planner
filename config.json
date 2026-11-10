@@ -12,8 +12,18 @@
       "hotel_city": "Orlando, FL",
       "car": true,
       "parks": [
-        {"name": "Disney World (1 día, 1 parque)", "min": 119, "max": 229, "url": "https://disneyworld.disney.go.com/admission/tickets/"},
-        {"name": "Universal Orlando (1 día, 1 parque)", "min": 119, "max": 199, "url": "https://www.universalorlando.com/web/en/us/tickets-packages"}
+        {
+          "name": "Disney World (1 día, 1 parque)",
+          "min": 119,
+          "max": 229,
+          "url": "https://disneyworld.disney.go.com/admission/tickets/"
+        },
+        {
+          "name": "Universal Orlando (1 día, 1 parque)",
+          "min": 119,
+          "max": 199,
+          "url": "https://www.universalorlando.com/web/en/us/tickets-packages"
+        }
       ]
     },
     {
@@ -31,9 +41,115 @@
       "hotel_city": "Anaheim, CA",
       "car": true,
       "parks": [
-        {"name": "Disneyland (1 día, 1 parque)", "min": 104, "max": 206, "url": "https://disneyland.disney.go.com/tickets/"},
-        {"name": "Universal Hollywood (1 día)", "min": 109, "max": 189, "url": "https://www.universalstudioshollywood.com/web/en/us/tickets-packages"}
+        {
+          "name": "Disneyland (1 día, 1 parque)",
+          "min": 104,
+          "max": 206,
+          "url": "https://disneyland.disney.go.com/tickets/"
+        },
+        {
+          "name": "Universal Hollywood (1 día)",
+          "min": 109,
+          "max": 189,
+          "url": "https://www.universalstudioshollywood.com/web/en/us/tickets-packages"
+        }
       ]
+    },
+    {
+      "id": "nueva-york",
+      "name": "Nueva York",
+      "airport": "JFK",
+      "hotel_city": "Manhattan, New York",
+      "car": false,
+      "parks": []
+    },
+    {
+      "id": "las-vegas",
+      "name": "Las Vegas",
+      "airport": "LAS",
+      "hotel_city": "Las Vegas Strip, NV",
+      "car": true,
+      "parks": []
+    },
+    {
+      "id": "cancun",
+      "name": "Cancún",
+      "airport": "CUN",
+      "hotel_city": "Cancún, Quintana Roo",
+      "car": true,
+      "parks": []
+    },
+    {
+      "id": "cdmx",
+      "name": "Ciudad de México",
+      "airport": "MEX",
+      "hotel_city": "Ciudad de México",
+      "car": false,
+      "parks": []
+    },
+    {
+      "id": "cartagena",
+      "name": "Cartagena",
+      "airport": "CTG",
+      "hotel_city": "Cartagena, Colombia",
+      "car": false,
+      "parks": []
+    },
+    {
+      "id": "panama",
+      "name": "Panamá",
+      "airport": "PTY",
+      "hotel_city": "Ciudad de Panamá",
+      "car": false,
+      "parks": []
+    },
+    {
+      "id": "lima",
+      "name": "Lima / Cusco",
+      "airport": "LIM",
+      "hotel_city": "Miraflores, Lima",
+      "car": false,
+      "parks": []
+    },
+    {
+      "id": "buenos-aires",
+      "name": "Buenos Aires",
+      "airport": "EZE",
+      "hotel_city": "Palermo, Buenos Aires",
+      "car": false,
+      "parks": []
+    },
+    {
+      "id": "madrid",
+      "name": "Madrid",
+      "airport": "MAD",
+      "hotel_city": "Madrid, España",
+      "car": false,
+      "parks": []
+    },
+    {
+      "id": "barcelona",
+      "name": "Barcelona",
+      "airport": "BCN",
+      "hotel_city": "Barcelona, España",
+      "car": false,
+      "parks": []
+    },
+    {
+      "id": "paris",
+      "name": "París",
+      "airport": "CDG",
+      "hotel_city": "París, Francia",
+      "car": false,
+      "parks": []
+    },
+    {
+      "id": "roma",
+      "name": "Roma",
+      "airport": "FCO",
+      "hotel_city": "Roma, Italia",
+      "car": false,
+      "parks": []
     }
   ]
 }
