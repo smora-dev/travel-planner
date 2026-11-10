@@ -35,6 +35,9 @@ def run_json(cmd, save_flag=None, timeout=240):
         p = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout)
         out = p.stdout
         starts = [i for i in (out.find("{"), out.find("[")) if i >= 0]
+        run_json.last = out[:400]
+        if not starts:
+            log("  vacío", cmd[:2], (p.stderr or out)[-300:].replace("\n", " "))
         return json.loads(out[min(starts):]) if starts else None
     except Exception as e:
         err = (p.stderr if p else "")[-300:].replace("\n", " ")
@@ -89,6 +92,13 @@ def flights_month(airport, start, end):
         "fli": day_prices(run_json(["fli", "dates", ORIGIN, airport, "--from", s, "--to", e, "--round",
                                     "--duration", str(NIGHTS), "--currency", CUR, "--format", "json"])),
     }
+    if not src["trvl"] and not src["fli"]:  # bloqueo temporal: espera y reintenta una vez
+        log("  sin datos, reintento en 90s")
+        time.sleep(90)
+        src["trvl"] = day_prices(run_json(["trvl", "dates", ORIGIN, airport, "--from", s, "--to", e, "--round-trip",
+                                           "--duration", str(NIGHTS), "--currency", CUR, "--format", "json"]))
+    if not src["fli"]:
+        log("  fli sin precios; muestra:", json.dumps(run_json.last)[:300] if hasattr(run_json, "last") else "")
     cal = {}
     for prices in src.values():
         for ds, p in prices.items():
