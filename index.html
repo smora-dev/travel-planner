@@ -80,7 +80,13 @@ function cost(m) {
   if (!m.flight) return null;
   const p = +$('people').value, rooms = Math.ceil(p / 4);
   const hotel = m.hotels?.[0];
-  const carOpt = $('car').checked && dest.car ? (p <= 5 ? m.car?.small : m.car?.van) : null;
+  let carOpt = null;
+  if ($('car').checked && dest.car && m.car) {
+    const { small, van } = m.car;
+    if (p <= (small?.seats || 5)) carOpt = small;
+    else if (van && p <= (van.seats || 7)) carOpt = van;
+    else if (small) carOpt = { ...small, price: small.price * Math.ceil(p / (small.seats || 5)), name: `${Math.ceil(p / (small.seats || 5))} × ${small.name}` };
+  }
   const parkPP = $('parks').checked ? dest.parks.reduce((s, k) => s + (k.min + k.max) / 2, 0) * +$('parkDays').value : 0;
   const parts = {
     flight: m.flight.price * p,
@@ -134,7 +140,7 @@ function renderDetail(m) {
   const srcs = Object.entries(f.sources).map(([k, v]) => `${k}: ${money(v)}`).join(' · ');
   const hotels = (m.hotels || []).map((h, i) => `<div style="margin-bottom:8px">${i === 0 ? '⭐ ' : ''}<a href="${h.url || '#'}" target="_blank" rel="noopener">${h.name}</a><br>
     <span class="muted">${money(h.total)} el cuarto (${DATA.nights} noches) · ${h.rating ?? '?'}★ · ${h.reviews ? h.reviews.toLocaleString() + ' reseñas' : ''} · ${h.src}</span></div>`).join('') || '<span class="muted">Sin hoteles con buena reseña encontrados</span>';
-  const car = c.carOpt ? `<a href="${c.carOpt.url || '#'}" target="_blank" rel="noopener">${c.carOpt.name || 'Carro'}</a> · ${c.carOpt.provider || ''}<br><span class="muted">${money(c.carOpt.price)} por ${DATA.nights} días (${c.p <= 5 ? 'hasta 5 personas' : 'van hasta 9'})</span>`
+  const car = c.carOpt ? `<a href="${c.carOpt.url || '#'}" target="_blank" rel="noopener">${c.carOpt.name || 'Carro'}</a> · ${c.carOpt.provider || ''}<br><span class="muted">${money(c.carOpt.price)} por ${DATA.nights} días · ${c.carOpt.seats ? 'hasta ' + c.carOpt.seats + ' personas c/u' : ''}${c.carOpt.free_cancel ? ' · cancelación gratis' : ''}</span>`
     : `<span class="muted">${$('car').checked ? 'Sin precio de carro' : 'No incluido'}</span>`;
   const parks = dest.parks.length && $('parks').checked
     ? dest.parks.map(k => `<div><a href="${k.url}" target="_blank" rel="noopener">${k.name}</a><br><span class="muted">${money(k.min)}–${money(k.max)} por día según la fecha (estimado al medio)</span></div>`).join('')

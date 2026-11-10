@@ -160,18 +160,67 @@ def hotels(city, checkin, checkout):
     return top[:3]
 
 
-# ---------- Carros ----------
+# ---------- Carros (OctoTrip MCP: gratis, sin key, varias rentadoras) ----------
+OCTO = "https://mcp.octotrip.app/rental-cars/mcp"
+
+
+def mcp_call(url, tool, args):
+    """Llamada mínima a un servidor MCP por HTTP (initialize + tools/call). Acepta JSON o SSE."""
+    import urllib.request
+    sid = None
+
+    def post(body):
+        nonlocal sid
+        h = {"Content-Type": "application/json", "Accept": "application/json, text/event-stream"}
+        if sid:
+            h["Mcp-Session-Id"] = sid
+        r = urllib.request.urlopen(urllib.request.Request(url, json.dumps(body).encode(), h), timeout=120)
+        sid = r.headers.get("Mcp-Session-Id") or sid
+        raw = r.read().decode()
+        if not raw.strip():
+            return None
+        if raw.lstrip().startswith("{"):
+            return json.loads(raw)
+        datas = [l[5:].strip() for l in raw.splitlines() if l.startswith("data:")]
+        return json.loads(datas[-1]) if datas else None
+
+    post({"jsonrpc": "2.0", "id": 1, "method": "initialize", "params": {
+        "protocolVersion": "2025-06-18", "capabilities": {}, "clientInfo": {"name": "travel-planner", "version": "1"}}})
+    post({"jsonrpc": "2.0", "method": "notifications/initialized"})
+    res = post({"jsonrpc": "2.0", "id": 2, "method": "tools/call", "params": {"name": tool, "arguments": args}})
+    res = (res or {}).get("result") or {}
+    if res.get("structuredContent"):
+        return res["structuredContent"]
+    for c in res.get("content", []):
+        if c.get("type") == "text":
+            try:
+                return json.loads(c["text"])
+            except ValueError:
+                log("  octotrip texto:", c["text"][:200])
+    return None
+
+
 def cars(airport, pickup, dropoff):
+    """Carro más barato que quepa: 'small' hasta 5 personas, 'van' para 6-9. Total por todo el alquiler."""
+    time.sleep(PAUSE)
+    try:
+        data = mcp_call(OCTO, "search", {"location": f"{airport} Airport", "pickup_date": pickup,
+                                         "dropoff_date": dropoff, "currency": CUR, "pickup_time": "12:00",
+                                         "dropoff_time": "12:00"})
+    except Exception as e:
+        log("  fallo octotrip", type(e).__name__, str(e)[:200])
+        return {}
+    offers = [o for o in (data or {}).get("results", []) if num(o.get("price"))]
+    if not offers:
+        log("  octotrip sin carros:", json.dumps(data)[:300])
     out = {}
-    for label, pax in (("small", 5), ("van", 9)):
-        data = run_json(["trvl", "cars", airport, pickup, dropoff, "--currency", CUR, "--passengers", str(pax),
-                         "--format", "json"])
-        offers = [o for o in walk(data) if num(o.get("price")) and (o.get("passengers") or o.get("seats") or 5) >= pax]
-        if offers:
-            o = min(offers, key=lambda o: num(o["price"]))
-            out[label] = {"price": round(num(o["price"]) + (num(o.get("taxes_and_fees")) or 0)),
-                          "name": o.get("vehicle_name") or o.get("vehicle_class"), "url": o.get("booking_url"),
-                          "provider": o.get("supplier") or o.get("provider")}
+    for label, lo, hi in (("small", 4, 5), ("van", 7, 99)):
+        fit = [o for o in offers if lo <= (o.get("passengers") or 0) <= hi]
+        if fit:
+            o = min(fit, key=lambda o: num(o["price"]))
+            out[label] = {"price": round(num(o["price"])), "name": f'{o.get("name", "")} ({o.get("category", "")})',
+                          "provider": o.get("vendor"), "url": o.get("booking_url"),
+                          "seats": o.get("passengers"), "free_cancel": o.get("free_cancellation")}
     return out
 
 
