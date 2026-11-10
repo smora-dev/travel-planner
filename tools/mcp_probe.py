@@ -2,12 +2,13 @@
 import json, sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import collector as c, urllib.request
+UA = c.UA
 
 def tools_list(url):
     sid = None
     def post(body):
         nonlocal sid
-        h = {"Content-Type": "application/json", "Accept": "application/json, text/event-stream"}
+        h = {"Content-Type": "application/json", "Accept": "application/json, text/event-stream", "User-Agent": UA}
         if sid: h["Mcp-Session-Id"] = sid
         r = urllib.request.urlopen(urllib.request.Request(url, json.dumps(body).encode(), h), timeout=60)
         sid = r.headers.get("Mcp-Session-Id") or sid

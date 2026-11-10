@@ -162,6 +162,7 @@ def hotels(city, checkin, checkout):
 
 # ---------- Carros (OctoTrip MCP: gratis, sin key, varias rentadoras) ----------
 OCTO = "https://mcp.octotrip.app/rental-cars/mcp"
+UA = "Mozilla/5.0 (compatible; travel-planner/1.0; +https://github.com/smora-dev/travel-planner)"
 
 
 def mcp_call(url, tool, args):
@@ -171,7 +172,7 @@ def mcp_call(url, tool, args):
 
     def post(body):
         nonlocal sid
-        h = {"Content-Type": "application/json", "Accept": "application/json, text/event-stream"}
+        h = {"Content-Type": "application/json", "Accept": "application/json, text/event-stream", "User-Agent": UA}
         if sid:
             h["Mcp-Session-Id"] = sid
         r = urllib.request.urlopen(urllib.request.Request(url, json.dumps(body).encode(), h), timeout=120)
