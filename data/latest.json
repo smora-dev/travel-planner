@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-10T20:59+00:00",
+ "updated_at": "2026-11-11T01:00+00:00",
  "demo": false,
  "currency": "USD",
  "nights": 7,
@@ -29,21 +29,19 @@
     {
      "month": "2026-11",
      "flight": {
-      "date": "2026-11-15",
-      "return": "2026-11-22",
+      "date": "2026-11-16",
+      "return": "2026-11-23",
       "price": 403,
       "sources": {
-       "trvl": 403,
-       "viajante": 403
+       "trvl": 403
       },
       "check": false,
-      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202026-11-15%20through%202026-11-22",
-      "seen": "2026-11-10T20:43+00:00"
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202026-11-16%20through%202026-11-23",
+      "seen": "2026-11-11T00:10+00:00"
      },
      "days": {
-      "2026-11-13": 613,
       "2026-11-14": 476,
-      "2026-11-15": 403,
+      "2026-11-15": 429,
       "2026-11-16": 403,
       "2026-11-17": 403,
       "2026-11-18": 403,
@@ -53,12 +51,12 @@
       "2026-11-22": 570,
       "2026-11-23": 476,
       "2026-11-24": 584,
-      "2026-11-25": 599,
+      "2026-11-25": 627,
       "2026-11-26": 460,
-      "2026-11-27": 618,
-      "2026-11-28": 580,
-      "2026-11-29": 613,
-      "2026-11-30": 613
+      "2026-11-27": 616,
+      "2026-11-28": 619,
+      "2026-11-29": 607,
+      "2026-11-30": 609
      },
      "hotels": [
       {
@@ -66,23 +64,23 @@
        "total": 329,
        "rating": 4.1,
        "reviews": 4098,
-       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2026-11-15,2026-11-22",
-       "src": "trvl"
-      },
-      {
-       "name": "Nobile Hotel Parkway at Celebration Orlando Very Close to Disney Theme Parks",
-       "total": 343,
-       "rating": 4.0,
-       "reviews": 1483,
-       "url": "https://www.agoda.com/grand-hotel-kissimmee-at-celebration_20/hotel/all/orlando-fl-us.html",
+       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2026-11-16,2026-11-23",
        "src": "trvl"
       },
       {
        "name": "Rosen Inn International",
-       "total": 371,
+       "total": 364,
        "rating": 4.1,
        "reviews": 7270,
-       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2026-11-15,2026-11-22",
+       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2026-11-16,2026-11-23",
+       "src": "trvl"
+      },
+      {
+       "name": "Rosen Inn Closest to Universal",
+       "total": 413,
+       "rating": 4.0,
+       "reviews": 4011,
+       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2026-11-16,2026-11-23",
        "src": "trvl"
       }
      ],
@@ -316,11 +314,11 @@
       "return": "2027-03-08",
       "price": 397,
       "sources": {
-       "trvl": 397
+       "viajante": 397
       },
       "check": false,
       "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202027-03-01%20through%202027-03-08",
-      "seen": "2026-11-10T20:43+00:00"
+      "seen": "2026-11-11T00:10+00:00"
      },
      "days": {
       "2027-03-01": 397,
@@ -330,54 +328,31 @@
       "2027-03-05": 397,
       "2027-03-06": 397,
       "2027-03-07": 397,
-      "2027-03-08": 397,
-      "2027-03-09": 397,
-      "2027-03-10": 397,
-      "2027-03-11": 437,
-      "2027-03-12": 432,
-      "2027-03-13": 492,
-      "2027-03-14": 432,
-      "2027-03-15": 408,
-      "2027-03-16": 408,
-      "2027-03-17": 448,
-      "2027-03-18": 460,
-      "2027-03-19": 629,
-      "2027-03-20": 679,
-      "2027-03-21": 591,
-      "2027-03-22": 643,
-      "2027-03-23": 459,
-      "2027-03-24": 448,
-      "2027-03-25": 470,
-      "2027-03-26": 493,
-      "2027-03-27": 490,
-      "2027-03-28": 504,
-      "2027-03-29": 400,
-      "2027-03-30": 397,
-      "2027-03-31": 397
+      "2027-03-08": 397
      },
      "hotels": [
-      {
-       "name": "Baymont by Wyndham International Drive/Universal Boulevard",
-       "total": 336,
-       "rating": 4.1,
-       "reviews": 4098,
-       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2027-03-01,2027-03-08",
-       "src": "trvl"
-      },
-      {
-       "name": "Rosen Inn International",
-       "total": 371,
-       "rating": 4.1,
-       "reviews": 7270,
-       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2027-03-01,2027-03-08",
-       "src": "trvl"
-      },
       {
        "name": "Nobile Hotel Parkway at Celebration Orlando Very Close to Disney Theme Parks",
        "total": 434,
        "rating": 4.0,
        "reviews": 1483,
        "url": "https://www.agoda.com/grand-hotel-kissimmee-at-celebration_20/hotel/all/orlando-fl-us.html",
+       "src": "trvl"
+      },
+      {
+       "name": "Legacy Vacation Resorts - Orlando-Kissimmee ",
+       "total": 484,
+       "rating": 4.0,
+       "reviews": 574,
+       "url": "https://www.agoda.com/legacy-vacation-resorts-orlando/hotel/orlando-fl-us.html",
+       "src": "trvl"
+      },
+      {
+       "name": "Rosen Inn Closest to Universal",
+       "total": 504,
+       "rating": 4.2,
+       "reviews": 1432,
+       "url": "https://www.agoda.com/rosen-inn-closest-to-universal_2/hotel/orlando-fl-us.html",
        "src": "trvl"
       }
      ],
@@ -613,22 +588,23 @@
       "return": "2027-07-26",
       "price": 403,
       "sources": {
-       "trvl": 403
+       "trvl": 403,
+       "viajante": 403
       },
       "check": false,
       "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MCO%20on%202027-07-19%20through%202027-07-26",
-      "seen": "2026-11-10T20:43+00:00"
+      "seen": "2026-11-11T00:10+00:00"
      },
      "days": {
       "2027-07-01": 674,
-      "2027-07-02": 631,
+      "2027-07-02": 616,
       "2027-07-03": 623,
       "2027-07-04": 606,
       "2027-07-05": 557,
       "2027-07-06": 572,
-      "2027-07-07": 482,
-      "2027-07-08": 476,
-      "2027-07-09": 633,
+      "2027-07-07": 495,
+      "2027-07-08": 508,
+      "2027-07-09": 602,
       "2027-07-10": 602,
       "2027-07-11": 556,
       "2027-07-12": 476,
@@ -644,7 +620,7 @@
       "2027-07-22": 403,
       "2027-07-23": 403,
       "2027-07-24": 403,
-      "2027-07-25": 538,
+      "2027-07-25": 556,
       "2027-07-26": 403,
       "2027-07-27": 403,
       "2027-07-28": 403,
@@ -654,27 +630,27 @@
      },
      "hotels": [
       {
-       "name": "Baymont by Wyndham International Drive/Universal Boulevard",
-       "total": 336,
-       "rating": 4.1,
-       "reviews": 4098,
-       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2027-07-19,2027-07-26",
-       "src": "trvl"
-      },
-      {
-       "name": "Rosen Inn International",
-       "total": 364,
-       "rating": 4.1,
-       "reviews": 7270,
-       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2027-07-19,2027-07-26",
-       "src": "trvl"
-      },
-      {
-       "name": "Four Points by Sheraton Orlando International Drive",
-       "total": 462,
+       "name": "Nobile Hotel Parkway at Celebration Orlando Very Close to Disney Theme Parks",
+       "total": 359,
        "rating": 4.0,
-       "reviews": 3867,
-       "url": "https://www.google.com/travel/hotels/Orlando%2C%20FL?q=Orlando%2C+FL+hotels&dates=2027-07-19,2027-07-26",
+       "reviews": 1483,
+       "url": "https://www.agoda.com/grand-hotel-kissimmee-at-celebration_20/hotel/all/orlando-fl-us.html",
+       "src": "trvl"
+      },
+      {
+       "name": "Blue Tree Resort At Lake Buena Vista",
+       "total": 460,
+       "rating": 4.4,
+       "reviews": 203,
+       "url": "https://www.agoda.com/blue-tree-resort-at-lake-buena-vista/hotel/orlando-fl-us.html",
+       "src": "trvl"
+      },
+      {
+       "name": "Legacy Vacation Resorts - Orlando-Kissimmee ",
+       "total": 538,
+       "rating": 4.0,
+       "reviews": 574,
+       "url": "https://www.agoda.com/legacy-vacation-resorts-orlando/hotel/orlando-fl-us.html",
        "src": "trvl"
       }
      ],
@@ -832,6 +808,116 @@
      "month": "2027-10",
      "flight": null,
      "days": {}
+    }
+   ],
+   "activities": [
+    {
+     "name": "Tour ecologico guidato in kayak di 2 ore con fondo in vetro di Rock Springs",
+     "price": 99,
+     "orig": "92 EUR",
+     "rating": 4.9,
+     "reviews": 2642.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour in idroscivolante nelle Everglades della Florida e ingresso a Wild Florida con pranzo facoltativo",
+     "price": 36,
+     "orig": "34 EUR",
+     "rating": 4.8,
+     "reviews": 2808.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Kennedy Space Center con trasporto da Orlando e Kissimmee",
+     "price": 87,
+     "orig": "81 EUR",
+     "rating": 4.9,
+     "reviews": 1571.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Combo: Tour in autobus Hop-on Hop-off a Orlando + Biglietti per il Kennedy Space Center",
+     "price": 83,
+     "orig": "77 EUR",
+     "rating": 4.6,
+     "reviews": 34402.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Combo: Biglietti per il Kennedy Space Center + WonderWorks Orlando",
+     "price": 112,
+     "orig": "104 EUR",
+     "rating": 4.5,
+     "reviews": 36317.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Combo: biglietti per il Kennedy Space Center + Pacchetto per 3 attrazioni di ICON Park",
+     "price": 122,
+     "orig": "113 EUR",
+     "rating": 4.5,
+     "reviews": 35879.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Go City Orlando All-Inclusive Pass: 30 attrazioni tra cui il Kennedy Space Center",
+     "price": 230,
+     "orig": "213 EUR",
+     "rating": 4.5,
+     "reviews": 2252.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour ecologico in airboat di 90 minuti negli Everglades vicino a Orlando Florida",
+     "price": 70,
+     "orig": "65 EUR",
+     "rating": 4.8,
+     "reviews": 1383.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Il gioco di fuga Orlando: avventure epiche di 60 minuti su I-Drive",
+     "price": 46,
+     "orig": "43 EUR",
+     "rating": 5.0,
+     "reviews": 952.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Biglietti da 1 giorno per Universal Studios Florida",
+     "price": 133,
+     "orig": "123 EUR",
+     "rating": 4.7,
+     "reviews": 983.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Biglietti di un giorno per gli Universal Studios Orlando",
+     "price": 133,
+     "orig": "123 EUR",
+     "rating": 4.7,
+     "reviews": 983.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour interattivo dei fantasmi a piedi di 2 ore nel centro di Orlando",
+     "price": 76,
+     "orig": "71 EUR",
+     "rating": 4.9,
+     "reviews": 775.0,
+     "url": null,
+     "src": "piqod"
     }
    ]
   },
@@ -1654,6 +1740,116 @@
      "flight": null,
      "days": {}
     }
+   ],
+   "activities": [
+    {
+     "name": "Charter privato Miami Boat : visite turistiche, tramonto e Sandbar",
+     "price": 195,
+     "orig": "181 EUR",
+     "rating": 5.0,
+     "reviews": 2198.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour privato in barca a Miami di 2 ore: Skyline & Star Island",
+     "price": 51,
+     "orig": "47 EUR",
+     "rating": 4.9,
+     "reviews": 4138.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour gastronomico e a piedi di Little Havana a Miami",
+     "price": 69,
+     "orig": "64 EUR",
+     "rating": 4.9,
+     "reviews": 10008.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Il tour a piedi ufficiale dell'Art Déco della Miami Design Preservation League",
+     "price": 49,
+     "orig": "45 EUR",
+     "rating": 4.9,
+     "reviews": 1748.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Wynwood Graffiti Golf carrello Tour per piccoli gruppi",
+     "price": 44,
+     "orig": "41 EUR",
+     "rating": 4.9,
+     "reviews": 1736.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Giro in barca privato a Miami con capitano esperto e champagne",
+     "price": 97,
+     "orig": "90 EUR",
+     "rating": 4.9,
+     "reviews": 1684.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour privato di 2 ore a Miami con vista sul fiume Miami e sulla città",
+     "price": 91,
+     "orig": "84 EUR",
+     "rating": 4.9,
+     "reviews": 1629.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Zoo Miami: Biglietto salta-coda",
+     "price": 24,
+     "orig": "22 EUR",
+     "rating": 4.6,
+     "reviews": 2053.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Go City Miami Explorer Pass: Scegli tra più di 40 attrazioni",
+     "price": 76,
+     "orig": "71 EUR",
+     "rating": 4.4,
+     "reviews": 2032.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Crociera al tramonto a Miami Beach",
+     "price": 34,
+     "orig": "31 EUR",
+     "rating": 4.5,
+     "reviews": 1648.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Combo: Zoo di Miami + Big Bus Miami Hop-On Hop-Off Bus Tour",
+     "price": 66,
+     "orig": "61 EUR",
+     "rating": 4.5,
+     "reviews": 1470.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Big Bus: Tour di Miami in autobus Hop-on Hop-off con tour opzionale in barca e tour notturno",
+     "price": 42,
+     "orig": "39 EUR",
+     "rating": 4.4,
+     "reviews": 1444.0,
+     "url": null,
+     "src": "piqod"
+    }
    ]
   },
   {
@@ -1689,12 +1885,11 @@
       },
       "check": false,
       "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20LAX%20on%202026-11-14%20through%202026-11-21",
-      "seen": "2026-11-10T20:42+00:00"
+      "seen": "2026-11-11T00:10+00:00"
      },
      "days": {
-      "2026-11-13": 730,
       "2026-11-14": 666,
-      "2026-11-15": 667,
+      "2026-11-15": 676,
       "2026-11-16": 667,
       "2026-11-17": 666,
       "2026-11-18": 666,
@@ -1713,14 +1908,6 @@
      },
      "hotels": [
       {
-       "name": "Candlewood Suites Anaheim - Resort Area by IHG",
-       "total": 651,
-       "rating": 4.2,
-       "reviews": 1257,
-       "url": "https://www.google.com/travel/hotels/Anaheim%2C%20CA?q=Anaheim%2C+CA+hotels&dates=2026-11-14,2026-11-21",
-       "src": "trvl"
-      },
-      {
        "name": "Queens Inn Anaheim",
        "total": 665,
        "rating": 4.0,
@@ -1734,6 +1921,14 @@
        "rating": 4.0,
        "reviews": 390,
        "url": "https://www.agoda.com/motel-6-anaheim-maingate/hotel/los-angeles-ca-us.html",
+       "src": "trvl"
+      },
+      {
+       "name": "Sonesta Anaheim Resort Area",
+       "total": 935,
+       "rating": 4.1,
+       "reviews": 365,
+       "url": "https://www.agoda.com/holiday-inn-h27904960/hotel/los-angeles-ca-us.html",
        "src": "trvl"
       }
      ],
@@ -2023,6 +2218,912 @@
     },
     {
      "month": "2027-07",
+     "flight": {
+      "date": "2027-07-03",
+      "return": "2027-07-10",
+      "price": 637,
+      "sources": {
+       "trvl": 637
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20LAX%20on%202027-07-03%20through%202027-07-10",
+      "seen": "2026-11-11T00:10+00:00"
+     },
+     "days": {
+      "2027-07-01": 688,
+      "2027-07-02": 703,
+      "2027-07-03": 637,
+      "2027-07-04": 671,
+      "2027-07-05": 671,
+      "2027-07-06": 650,
+      "2027-07-07": 678,
+      "2027-07-08": 675,
+      "2027-07-09": 675,
+      "2027-07-10": 637,
+      "2027-07-11": 671,
+      "2027-07-12": 637,
+      "2027-07-13": 650,
+      "2027-07-14": 640,
+      "2027-07-15": 637,
+      "2027-07-16": 640,
+      "2027-07-17": 637,
+      "2027-07-18": 674,
+      "2027-07-19": 671,
+      "2027-07-20": 650,
+      "2027-07-21": 637,
+      "2027-07-22": 637,
+      "2027-07-23": 637,
+      "2027-07-24": 637,
+      "2027-07-25": 671,
+      "2027-07-26": 637,
+      "2027-07-27": 667,
+      "2027-07-28": 658,
+      "2027-07-29": 678,
+      "2027-07-30": 678,
+      "2027-07-31": 694
+     },
+     "hotels": [
+      {
+       "name": "Anaheim Astoria Inn & Suites",
+       "total": 863,
+       "rating": 4.2,
+       "reviews": 140,
+       "url": "https://www.agoda.com/anaheim-astoria-inn-suites/hotel/all/los-angeles-ca-us.html",
+       "src": "trvl"
+      },
+      {
+       "name": "Solara Inn and Suites",
+       "total": 866,
+       "rating": 4.2,
+       "reviews": 493,
+       "url": "https://www.agoda.com/ramada-by-wyndham-anaheim-maingate-north/hotel/los-angeles-ca-us.html",
+       "src": "trvl"
+      },
+      {
+       "name": "Sonesta Anaheim Resort Area",
+       "total": 989,
+       "rating": 4.1,
+       "reviews": 365,
+       "url": "https://www.agoda.com/holiday-inn-h27904960/hotel/los-angeles-ca-us.html",
+       "src": "trvl"
+      }
+     ],
+     "car": {}
+    },
+    {
+     "month": "2027-08",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-09",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-10",
+     "flight": null,
+     "days": {}
+    }
+   ],
+   "activities": [
+    {
+     "name": "Hollywood Sign 2.5 - Tour di un'ora con i comici e i loro cani",
+     "price": 17,
+     "orig": "15 EUR",
+     "rating": 5.0,
+     "reviews": 2688.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour guidato della città con 4 fermate e tempo libero",
+     "price": 58,
+     "orig": "54 EUR",
+     "rating": 4.9,
+     "reviews": 2290.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour di un'intera giornata a Los Angeles: Santa Monica, Hollywood e Beverly Hills",
+     "price": 93,
+     "orig": "86 EUR",
+     "rating": 4.9,
+     "reviews": 2941.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Los Angeles Hollywood Sign Hike: davanti, dietro e Guida Esperta",
+     "price": 28,
+     "orig": "26 EUR",
+     "rating": 4.9,
+     "reviews": 1627.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Pass All-Inclusive di Go City Los Angeles: selezione da 2 a 7 giorni",
+     "price": 91,
+     "orig": "84 EUR",
+     "rating": 4.5,
+     "reviews": 2244.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Escursione al Griffith Observatory: visita guidata al Griffith Park",
+     "price": 33,
+     "orig": "31 EUR",
+     "rating": 4.9,
+     "reviews": 1047.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour di Hollywood, Beverly Hills e delle case delle celebrità in autobus all'aperto",
+     "price": 22,
+     "orig": "20 EUR",
+     "rating": 4.9,
+     "reviews": 886.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Universal Studios Hollywood",
+     "price": 105,
+     "orig": "97 EUR",
+     "rating": 4.6,
+     "reviews": 995.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Biglietti per gli Universal Studios Hollywood",
+     "price": 97,
+     "orig": "90 EUR",
+     "rating": 4.8,
+     "reviews": 808.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Biglietti per Disneyland California per 1 giorno",
+     "price": 108,
+     "orig": "100 EUR",
+     "rating": 4.7,
+     "reviews": 669.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Combo: biglietti per l'Aquarium of the Pacific + Tour Hop-on Hop-off di Los Angeles e Hollywood con City Sightseeing",
+     "price": 93,
+     "orig": "86 EUR",
+     "rating": 4.6,
+     "reviews": 491.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Disneyland California Lightning Pass (1-3 giorni)",
+     "price": 144,
+     "orig": "134 EUR",
+     "rating": 4.7,
+     "reviews": 332.0,
+     "url": null,
+     "src": "piqod"
+    }
+   ]
+  },
+  {
+   "id": "nueva-york",
+   "name": "Nueva York",
+   "airport": "JFK",
+   "hotel_city": "Manhattan, New York",
+   "car": false,
+   "parks": [],
+   "months": [
+    {
+     "month": "2026-11",
+     "flight": {
+      "date": "2026-11-16",
+      "return": "2026-11-23",
+      "price": 468,
+      "sources": {
+       "trvl": 468,
+       "viajante": 468
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20JFK%20on%202026-11-16%20through%202026-11-23",
+      "seen": "2026-11-11T00:10+00:00"
+     },
+     "days": {
+      "2026-11-14": 623,
+      "2026-11-15": 562,
+      "2026-11-16": 468,
+      "2026-11-17": 468,
+      "2026-11-18": 476,
+      "2026-11-19": 476,
+      "2026-11-20": 468,
+      "2026-11-21": 523,
+      "2026-11-22": 523,
+      "2026-11-23": 601,
+      "2026-11-24": 630,
+      "2026-11-25": 544,
+      "2026-11-26": 519,
+      "2026-11-27": 587,
+      "2026-11-28": 612,
+      "2026-11-29": 633,
+      "2026-11-30": 616
+     },
+     "hotels": [
+      {
+       "name": "Highbridge Hotel",
+       "total": 1379,
+       "rating": 4.5,
+       "reviews": 520,
+       "url": "https://www.google.com/travel/hotels/entity/ChkI8cnE6eiIyOBuGg0vZy8xMXR0NnJuNXJ3EAE?q=Manhattan%2C+New+York+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjqDxALGBASBwjqDxALGBcYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Fairfield Inn New York LaGuardia Airport/Astoria",
+       "total": 1480,
+       "rating": 4.1,
+       "reviews": 901,
+       "url": "https://www.google.com/travel/hotels/entity/ChcIxrepw5vf_KwNGgsvZy8xdGpkbW53YxAB?q=Manhattan%2C+New+York+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjqDxALGBASBwjqDxALGBcYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Comfort Inn Edgewater on Hudson River",
+       "total": 1673,
+       "rating": 4.0,
+       "reviews": 677,
+       "url": "https://www.google.com/travel/hotels/entity/ChgI_YLy4qq9s5WCARoLL2cvMXY4bDBqejcQAQ?q=Manhattan%2C+New+York+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjqDxALGBASBwjqDxALGBcYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      }
+     ]
+    },
+    {
+     "month": "2026-12",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-01",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-02",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-03",
+     "flight": {
+      "date": "2027-03-01",
+      "return": "2027-03-08",
+      "price": 453,
+      "sources": {
+       "viajante": 453
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20JFK%20on%202027-03-01%20through%202027-03-08",
+      "seen": "2026-11-11T00:10+00:00"
+     },
+     "days": {
+      "2027-03-01": 453,
+      "2027-03-02": 455,
+      "2027-03-03": 453,
+      "2027-03-04": 453,
+      "2027-03-05": 453,
+      "2027-03-06": 453,
+      "2027-03-07": 453,
+      "2027-03-08": 453,
+      "2027-03-09": 455,
+      "2027-03-10": 453,
+      "2027-03-11": 453,
+      "2027-03-12": 453,
+      "2027-03-13": 453,
+      "2027-03-14": 453,
+      "2027-03-15": 453,
+      "2027-03-16": 455
+     },
+     "hotels": [
+      {
+       "name": "Highbridge Hotel",
+       "total": 1069,
+       "rating": 4.5,
+       "reviews": 520,
+       "url": "https://www.google.com/travel/hotels/entity/ChkI8cnE6eiIyOBuGg0vZy8xMXR0NnJuNXJ3EAE?q=Manhattan%2C+New+York+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxADGAESBwjrDxADGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Hotel Richland LES",
+       "total": 1190,
+       "rating": 4.2,
+       "reviews": 301,
+       "url": "https://www.google.com/travel/hotels/entity/ChoI8_KthvLTmIvuARoNL2cvMTFjczZreXdzNxAB?q=Manhattan%2C+New+York+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxADGAESBwjrDxADGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Astoria Inn LaGuardia Hotel",
+       "total": 1221,
+       "rating": 4.3,
+       "reviews": 349,
+       "url": "https://www.google.com/travel/hotels/entity/ChoIweH_mtPlpdqcARoNL2cvMTFzXzVkdnZ6OBAB?q=Manhattan%2C+New+York+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxADGAESBwjrDxADGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      }
+     ]
+    },
+    {
+     "month": "2027-04",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-05",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-06",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-07",
+     "flight": {
+      "date": "2027-07-20",
+      "return": "2027-07-27",
+      "price": 468,
+      "sources": {
+       "trvl": 468,
+       "viajante": 468
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20JFK%20on%202027-07-20%20through%202027-07-27",
+      "seen": "2026-11-11T00:10+00:00"
+     },
+     "days": {
+      "2027-07-01": 562,
+      "2027-07-02": 695,
+      "2027-07-03": 580,
+      "2027-07-04": 714,
+      "2027-07-05": 675,
+      "2027-07-06": 641,
+      "2027-07-07": 473,
+      "2027-07-08": 551,
+      "2027-07-09": 648,
+      "2027-07-10": 586,
+      "2027-07-11": 651,
+      "2027-07-12": 569,
+      "2027-07-13": 544,
+      "2027-07-14": 473,
+      "2027-07-15": 557,
+      "2027-07-16": 551,
+      "2027-07-17": 575,
+      "2027-07-18": 580,
+      "2027-07-19": 575,
+      "2027-07-20": 468,
+      "2027-07-21": 473,
+      "2027-07-22": 551,
+      "2027-07-23": 551,
+      "2027-07-24": 580,
+      "2027-07-25": 575,
+      "2027-07-26": 468,
+      "2027-07-27": 468,
+      "2027-07-28": 473,
+      "2027-07-29": 468,
+      "2027-07-30": 468,
+      "2027-07-31": 576
+     },
+     "hotels": [
+      {
+       "name": "Hotel St. James",
+       "total": 896,
+       "rating": 4.1,
+       "reviews": 1991,
+       "url": "https://www.google.com/travel/hotels/Manhattan%2C%20New%20York?q=Manhattan%2C+New+York+hotels&dates=2027-07-20,2027-07-27",
+       "src": "trvl"
+      },
+      {
+       "name": "Chelsea Savoy Hotel",
+       "total": 1155,
+       "rating": 4.1,
+       "reviews": 1223,
+       "url": "https://www.google.com/travel/hotels/Manhattan%2C%20New%20York?q=Manhattan%2C+New+York+hotels&dates=2027-07-20,2027-07-27",
+       "src": "trvl"
+      },
+      {
+       "name": "Pod 51",
+       "total": 1190,
+       "rating": 4.1,
+       "reviews": 4110,
+       "url": "https://www.google.com/travel/hotels/Manhattan%2C%20New%20York?q=Manhattan%2C+New+York+hotels&dates=2027-07-20,2027-07-27",
+       "src": "trvl"
+      }
+     ]
+    },
+    {
+     "month": "2027-08",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-09",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-10",
+     "flight": null,
+     "days": {}
+    }
+   ],
+   "activities": [
+    {
+     "name": "Il Bloody Tour di York con Mad Alice e Lady Peckett",
+     "price": 20,
+     "orig": "18 EUR",
+     "rating": 5.0,
+     "reviews": 3378.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Il tour oscuro mortale di York",
+     "price": 18,
+     "orig": "17 EUR",
+     "rating": 4.9,
+     "reviews": 4222.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Ombre di York: Passeggiata fantasma e storia orribile.",
+     "price": 17,
+     "orig": "16 EUR",
+     "rating": 4.9,
+     "reviews": 1525.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour privato a piedi storico di York",
+     "price": 186,
+     "orig": "172 EUR",
+     "rating": 4.9,
+     "reviews": 1342.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Wizard Walk of York - VINCITORE Miglior Tour & Esperienza dell'Anno",
+     "price": 16,
+     "orig": "15 EUR",
+     "rating": 4.9,
+     "reviews": 1153.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Il meglio di York a piedi in un piccolo gruppo",
+     "price": 26,
+     "orig": "24 EUR",
+     "rating": 5.0,
+     "reviews": 840.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour guidato in bicicletta a York",
+     "price": 40,
+     "orig": "37 EUR",
+     "rating": 5.0,
+     "reviews": 627.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Combo: biglietti per lo York Dungeon + Crociera panoramica di 45 minuti",
+     "price": 41,
+     "orig": "38 EUR",
+     "rating": 4.7,
+     "reviews": 195.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Biglietti per l'ingresso al Dungeon di York",
+     "price": 25,
+     "orig": "23 EUR",
+     "rating": 4.8,
+     "reviews": 144.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "City Sightseeing: Tour di York in autobus Hop-on Hop-off",
+     "price": 22,
+     "orig": "20 EUR",
+     "rating": 4.6,
+     "reviews": 115.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "York's Chocolate Story: Biglietto d'ingresso + Guida in tempo reale",
+     "price": 27,
+     "orig": "25 EUR",
+     "rating": 4.7,
+     "reviews": 66.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Harlem Bus Tour with Spanish Gospel Mass Experience",
+     "price": 65,
+     "orig": "65 USD",
+     "rating": 4.9,
+     "reviews": null,
+     "url": "https://tripways.com/t/1122411?utm_source=mcp&utm_medium=mcp&utm_campaign=tripways_mcp",
+     "src": "tripways"
+    }
+   ]
+  },
+  {
+   "id": "las-vegas",
+   "name": "Las Vegas",
+   "airport": "LAS",
+   "hotel_city": "Las Vegas Strip, NV",
+   "car": true,
+   "parks": [],
+   "months": [
+    {
+     "month": "2026-11",
+     "flight": {
+      "date": "2026-11-16",
+      "return": "2026-11-23",
+      "price": 470,
+      "sources": {
+       "trvl": 470
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20LAS%20on%202026-11-16%20through%202026-11-23",
+      "seen": "2026-11-11T00:11+00:00"
+     },
+     "days": {
+      "2026-11-14": 515,
+      "2026-11-15": 639,
+      "2026-11-16": 470,
+      "2026-11-17": 470,
+      "2026-11-18": 470,
+      "2026-11-19": 470,
+      "2026-11-20": 470,
+      "2026-11-21": 470,
+      "2026-11-22": 583,
+      "2026-11-23": 470,
+      "2026-11-24": 470,
+      "2026-11-25": 470,
+      "2026-11-26": 492,
+      "2026-11-27": 606,
+      "2026-11-28": 727,
+      "2026-11-29": 850,
+      "2026-11-30": 544
+     },
+     "hotels": [
+      {
+       "name": "Excalibur Hotel & Casino",
+       "total": 364,
+       "rating": 4.1,
+       "reviews": 86924,
+       "url": "https://www.google.com/travel/hotels/Las%20Vegas%20Strip%2C%20NV?q=Las+Vegas+Strip%2C+NV+hotels&dates=2026-11-16,2026-11-23",
+       "src": "trvl"
+      },
+      {
+       "name": "Luxor Hotel & Casino",
+       "total": 364,
+       "rating": 4.1,
+       "reviews": 106160,
+       "url": "https://www.google.com/travel/hotels/Las%20Vegas%20Strip%2C%20NV?q=Las+Vegas+Strip%2C+NV+hotels&dates=2026-11-16,2026-11-23",
+       "src": "trvl"
+      },
+      {
+       "name": "Horseshoe Las Vegas",
+       "total": 420,
+       "rating": 4.1,
+       "reviews": 35287,
+       "url": "https://www.google.com/travel/hotels/Las%20Vegas%20Strip%2C%20NV?q=Las+Vegas+Strip%2C+NV+hotels&dates=2026-11-16,2026-11-23",
+       "src": "trvl"
+      }
+     ],
+     "car": {}
+    },
+    {
+     "month": "2026-12",
+     "flight": {
+      "date": "2026-12-23",
+      "return": "2026-12-30",
+      "price": 470,
+      "sources": {
+       "trvl": 470,
+       "viajante": 470
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20LAS%20on%202026-12-23%20through%202026-12-30",
+      "seen": "2026-11-11T00:11+00:00"
+     },
+     "days": {
+      "2026-12-01": 541,
+      "2026-12-02": 655,
+      "2026-12-03": 615,
+      "2026-12-04": 702,
+      "2026-12-05": 541,
+      "2026-12-06": 655,
+      "2026-12-07": 773,
+      "2026-12-08": 657,
+      "2026-12-09": 694,
+      "2026-12-10": 521,
+      "2026-12-11": 785,
+      "2026-12-12": 723,
+      "2026-12-13": 737,
+      "2026-12-14": 770,
+      "2026-12-15": 718,
+      "2026-12-16": 625,
+      "2026-12-17": 541,
+      "2026-12-18": 704,
+      "2026-12-19": 715,
+      "2026-12-20": 623,
+      "2026-12-21": 479,
+      "2026-12-22": 516,
+      "2026-12-23": 470,
+      "2026-12-24": 470,
+      "2026-12-25": 496,
+      "2026-12-26": 704,
+      "2026-12-27": 709,
+      "2026-12-28": 650,
+      "2026-12-29": 740,
+      "2026-12-30": 771,
+      "2026-12-31": 626
+     },
+     "hotels": [
+      {
+       "name": "Luxor Hotel & Casino",
+       "total": 364,
+       "rating": 4.1,
+       "reviews": 106160,
+       "url": "https://www.google.com/travel/hotels/Las%20Vegas%20Strip%2C%20NV?q=Las+Vegas+Strip%2C+NV+hotels&dates=2026-12-23,2026-12-30",
+       "src": "trvl"
+      },
+      {
+       "name": "Excalibur Hotel & Casino",
+       "total": 371,
+       "rating": 4.1,
+       "reviews": 86924,
+       "url": "https://www.google.com/travel/hotels/Las%20Vegas%20Strip%2C%20NV?q=Las+Vegas+Strip%2C+NV+hotels&dates=2026-12-23,2026-12-30",
+       "src": "trvl"
+      },
+      {
+       "name": "Horseshoe Las Vegas",
+       "total": 420,
+       "rating": 4.1,
+       "reviews": 35287,
+       "url": "https://www.google.com/travel/hotels/Las%20Vegas%20Strip%2C%20NV?q=Las+Vegas+Strip%2C+NV+hotels&dates=2026-12-23,2026-12-30",
+       "src": "trvl"
+      }
+     ],
+     "car": {}
+    },
+    {
+     "month": "2027-01",
+     "flight": {
+      "date": "2027-01-21",
+      "return": "2027-01-28",
+      "price": 467,
+      "sources": {
+       "trvl": 467,
+       "viajante": 467
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20LAS%20on%202027-01-21%20through%202027-01-28",
+      "seen": "2026-11-11T00:11+00:00"
+     },
+     "days": {
+      "2027-01-01": 717,
+      "2027-01-02": 900,
+      "2027-01-03": 984,
+      "2027-01-04": 809,
+      "2027-01-05": 712,
+      "2027-01-06": 674,
+      "2027-01-07": 626,
+      "2027-01-08": 738,
+      "2027-01-09": 626,
+      "2027-01-10": 712,
+      "2027-01-11": 676,
+      "2027-01-12": 510,
+      "2027-01-13": 515,
+      "2027-01-14": 479,
+      "2027-01-15": 470,
+      "2027-01-16": 537,
+      "2027-01-17": 542,
+      "2027-01-18": 537,
+      "2027-01-19": 470,
+      "2027-01-20": 475,
+      "2027-01-21": 467,
+      "2027-01-22": 470,
+      "2027-01-23": 467,
+      "2027-01-24": 470,
+      "2027-01-25": 470,
+      "2027-01-26": 470,
+      "2027-01-27": 470,
+      "2027-01-28": 470,
+      "2027-01-29": 470,
+      "2027-01-30": 470,
+      "2027-01-31": 470
+     },
+     "hotels": [
+      {
+       "name": "Luxor Hotel & Casino",
+       "total": 364,
+       "rating": 4.1,
+       "reviews": 106160,
+       "url": "https://www.google.com/travel/hotels/Las%20Vegas%20Strip%2C%20NV?q=Las+Vegas+Strip%2C+NV+hotels&dates=2027-01-21,2027-01-28",
+       "src": "trvl"
+      },
+      {
+       "name": "Excalibur Hotel & Casino",
+       "total": 371,
+       "rating": 4.1,
+       "reviews": 86924,
+       "url": "https://www.google.com/travel/hotels/Las%20Vegas%20Strip%2C%20NV?q=Las+Vegas+Strip%2C+NV+hotels&dates=2027-01-21,2027-01-28",
+       "src": "trvl"
+      },
+      {
+       "name": "Horseshoe Las Vegas",
+       "total": 420,
+       "rating": 4.1,
+       "reviews": 35287,
+       "url": "https://www.google.com/travel/hotels/Las%20Vegas%20Strip%2C%20NV?q=Las+Vegas+Strip%2C+NV+hotels&dates=2027-01-21,2027-01-28",
+       "src": "trvl"
+      }
+     ],
+     "car": {}
+    },
+    {
+     "month": "2027-02",
+     "flight": {
+      "date": "2027-02-01",
+      "return": "2027-02-08",
+      "price": 470,
+      "sources": {
+       "trvl": 470
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20LAS%20on%202027-02-01%20through%202027-02-08",
+      "seen": "2026-11-11T00:11+00:00"
+     },
+     "days": {
+      "2027-02-01": 470,
+      "2027-02-02": 470,
+      "2027-02-03": 470,
+      "2027-02-04": 490,
+      "2027-02-05": 490,
+      "2027-02-06": 470,
+      "2027-02-07": 470,
+      "2027-02-08": 470,
+      "2027-02-09": 470,
+      "2027-02-10": 470,
+      "2027-02-11": 470,
+      "2027-02-12": 470,
+      "2027-02-13": 470,
+      "2027-02-14": 515,
+      "2027-02-15": 490,
+      "2027-02-16": 470,
+      "2027-02-17": 490,
+      "2027-02-18": 470,
+      "2027-02-19": 510,
+      "2027-02-20": 510,
+      "2027-02-21": 576,
+      "2027-02-22": 496,
+      "2027-02-23": 496,
+      "2027-02-24": 470,
+      "2027-02-25": 470,
+      "2027-02-26": 470,
+      "2027-02-27": 470,
+      "2027-02-28": 571
+     },
+     "hotels": [
+      {
+       "name": "Luxor Hotel & Casino",
+       "total": 364,
+       "rating": 4.1,
+       "reviews": 106160,
+       "url": "https://www.google.com/travel/hotels/Las%20Vegas%20Strip%2C%20NV?q=Las+Vegas+Strip%2C+NV+hotels&dates=2027-02-01,2027-02-08",
+       "src": "trvl"
+      },
+      {
+       "name": "Excalibur Hotel & Casino",
+       "total": 371,
+       "rating": 4.1,
+       "reviews": 86924,
+       "url": "https://www.google.com/travel/hotels/Las%20Vegas%20Strip%2C%20NV?q=Las+Vegas+Strip%2C+NV+hotels&dates=2027-02-01,2027-02-08",
+       "src": "trvl"
+      },
+      {
+       "name": "Four Queens Hotel & Casino",
+       "total": 420,
+       "rating": 4.2,
+       "reviews": 22856,
+       "url": "https://www.google.com/travel/hotels/Las%20Vegas%20Strip%2C%20NV?q=Las+Vegas+Strip%2C+NV+hotels&dates=2027-02-01,2027-02-08",
+       "src": "trvl"
+      }
+     ],
+     "car": {}
+    },
+    {
+     "month": "2027-03",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-04",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-05",
+     "flight": {
+      "date": "2027-05-01",
+      "return": "2027-05-08",
+      "price": 470,
+      "sources": {
+       "viajante": 470
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20LAS%20on%202027-05-01%20through%202027-05-08",
+      "seen": "2026-11-11T00:11+00:00"
+     },
+     "days": {
+      "2027-05-01": 470
+     },
+     "hotels": [
+      {
+       "name": "Alexis Park Resort",
+       "total": 627,
+       "rating": 4.0,
+       "reviews": 2421,
+       "url": "https://www.google.com/travel/hotels/entity/ChoI8cy7_6KxxoeTARoNL2cvMTFnZDY3dDJqbhAB?q=Las+Vegas+Strip%2C+NV+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxAFGAESBwjrDxAFGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Ellis Island Casino & Hotel",
+       "total": 853,
+       "rating": 4.2,
+       "reviews": 14300,
+       "url": "https://www.google.com/travel/hotels/entity/ChYIusq1yrr576e4ARoJL20vMGJqMXl0EAE?q=Las+Vegas+Strip%2C+NV+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxAFGAESBwjrDxAFGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "The STRAT Hotel, Casino & Tower",
+       "total": 974,
+       "rating": 4.0,
+       "reviews": 64374,
+       "url": "https://www.google.com/travel/hotels/entity/ChUIh5DCruKjzM8bGgkvbS8wMzNidncQAQ?q=Las+Vegas+Strip%2C+NV+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxAFGAESBwjrDxAFGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      }
+     ],
+     "car": {}
+    },
+    {
+     "month": "2027-06",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-07",
      "flight": null,
      "days": {}
     },
@@ -2040,6 +3141,3433 @@
      "month": "2027-10",
      "flight": null,
      "days": {}
+    }
+   ],
+   "activities": [
+    {
+     "name": "Piccolo gruppo: tour di mezza giornata della Valle del Fuoco da Las Vegas",
+     "price": 97,
+     "orig": "90 EUR",
+     "rating": 5.0,
+     "reviews": 4281.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Grand Canyon per piccoli gruppi, diga di Hoover, tour VIP delle 7 montagne magiche",
+     "price": 167,
+     "orig": "155 EUR",
+     "rating": 5.0,
+     "reviews": 3332.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Premiato mini tour di 3 ore della diga di Hoover per piccoli gruppi da Las Vegas",
+     "price": 67,
+     "orig": "62 EUR",
+     "rating": 4.9,
+     "reviews": 5591.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Grand Canyon West Hoover Dam Sosta WiFi Pranzo e Skywalk",
+     "price": 92,
+     "orig": "86 EUR",
+     "rating": 4.9,
+     "reviews": 26729.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Grand Canyon West, Hoover Dam Stop, Colazione, Pranzo e Skywalk",
+     "price": 92,
+     "orig": "86 EUR",
+     "rating": 4.9,
+     "reviews": 13941.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Grand Canyon West Hoover Dam con WiFi e opzioni pranzo",
+     "price": 92,
+     "orig": "86 EUR",
+     "rating": 4.9,
+     "reviews": 6310.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour del Canyon Inferiore e del Horseshoe Bend Premiato",
+     "price": 149,
+     "orig": "138 EUR",
+     "rating": 4.9,
+     "reviews": 8571.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "High Roller: Biglietto d'ingresso",
+     "price": 21,
+     "orig": "19 EUR",
+     "rating": 4.8,
+     "reviews": 1952.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Biglietti per l'High Roller at The LINQ",
+     "price": 23,
+     "orig": "21 EUR",
+     "rating": 4.7,
+     "reviews": 2295.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Combo: L'High Roller al LINQ + Biglietti per l'Eiffel Tower Viewing Deck di Las Vegas",
+     "price": 59,
+     "orig": "54 EUR",
+     "rating": 4.8,
+     "reviews": 1224.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour in elicottero del Parco Nazionale del Grand Canyon di 25 minuti con tour opzionale in Hummer",
+     "price": 299,
+     "orig": "277 EUR",
+     "rating": 4.6,
+     "reviews": 1261.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "V - Lo spettacolo di varietà per eccellenza",
+     "price": 44,
+     "orig": "40 EUR",
+     "rating": 4.5,
+     "reviews": 1268.0,
+     "url": null,
+     "src": "piqod"
+    }
+   ]
+  },
+  {
+   "id": "cancun",
+   "name": "Cancún",
+   "airport": "CUN",
+   "hotel_city": "Cancún, Quintana Roo",
+   "car": true,
+   "parks": [],
+   "months": [
+    {
+     "month": "2026-11",
+     "flight": {
+      "date": "2026-11-14",
+      "return": "2026-11-21",
+      "price": 386,
+      "sources": {
+       "trvl": 386
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20CUN%20on%202026-11-14%20through%202026-11-21",
+      "seen": "2026-11-11T00:11+00:00"
+     },
+     "days": {
+      "2026-11-14": 386,
+      "2026-11-15": 535,
+      "2026-11-16": 669,
+      "2026-11-17": 390,
+      "2026-11-18": 466,
+      "2026-11-19": 466,
+      "2026-11-20": 518,
+      "2026-11-21": 513,
+      "2026-11-22": 569,
+      "2026-11-23": 657,
+      "2026-11-24": 435,
+      "2026-11-25": 444,
+      "2026-11-26": 444,
+      "2026-11-27": 735,
+      "2026-11-28": 850,
+      "2026-11-29": 781,
+      "2026-11-30": 519
+     },
+     "hotels": [
+      {
+       "name": "Casa de Ana",
+       "total": 314,
+       "rating": 4.3,
+       "reviews": 168,
+       "url": "https://www.google.com/travel/hotels/entity/ChoIq-ez1pOqrrD1ARoNL2cvMTFkZmdzeHFubBAB?q=Canc%C3%BAn%2C+Quintana+Roo+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjqDxALGA4SBwjqDxALGBUYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Hotel ROLOVI Cancún Centro",
+       "total": 328,
+       "rating": 4.2,
+       "reviews": 403,
+       "url": "https://www.google.com/travel/hotels/entity/ChkIj5-y4qXDgfddGg0vZy8xMWI2eWJqMnJ5EAE?q=Canc%C3%BAn%2C+Quintana+Roo+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjqDxALGA4SBwjqDxALGBUYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Los Girasoles",
+       "total": 338,
+       "rating": 4.4,
+       "reviews": 854,
+       "url": "https://www.google.com/travel/hotels/entity/ChcIxtras5m47ewiGgsvZy8xdGY3dDVxMxAB?q=Canc%C3%BAn%2C+Quintana+Roo+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjqDxALGA4SBwjqDxALGBUYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      }
+     ],
+     "car": {}
+    },
+    {
+     "month": "2026-12",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-01",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-02",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-03",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-04",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-05",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-06",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-07",
+     "flight": {
+      "date": "2027-07-01",
+      "return": "2027-07-08",
+      "price": 358,
+      "sources": {
+       "trvl": 358
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20CUN%20on%202027-07-01%20through%202027-07-08",
+      "seen": "2026-11-11T00:11+00:00"
+     },
+     "days": {
+      "2027-07-01": 358,
+      "2027-07-02": 401,
+      "2027-07-03": 447,
+      "2027-07-04": 447,
+      "2027-07-05": 373,
+      "2027-07-06": 401,
+      "2027-07-07": 373,
+      "2027-07-08": 373,
+      "2027-07-09": 401,
+      "2027-07-10": 551,
+      "2027-07-11": 505,
+      "2027-07-12": 389,
+      "2027-07-13": 425,
+      "2027-07-14": 358,
+      "2027-07-15": 358,
+      "2027-07-16": 436,
+      "2027-07-17": 433,
+      "2027-07-18": 453,
+      "2027-07-19": 401,
+      "2027-07-20": 372,
+      "2027-07-21": 358,
+      "2027-07-22": 389,
+      "2027-07-23": 436,
+      "2027-07-24": 433,
+      "2027-07-25": 498,
+      "2027-07-26": 373,
+      "2027-07-27": 373,
+      "2027-07-28": 358,
+      "2027-07-29": 373,
+      "2027-07-30": 373,
+      "2027-07-31": 410
+     },
+     "hotels": [
+      {
+       "name": "Hotel Jardín Cancún",
+       "total": 408,
+       "rating": 4.3,
+       "reviews": 1047,
+       "url": "https://www.google.com/travel/hotels/entity/ChoI8Zm4gar43bPmARoNL2cvMTFjM2tjbWd3ahAB?q=Canc%C3%BAn%2C+Quintana+Roo+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxAHGAESBwjrDxAHGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Los Girasoles",
+       "total": 464,
+       "rating": 4.4,
+       "reviews": 854,
+       "url": "https://www.google.com/travel/hotels/entity/ChcIxtras5m47ewiGgsvZy8xdGY3dDVxMxAB?q=Canc%C3%BAn%2C+Quintana+Roo+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxAHGAESBwjrDxAHGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Palette Hotel Batab",
+       "total": 506,
+       "rating": 4.0,
+       "reviews": 1102,
+       "url": "https://www.google.com/travel/hotels/entity/ChcIyPL2sM6v3bVwGgsvZy8xdGRmcDl5ZxAB?q=Canc%C3%BAn%2C+Quintana+Roo+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxAHGAESBwjrDxAHGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      }
+     ],
+     "car": {}
+    },
+    {
+     "month": "2027-08",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-09",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-10",
+     "flight": null,
+     "days": {}
+    }
+   ],
+   "activities": [
+    {
+     "name": "Chichen Itza da Cancun: cenote, Valladolid e cucina Maya.",
+     "price": 28,
+     "orig": "26 EUR",
+     "rating": 4.9,
+     "reviews": 3121.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour della giungla di Cancun: guida il tuo motoscafo e snorkeling sulla barriera corallina",
+     "price": 68,
+     "orig": "63 EUR",
+     "rating": 4.9,
+     "reviews": 3503.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Equitazione e Cenote Swim da Cancun o Playa del Carmen",
+     "price": 118,
+     "orig": "109 EUR",
+     "rating": 4.9,
+     "reviews": 2009.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Cancun ATV Jungle Adventure, Zipline, Cenote e degustazione di tequila",
+     "price": 38,
+     "orig": "35 EUR",
+     "rating": 4.7,
+     "reviews": 6464.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Noleggio privato di yacht di lusso 55FT a Cancun",
+     "price": 324,
+     "orig": "300 EUR",
+     "rating": 5.0,
+     "reviews": 891.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Noleggio privato di yacht premium da 46 piedi a Cancún",
+     "price": 228,
+     "orig": "211 EUR",
+     "rating": 5.0,
+     "reviews": 854.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "4 cenote privati, zip-line, canoe e villaggio Maya con delizioso pranzo",
+     "price": 270,
+     "orig": "250 EUR",
+     "rating": 5.0,
+     "reviews": 847.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Biglietti Salta la Fila per Chichén Itzá",
+     "price": 53,
+     "orig": "49 EUR",
+     "rating": 4.4,
+     "reviews": 774.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour all-inclusive in catamarano a Isla Mujeres",
+     "price": 98,
+     "orig": "90 EUR",
+     "rating": 4.3,
+     "reviews": 652.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Biglietti d'ingresso per Xplor Park",
+     "price": 131,
+     "orig": "121 EUR",
+     "rating": 4.5,
+     "reviews": 150.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Chichen Itza Small-Group All-Inclusive Tour from Cancun",
+     "price": 229,
+     "orig": "229 USD",
+     "rating": 5.0,
+     "reviews": null,
+     "url": "https://tripways.com/t/1219838?utm_source=mcp&utm_medium=mcp&utm_campaign=tripways_mcp",
+     "src": "tripways"
+    },
+    {
+     "name": "Chichen Itza Private Tour with Cenote Ik-Kil and Rio Lagartos",
+     "price": 1353,
+     "orig": "1353 USD",
+     "rating": 5.0,
+     "reviews": null,
+     "url": "https://tripways.com/t/1074872?utm_source=mcp&utm_medium=mcp&utm_campaign=tripways_mcp",
+     "src": "tripways"
+    }
+   ]
+  },
+  {
+   "id": "cdmx",
+   "name": "Ciudad de México",
+   "airport": "MEX",
+   "hotel_city": "Ciudad de México",
+   "car": false,
+   "parks": [],
+   "months": [
+    {
+     "month": "2026-11",
+     "flight": {
+      "date": "2026-11-25",
+      "return": "2026-12-02",
+      "price": 333,
+      "sources": {
+       "trvl": 333
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MEX%20on%202026-11-25%20through%202026-12-02",
+      "seen": "2026-11-11T00:10+00:00"
+     },
+     "days": {
+      "2026-11-14": 383,
+      "2026-11-15": 410,
+      "2026-11-16": 512,
+      "2026-11-17": 338,
+      "2026-11-18": 338,
+      "2026-11-19": 431,
+      "2026-11-20": 342,
+      "2026-11-21": 418,
+      "2026-11-22": 484,
+      "2026-11-23": 420,
+      "2026-11-24": 349,
+      "2026-11-25": 333,
+      "2026-11-26": 344,
+      "2026-11-27": 342,
+      "2026-11-28": 405,
+      "2026-11-29": 433,
+      "2026-11-30": 360
+     },
+     "hotels": [
+      {
+       "name": "HOM Centro histórico",
+       "total": 304,
+       "rating": 4.2,
+       "reviews": 229,
+       "url": "https://www.google.com/travel/hotels/entity/ChkItZnH-Yue8acjGg0vZy8xMWgwYjJ2bF81EAE?q=Ciudad+de+M%C3%A9xico+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjqDxALGBkSBwjqDxAMGAIYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Mr. Herold Homes",
+       "total": 367,
+       "rating": 4.1,
+       "reviews": 189,
+       "url": "https://www.google.com/travel/hotels/entity/ChkIhsmzk6vUrdp7Gg0vZy8xMXN2emRwYnpjEAE?q=Ciudad+de+M%C3%A9xico+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjqDxALGBkSBwjqDxAMGAIYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "HOTEL DEL SUR",
+       "total": 443,
+       "rating": 4.0,
+       "reviews": 1246,
+       "url": "https://www.google.com/travel/hotels/entity/ChcIkrPOiqW3g9FhGgsvZy8xdG1rOHZmeRAB?q=Ciudad+de+M%C3%A9xico+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjqDxALGBkSBwjqDxAMGAIYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      }
+     ]
+    },
+    {
+     "month": "2026-12",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-01",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-02",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-03",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-04",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-05",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-06",
+     "flight": {
+      "date": "2027-06-01",
+      "return": "2027-06-08",
+      "price": 333,
+      "sources": {
+       "viajante": 333
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MEX%20on%202027-06-01%20through%202027-06-08",
+      "seen": "2026-11-11T00:10+00:00"
+     },
+     "days": {
+      "2027-06-01": 333
+     },
+     "hotels": [
+      {
+       "name": "Mr. Herold Homes",
+       "total": 367,
+       "rating": 4.1,
+       "reviews": 189,
+       "url": "https://www.google.com/travel/hotels/entity/ChkIhsmzk6vUrdp7Gg0vZy8xMXN2emRwYnpjEAE?q=Ciudad+de+M%C3%A9xico+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxAGGAESBwjrDxAGGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Downtown treasure place",
+       "total": 395,
+       "rating": 4.4,
+       "reviews": 219,
+       "url": "https://www.google.com/travel/hotels/entity/ChkIz7nhovafirkPGg0vZy8xMXJwXzNyamhfEAE?q=Ciudad+de+M%C3%A9xico+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxAGGAESBwjrDxAGGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Hotel Menara",
+       "total": 418,
+       "rating": 4.0,
+       "reviews": 871,
+       "url": "https://www.google.com/travel/hotels/entity/ChoIv7Tv8o-G8PS9ARoNL2cvMTFmano5bGh2ehAB?q=Ciudad+de+M%C3%A9xico+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxAGGAESBwjrDxAGGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      }
+     ]
+    },
+    {
+     "month": "2027-07",
+     "flight": {
+      "date": "2027-07-01",
+      "return": "2027-07-08",
+      "price": 333,
+      "sources": {
+       "viajante": 333
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MEX%20on%202027-07-01%20through%202027-07-08",
+      "seen": "2026-11-11T00:10+00:00"
+     },
+     "days": {
+      "2027-07-01": 333
+     },
+     "hotels": [
+      {
+       "name": "Downtown treasure place",
+       "total": 388,
+       "rating": 4.4,
+       "reviews": 219,
+       "url": "https://www.google.com/travel/hotels/entity/ChkIz7nhovafirkPGg0vZy8xMXJwXzNyamhfEAE?q=Ciudad+de+M%C3%A9xico+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxAHGAESBwjrDxAHGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Hotel Menara",
+       "total": 418,
+       "rating": 4.0,
+       "reviews": 871,
+       "url": "https://www.google.com/travel/hotels/entity/ChoIv7Tv8o-G8PS9ARoNL2cvMTFmano5bGh2ehAB?q=Ciudad+de+M%C3%A9xico+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxAHGAESBwjrDxAHGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Mr. Herold Homes",
+       "total": 432,
+       "rating": 4.1,
+       "reviews": 189,
+       "url": "https://www.google.com/travel/hotels/entity/ChkIhsmzk6vUrdp7Gg0vZy8xMXN2emRwYnpjEAE?q=Ciudad+de+M%C3%A9xico+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxAHGAESBwjrDxAHGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      }
+     ]
+    },
+    {
+     "month": "2027-08",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-09",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-10",
+     "flight": null,
+     "days": {}
+    }
+   ],
+   "activities": [
+    {
+     "name": "Tour privato di Teotihuacan da Città del Messico",
+     "price": 138,
+     "orig": "127 EUR",
+     "rating": 5.0,
+     "reviews": 2163.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Piramidi di Teotihuacán mattina o pomeriggio senza trappole per turisti",
+     "price": 58,
+     "orig": "54 EUR",
+     "rating": 4.9,
+     "reviews": 10556.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Volo in mongolfiera + Colazione in una grotta naturale + Prelievo + Piramidi",
+     "price": 134,
+     "orig": "124 EUR",
+     "rating": 4.9,
+     "reviews": 2915.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Volo in mongolfiera + colazione a La Gruta + prelievo a Città del Messico oppure volo in mongolfiera",
+     "price": 138,
+     "orig": "128 EUR",
+     "rating": 4.9,
+     "reviews": 4824.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Volo in mongolfiera + Colazione in grotta + Pick up CDMX + Piramidi.",
+     "price": 144,
+     "orig": "133 EUR",
+     "rating": 4.9,
+     "reviews": 8262.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Volo in mongolfiera + prelievo a Città del Messico + colazione in una grotta + piramidi",
+     "price": 152,
+     "orig": "141 EUR",
+     "rating": 4.9,
+     "reviews": 7882.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Teotihuacan, santuario di Guadalupe e tour di un giorno di Tlatelolco con pranzo",
+     "price": 48,
+     "orig": "44 EUR",
+     "rating": 4.8,
+     "reviews": 12527.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Biglietti d'ingresso salta fila per il Museo di Frida Kahlo o la Casa Kahlo",
+     "price": 24,
+     "orig": "22 EUR",
+     "rating": 4.6,
+     "reviews": 834.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour guidato del museo Frida Kahlo",
+     "price": 77,
+     "orig": "72 EUR",
+     "rating": 4.5,
+     "reviews": 338.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Biglietti d’ingresso senza fila per le piramidi di Teotihuacán",
+     "price": 26,
+     "orig": "24 EUR",
+     "rating": 4.5,
+     "reviews": 317.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Museo Frida Kahlo e Anahuacalli: Biglietto d'ingresso + Guida digitale",
+     "price": 34,
+     "orig": "31 EUR",
+     "rating": 4.5,
+     "reviews": 271.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Da Città del Messico: tour guidato di un'intera giornata a Teotihuacán, al Santuario di Guadalupe e a Tlatelolco",
+     "price": 54,
+     "orig": "50 EUR",
+     "rating": 4.7,
+     "reviews": 162.0,
+     "url": null,
+     "src": "piqod"
+    }
+   ]
+  },
+  {
+   "id": "cartagena",
+   "name": "Cartagena",
+   "airport": "CTG",
+   "hotel_city": "Cartagena, Colombia",
+   "car": false,
+   "parks": [],
+   "months": [
+    {
+     "month": "2026-11",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2026-12",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-01",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-02",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-03",
+     "flight": {
+      "date": "2027-03-01",
+      "return": "2027-03-08",
+      "price": 299,
+      "sources": {
+       "viajante": 299
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20CTG%20on%202027-03-01%20through%202027-03-08",
+      "seen": "2026-11-11T00:11+00:00"
+     },
+     "days": {
+      "2027-03-01": 299,
+      "2027-03-02": 299,
+      "2027-03-03": 299,
+      "2027-03-04": 299,
+      "2027-03-05": 299,
+      "2027-03-06": 299,
+      "2027-03-07": 299,
+      "2027-03-08": 299
+     },
+     "hotels": [
+      {
+       "name": "Titas Airport Hotel",
+       "total": 341,
+       "rating": 4.0,
+       "reviews": 329,
+       "url": "https://www.google.com/travel/hotels/entity/ChkIg4eh6JyiytiIARoML2cvMXlnOTNrOGxsEAE?q=Cartagena%2C+Colombia+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxADGAESBwjrDxADGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Pachamama Hostel",
+       "total": 362,
+       "rating": 4.2,
+       "reviews": 304,
+       "url": "https://www.google.com/travel/hotels/entity/ChoI4dKuwLiD0ouVARoNL2cvMTFiOHY5aF84cBAB?q=Cartagena%2C+Colombia+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxADGAESBwjrDxADGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Hotel Stay Villa Marta",
+       "total": 383,
+       "rating": 4.0,
+       "reviews": 145,
+       "url": "https://www.google.com/travel/hotels/entity/ChkIt7-wweSt8PFJGg0vZy8xMWducmcxZnY5EAE?q=Cartagena%2C+Colombia+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxADGAESBwjrDxADGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      }
+     ]
+    },
+    {
+     "month": "2027-04",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-05",
+     "flight": {
+      "date": "2027-05-01",
+      "return": "2027-05-08",
+      "price": 341,
+      "sources": {
+       "viajante": 341
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20CTG%20on%202027-05-01%20through%202027-05-08",
+      "seen": "2026-11-11T00:11+00:00"
+     },
+     "days": {
+      "2027-05-01": 341
+     },
+     "hotels": [
+      {
+       "name": "Hotel Casa Isla de Manga",
+       "total": 320,
+       "rating": 4.1,
+       "reviews": 455,
+       "url": "https://www.google.com/travel/hotels/entity/ChoI_eTW4ZW1r8yLARoNL2cvMTFjNWM4Zmx4cxAB?q=Cartagena%2C+Colombia+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxAFGAESBwjrDxAFGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Titas Airport Hotel",
+       "total": 341,
+       "rating": 4.0,
+       "reviews": 329,
+       "url": "https://www.google.com/travel/hotels/entity/ChkIg4eh6JyiytiIARoML2cvMXlnOTNrOGxsEAE?q=Cartagena%2C+Colombia+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxAFGAESBwjrDxAFGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Pachamama Hostel",
+       "total": 362,
+       "rating": 4.2,
+       "reviews": 304,
+       "url": "https://www.google.com/travel/hotels/entity/ChoI4dKuwLiD0ouVARoNL2cvMTFiOHY5aF84cBAB?q=Cartagena%2C+Colombia+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxAFGAESBwjrDxAFGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      }
+     ]
+    },
+    {
+     "month": "2027-06",
+     "flight": {
+      "date": "2027-06-01",
+      "return": "2027-06-08",
+      "price": 333,
+      "sources": {
+       "trvl": 333,
+       "viajante": 333
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20CTG%20on%202027-06-01%20through%202027-06-08",
+      "seen": "2026-11-11T00:11+00:00"
+     },
+     "days": {
+      "2027-06-01": 333,
+      "2027-06-02": 333,
+      "2027-06-03": 333,
+      "2027-06-04": 341,
+      "2027-06-05": 341,
+      "2027-06-06": 341,
+      "2027-06-07": 341,
+      "2027-06-08": 341,
+      "2027-06-09": 341,
+      "2027-06-10": 341,
+      "2027-06-11": 341,
+      "2027-06-12": 341,
+      "2027-06-13": 341,
+      "2027-06-14": 341,
+      "2027-06-15": 341,
+      "2027-06-16": 341,
+      "2027-06-17": 341,
+      "2027-06-18": 341,
+      "2027-06-19": 341,
+      "2027-06-20": 341,
+      "2027-06-21": 341,
+      "2027-06-22": 341,
+      "2027-06-23": 341,
+      "2027-06-24": 341,
+      "2027-06-25": 341,
+      "2027-06-26": 459,
+      "2027-06-27": 459,
+      "2027-06-28": 341,
+      "2027-06-29": 341,
+      "2027-06-30": 341
+     },
+     "hotels": [
+      {
+       "name": "Hotel Stay Villa Marta",
+       "total": 383,
+       "rating": 4.0,
+       "reviews": 145,
+       "url": "https://www.google.com/travel/hotels/entity/ChkIt7-wweSt8PFJGg0vZy8xMWducmcxZnY5EAE?q=Cartagena%2C+Colombia+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxAGGAESBwjrDxAGGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Casa Mamá Waldy - Bar & Hostel",
+       "total": 441,
+       "rating": 4.0,
+       "reviews": 500,
+       "url": "https://www.google.com/travel/hotels/entity/ChgI77an3KvfyuATGgwvZy8xcHhxNWxqazAQAQ?q=Cartagena%2C+Colombia+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxAGGAESBwjrDxAGGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Blue Diamond Hotel",
+       "total": 446,
+       "rating": 4.8,
+       "reviews": 270,
+       "url": "https://www.google.com/travel/hotels/entity/ChkIzqmVwvGw6_tAGg0vZy8xMWZybnI1bHk2EAE?q=Cartagena%2C+Colombia+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxAGGAESBwjrDxAGGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      }
+     ]
+    },
+    {
+     "month": "2027-07",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-08",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-09",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-10",
+     "flight": null,
+     "days": {}
+    }
+   ],
+   "activities": [
+    {
+     "name": "Tour De Palenque, Strada verso l'emancipazione.",
+     "price": 98,
+     "orig": "91 EUR",
+     "rating": 4.9,
+     "reviews": 2338.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Cartagena 5 Island Hop Tour: pranzo, snorkeling, beach club, & altro",
+     "price": 69,
+     "orig": "64 EUR",
+     "rating": 4.7,
+     "reviews": 6611.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Cartagena: Tour privato a piedi della Città Murata e di Getsemaní",
+     "price": 55,
+     "orig": "51 EUR",
+     "rating": 4.9,
+     "reviews": 1667.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Cartagena Street Food Tour: 10 degustazioni locali nella città fortificata",
+     "price": 51,
+     "orig": "47 EUR",
+     "rating": 4.9,
+     "reviews": 1560.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Isole Rosario di Cartagena 5 - Tour in barca del sito con pranzo e snorkeling",
+     "price": 73,
+     "orig": "68 EUR",
+     "rating": 4.8,
+     "reviews": 1673.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour in ATV e Mini Moto di Cartagena",
+     "price": 113,
+     "orig": "105 EUR",
+     "rating": 4.9,
+     "reviews": 1463.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Cartagena VIP Boat Tour : Isole Rosario e Snorkeling",
+     "price": 105,
+     "orig": "97 EUR",
+     "rating": 4.9,
+     "reviews": 953.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Cartagena Antigua & Barrio Getsemani gruppo con sistema audio",
+     "price": 10,
+     "orig": "9 EUR",
+     "rating": 4.9,
+     "reviews": 883.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Corso di cucina a Cartagena con chef locale (esperienza per piccoli gruppi)",
+     "price": 58,
+     "orig": "54 EUR",
+     "rating": 5.0,
+     "reviews": 570.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Cartagena Rum & Cioccolato: Introduzione di 1 ora o Vista del Castello di 2 ore",
+     "price": 44,
+     "orig": "41 EUR",
+     "rating": 5.0,
+     "reviews": 535.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "VIP Snorkeling and Boat Tour of Rosario Islands in Cartagena",
+     "price": 107,
+     "orig": "107 USD",
+     "rating": 4.9,
+     "reviews": null,
+     "url": "https://tripways.com/t/844599?utm_source=mcp&utm_medium=mcp&utm_campaign=tripways_mcp",
+     "src": "tripways"
+    },
+    {
+     "name": "Private Day Trip to the Rosario Islands from Cartagena",
+     "price": 90,
+     "orig": "90 USD",
+     "rating": 4.8,
+     "reviews": null,
+     "url": "https://tripways.com/t/844597?utm_source=mcp&utm_medium=mcp&utm_campaign=tripways_mcp",
+     "src": "tripways"
+    }
+   ]
+  },
+  {
+   "id": "panama",
+   "name": "Panamá",
+   "airport": "PTY",
+   "hotel_city": "Ciudad de Panamá",
+   "car": false,
+   "parks": [],
+   "months": [
+    {
+     "month": "2026-11",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2026-12",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-01",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-02",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-03",
+     "flight": {
+      "date": "2027-03-01",
+      "return": "2027-03-08",
+      "price": 264,
+      "sources": {
+       "viajante": 264
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20PTY%20on%202027-03-01%20through%202027-03-08",
+      "seen": "2026-11-11T00:10+00:00"
+     },
+     "days": {
+      "2027-03-01": 264,
+      "2027-03-02": 264,
+      "2027-03-03": 264,
+      "2027-03-04": 264,
+      "2027-03-05": 264,
+      "2027-03-06": 264,
+      "2027-03-07": 264,
+      "2027-03-08": 264
+     },
+     "hotels": [
+      {
+       "name": "Mamallena Panama City",
+       "total": 308,
+       "rating": 4.2,
+       "reviews": 454,
+       "url": "https://www.google.com/travel/hotels/entity/ChgI07qV-rjM1I-NARoLL2cvMXZ2eXo0MW0QAQ?q=Ciudad+de+Panam%C3%A1+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxADGAESBwjrDxADGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Hotel |Hostal Gemar | Estadias en Panama",
+       "total": 343,
+       "rating": 4.1,
+       "reviews": 264,
+       "url": "https://www.google.com/travel/hotels/entity/ChkI8r6ymqO5mKneARoML2cvMTEzZjJ4YjlrEAE?q=Ciudad+de+Panam%C3%A1+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxADGAESBwjrDxADGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Canova Hospedaje",
+       "total": 344,
+       "rating": 4.2,
+       "reviews": 389,
+       "url": "https://www.google.com/travel/hotels/entity/ChkIzprGydfH9bJ8Gg0vZy8xMWw3c3FzZzB6EAE?q=Ciudad+de+Panam%C3%A1+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxADGAESBwjrDxADGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      }
+     ]
+    },
+    {
+     "month": "2027-04",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-05",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-06",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-07",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-08",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-09",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-10",
+     "flight": null,
+     "days": {}
+    }
+   ],
+   "activities": [
+    {
+     "name": "Tour delle Leggende di Casco Viejo: Scopri Gemme Nascoste",
+     "price": 36,
+     "orig": "34 EUR",
+     "rating": 4.9,
+     "reviews": 2237.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Panama City Visita a un villaggio indiano Embera e a una cascata con pranzo",
+     "price": 41,
+     "orig": "38 EUR",
+     "rating": 4.9,
+     "reviews": 2045.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour del Canale di Panama e della Città con Pre-ritiro in Hotel e Ingresso al Canale Incluso",
+     "price": 87,
+     "orig": "81 EUR",
+     "rating": 4.9,
+     "reviews": 1880.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Gatun Lake : Scimmie e fauna esotica lungo il canale",
+     "price": 29,
+     "orig": "27 EUR",
+     "rating": 4.8,
+     "reviews": 2435.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Combo Oceano a Oceano: Safari in Barca sul Canale, Agua Clara e Dighe di Gatun",
+     "price": 83,
+     "orig": "77 EUR",
+     "rating": 4.9,
+     "reviews": 1790.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour di Panama all'Habitat della giungla delle scimmie e dei bradipi",
+     "price": 59,
+     "orig": "55 EUR",
+     "rating": 4.8,
+     "reviews": 1934.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour in catamarano all inclusive dell'isola di Taboga da Panama City",
+     "price": 97,
+     "orig": "90 EUR",
+     "rating": 4.8,
+     "reviews": 1664.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour al fiume Chagres e al villaggio Embera con pranzo incluso",
+     "price": 39,
+     "orig": "36 EUR",
+     "rating": 4.9,
+     "reviews": 1167.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour privato della città di Panama in un classico Safari VW",
+     "price": 245,
+     "orig": "226 EUR",
+     "rating": 5.0,
+     "reviews": 946.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour di mezza giornata della città di Panama e del canale: condiviso e privato",
+     "price": 65,
+     "orig": "61 EUR",
+     "rating": 4.9,
+     "reviews": 892.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour di gruppo dei punti salienti di Panama City e del Canale di Panama con prelievo e riconsegna in hotel",
+     "price": 34,
+     "orig": "31 EUR",
+     "rating": 4.3,
+     "reviews": 105.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Panama Canal and Casco Antiguo 4-Hour Guided Tour",
+     "price": 250,
+     "orig": "250 USD",
+     "rating": 5.0,
+     "reviews": null,
+     "url": "https://tripways.com/t/200011?utm_source=mcp&utm_medium=mcp&utm_campaign=tripways_mcp",
+     "src": "tripways"
+    }
+   ]
+  },
+  {
+   "id": "lima",
+   "name": "Lima / Cusco",
+   "airport": "LIM",
+   "hotel_city": "Miraflores, Lima",
+   "car": false,
+   "parks": [],
+   "months": [
+    {
+     "month": "2026-11",
+     "flight": {
+      "date": "2026-11-15",
+      "return": "2026-11-22",
+      "price": 371,
+      "sources": {
+       "trvl": 371
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20LIM%20on%202026-11-15%20through%202026-11-22",
+      "seen": "2026-11-11T00:33+00:00"
+     },
+     "days": {
+      "2026-11-14": 394,
+      "2026-11-15": 371,
+      "2026-11-16": 416,
+      "2026-11-17": 371,
+      "2026-11-18": 371,
+      "2026-11-19": 371,
+      "2026-11-20": 493,
+      "2026-11-21": 413,
+      "2026-11-22": 423,
+      "2026-11-23": 371,
+      "2026-11-24": 371,
+      "2026-11-25": 372,
+      "2026-11-26": 373,
+      "2026-11-27": 384,
+      "2026-11-28": 463,
+      "2026-11-29": 415,
+      "2026-11-30": 371
+     },
+     "hotels": [
+      {
+       "name": "Kaclla, The Healing Dog Hostel",
+       "total": 315,
+       "rating": 4.3,
+       "reviews": 522,
+       "url": "https://www.google.com/travel/hotels/entity/ChoImOGSqu2c5K-5ARoNL2cvMTFiNzNucXpnZhAB?q=Miraflores%2C+Lima+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjqDxALGA8SBwjqDxALGBYYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Ayni Living - Hostel",
+       "total": 342,
+       "rating": 4.9,
+       "reviews": 174,
+       "url": "https://www.google.com/travel/hotels/entity/ChoIx67x8vyispCaARoNL2cvMTFuYzA0OXYyNRAB?q=Miraflores%2C+Lima+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjqDxALGA8SBwjqDxALGBYYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Llaqta Hotel",
+       "total": 438,
+       "rating": 4.2,
+       "reviews": 337,
+       "url": "https://www.google.com/travel/hotels/entity/ChkIxLHAw4q6q__iARoML2cvMTEzal9rZzQwEAE?q=Miraflores%2C+Lima+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjqDxALGA8SBwjqDxALGBYYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      }
+     ]
+    },
+    {
+     "month": "2026-12",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-01",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-02",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-03",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-04",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-05",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-06",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-07",
+     "flight": {
+      "date": "2027-07-01",
+      "return": "2027-07-08",
+      "price": 371,
+      "sources": {
+       "trvl": 371,
+       "viajante": 371
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20LIM%20on%202027-07-01%20through%202027-07-08",
+      "seen": "2026-11-11T00:33+00:00"
+     },
+     "days": {
+      "2027-07-01": 371,
+      "2027-07-02": 392,
+      "2027-07-03": 372,
+      "2027-07-04": 374,
+      "2027-07-05": 372,
+      "2027-07-06": 371,
+      "2027-07-07": 371,
+      "2027-07-08": 371,
+      "2027-07-09": 371,
+      "2027-07-10": 415,
+      "2027-07-11": 372,
+      "2027-07-12": 371,
+      "2027-07-13": 371,
+      "2027-07-14": 392,
+      "2027-07-15": 392,
+      "2027-07-16": 392,
+      "2027-07-17": 392,
+      "2027-07-18": 392,
+      "2027-07-19": 392,
+      "2027-07-20": 392,
+      "2027-07-21": 413,
+      "2027-07-22": 413,
+      "2027-07-23": 413,
+      "2027-07-24": 413,
+      "2027-07-25": 413,
+      "2027-07-26": 413,
+      "2027-07-27": 413,
+      "2027-07-28": 413,
+      "2027-07-29": 413,
+      "2027-07-30": 434,
+      "2027-07-31": 434
+     },
+     "hotels": [
+      {
+       "name": "ibis Styles Lima Benavides Miraflores",
+       "total": 252,
+       "rating": 4.5,
+       "reviews": 707,
+       "url": "https://www.google.com/travel/hotels/Miraflores%2C%20Lima?q=Miraflores%2C+Lima+hotels&dates=2027-07-01,2027-07-08",
+       "src": "trvl"
+      },
+      {
+       "name": "qp Hotels Lima",
+       "total": 259,
+       "rating": 4.4,
+       "reviews": 1230,
+       "url": "https://www.google.com/travel/hotels/Miraflores%2C%20Lima?q=Miraflores%2C+Lima+hotels&dates=2027-07-01,2027-07-08",
+       "src": "trvl"
+      },
+      {
+       "name": "Naia Hotel Miraflores",
+       "total": 266,
+       "rating": 4.3,
+       "reviews": 1797,
+       "url": "https://www.google.com/travel/hotels/Miraflores%2C%20Lima?q=Miraflores%2C+Lima+hotels&dates=2027-07-01,2027-07-08",
+       "src": "trvl"
+      }
+     ]
+    },
+    {
+     "month": "2027-08",
+     "flight": {
+      "date": "2027-08-09",
+      "return": "2027-08-16",
+      "price": 371,
+      "sources": {
+       "trvl": 371,
+       "viajante": 371
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20LIM%20on%202027-08-09%20through%202027-08-16",
+      "seen": "2026-11-11T00:33+00:00"
+     },
+     "days": {
+      "2027-08-01": 434,
+      "2027-08-02": 413,
+      "2027-08-03": 392,
+      "2027-08-04": 392,
+      "2027-08-05": 392,
+      "2027-08-06": 392,
+      "2027-08-07": 392,
+      "2027-08-08": 413,
+      "2027-08-09": 371,
+      "2027-08-10": 371,
+      "2027-08-11": 371,
+      "2027-08-12": 392,
+      "2027-08-13": 392,
+      "2027-08-14": 392,
+      "2027-08-15": 392,
+      "2027-08-16": 392,
+      "2027-08-17": 372,
+      "2027-08-18": 372,
+      "2027-08-19": 374,
+      "2027-08-20": 374,
+      "2027-08-21": 374,
+      "2027-08-22": 374,
+      "2027-08-23": 372,
+      "2027-08-24": 372,
+      "2027-08-25": 372,
+      "2027-08-26": 372,
+      "2027-08-27": 372,
+      "2027-08-28": 372,
+      "2027-08-29": 371,
+      "2027-08-30": 371,
+      "2027-08-31": 371
+     },
+     "hotels": [
+      {
+       "name": "ibis Styles Lima Benavides Miraflores",
+       "total": 252,
+       "rating": 4.5,
+       "reviews": 707,
+       "url": "https://www.google.com/travel/hotels/Miraflores%2C%20Lima?q=Miraflores%2C+Lima+hotels&dates=2027-08-09,2027-08-16",
+       "src": "trvl"
+      },
+      {
+       "name": "qp Hotels Lima",
+       "total": 259,
+       "rating": 4.4,
+       "reviews": 1230,
+       "url": "https://www.google.com/travel/hotels/Miraflores%2C%20Lima?q=Miraflores%2C+Lima+hotels&dates=2027-08-09,2027-08-16",
+       "src": "trvl"
+      },
+      {
+       "name": "Naia Hotel Miraflores",
+       "total": 266,
+       "rating": 4.3,
+       "reviews": 1797,
+       "url": "https://www.google.com/travel/hotels/Miraflores%2C%20Lima?q=Miraflores%2C+Lima+hotels&dates=2027-08-09,2027-08-16",
+       "src": "trvl"
+      }
+     ]
+    },
+    {
+     "month": "2027-09",
+     "flight": {
+      "date": "2027-09-29",
+      "return": "2027-10-06",
+      "price": 370,
+      "sources": {
+       "trvl": 370
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20LIM%20on%202027-09-29%20through%202027-10-06",
+      "seen": "2026-11-11T00:33+00:00"
+     },
+     "days": {
+      "2027-09-01": 371,
+      "2027-09-02": 371,
+      "2027-09-03": 371,
+      "2027-09-04": 371,
+      "2027-09-05": 371,
+      "2027-09-06": 371,
+      "2027-09-07": 371,
+      "2027-09-08": 371,
+      "2027-09-09": 371,
+      "2027-09-10": 371,
+      "2027-09-11": 371,
+      "2027-09-12": 371,
+      "2027-09-13": 371,
+      "2027-09-14": 371,
+      "2027-09-15": 371,
+      "2027-09-16": 371,
+      "2027-09-17": 371,
+      "2027-09-18": 371,
+      "2027-09-19": 371,
+      "2027-09-20": 371,
+      "2027-09-21": 371,
+      "2027-09-22": 371,
+      "2027-09-23": 371,
+      "2027-09-24": 371,
+      "2027-09-25": 371,
+      "2027-09-26": 371,
+      "2027-09-27": 371,
+      "2027-09-28": 371,
+      "2027-09-29": 370,
+      "2027-09-30": 370
+     },
+     "hotels": [
+      {
+       "name": "ibis Styles Lima Benavides Miraflores",
+       "total": 252,
+       "rating": 4.5,
+       "reviews": 707,
+       "url": "https://www.google.com/travel/hotels/Miraflores%2C%20Lima?q=Miraflores%2C+Lima+hotels&dates=2027-09-29,2027-10-06",
+       "src": "trvl"
+      },
+      {
+       "name": "qp Hotels Lima",
+       "total": 259,
+       "rating": 4.4,
+       "reviews": 1230,
+       "url": "https://www.google.com/travel/hotels/Miraflores%2C%20Lima?q=Miraflores%2C+Lima+hotels&dates=2027-09-29,2027-10-06",
+       "src": "trvl"
+      },
+      {
+       "name": "Naia Hotel Miraflores",
+       "total": 266,
+       "rating": 4.3,
+       "reviews": 1797,
+       "url": "https://www.google.com/travel/hotels/Miraflores%2C%20Lima?q=Miraflores%2C+Lima+hotels&dates=2027-09-29,2027-10-06",
+       "src": "trvl"
+      }
+     ]
+    },
+    {
+     "month": "2027-10",
+     "flight": null,
+     "days": {}
+    }
+   ],
+   "activities": [
+    {
+     "name": "Lima Ultimate Food Tour peruviano",
+     "price": 103,
+     "orig": "96 EUR",
+     "rating": 5.0,
+     "reviews": 3236.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour di un giorno da Lima: Paracas, Huacachina, Pisco Vineyard & Sunset",
+     "price": 54,
+     "orig": "50 EUR",
+     "rating": 4.9,
+     "reviews": 6854.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Premium Paracas & Huacachina Gita di un giorno da Lima con brindisi al tramonto",
+     "price": 92,
+     "orig": "85 EUR",
+     "rating": 4.9,
+     "reviews": 10445.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "#1 Classificato Lima Cooking Class : Fai Ceviche, Causa e Pisco Sours!",
+     "price": 48,
+     "orig": "45 EUR",
+     "rating": 5.0,
+     "reviews": 1740.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour a piedi di mezza giornata della città di Lima (piccoli gruppi)",
+     "price": 35,
+     "orig": "33 EUR",
+     "rating": 4.9,
+     "reviews": 1854.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour esclusivo di Paracas e Huacachina al tramonto",
+     "price": 133,
+     "orig": "123 EUR",
+     "rating": 4.9,
+     "reviews": 1688.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Escursione completa di un giorno a Paracas e Huacachina da Lima: esperienza al tramonto",
+     "price": 58,
+     "orig": "54 EUR",
+     "rating": 4.9,
+     "reviews": 1496.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Esperienza premium a Paracas e Huacachina da Lima",
+     "price": 79,
+     "orig": "73 EUR",
+     "rating": 4.9,
+     "reviews": 1244.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Lezione di cucina peruviana, tour del mercato locale e degustazione di frutta esotica",
+     "price": 71,
+     "orig": "65 EUR",
+     "rating": 5.0,
+     "reviews": 909.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "L'esperienza completa di Lima: storia, cultura e sapori",
+     "price": 108,
+     "orig": "100 EUR",
+     "rating": 5.0,
+     "reviews": 847.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Lima Market Food Tour: Explore Authentic Peruvian Cuisine",
+     "price": 52,
+     "orig": "52 USD",
+     "rating": 4.9,
+     "reviews": null,
+     "url": "https://tripways.com/t/822690?utm_source=mcp&utm_medium=mcp&utm_campaign=tripways_mcp",
+     "src": "tripways"
+    },
+    {
+     "name": "Lima City Tour: 360° Panoramic Bus Exploration",
+     "price": 36,
+     "orig": "36 USD",
+     "rating": 4.6,
+     "reviews": null,
+     "url": "https://tripways.com/t/823376?utm_source=mcp&utm_medium=mcp&utm_campaign=tripways_mcp",
+     "src": "tripways"
+    }
+   ]
+  },
+  {
+   "id": "buenos-aires",
+   "name": "Buenos Aires",
+   "airport": "EZE",
+   "hotel_city": "Palermo, Buenos Aires",
+   "car": false,
+   "parks": [],
+   "months": [
+    {
+     "month": "2026-11",
+     "flight": {
+      "date": "2026-11-17",
+      "return": "2026-11-24",
+      "price": 650,
+      "sources": {
+       "trvl": 650,
+       "viajante": 650
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20EZE%20on%202026-11-17%20through%202026-11-24",
+      "seen": "2026-11-11T00:10+00:00"
+     },
+     "days": {
+      "2026-11-14": 870,
+      "2026-11-15": 885,
+      "2026-11-16": 834,
+      "2026-11-17": 650,
+      "2026-11-18": 650,
+      "2026-11-19": 673,
+      "2026-11-20": 652,
+      "2026-11-21": 756,
+      "2026-11-22": 671,
+      "2026-11-23": 1240,
+      "2026-11-24": 945,
+      "2026-11-25": 749,
+      "2026-11-26": 692,
+      "2026-11-27": 986,
+      "2026-11-28": 861,
+      "2026-11-29": 1240,
+      "2026-11-30": 728
+     },
+     "hotels": [
+      {
+       "name": "Play Hostel Arcos",
+       "total": 189,
+       "rating": 4.0,
+       "reviews": 1445,
+       "url": "https://www.google.com/travel/hotels/Palermo%2C%20Buenos%20Aires?q=Palermo%2C+Buenos+Aires+hotels&dates=2026-11-17,2026-11-24",
+       "src": "trvl"
+      },
+      {
+       "name": "Meridiano Hostel Boutique",
+       "total": 231,
+       "rating": 4.1,
+       "reviews": 542,
+       "url": "https://www.google.com/travel/hotels/Palermo%2C%20Buenos%20Aires?q=Palermo%2C+Buenos+Aires+hotels&dates=2026-11-17,2026-11-24",
+       "src": "trvl"
+      },
+      {
+       "name": "Hostel Ruda",
+       "total": 252,
+       "rating": 4.3,
+       "reviews": 333,
+       "url": "https://www.google.com/travel/hotels/Palermo%2C%20Buenos%20Aires?q=Palermo%2C+Buenos+Aires+hotels&dates=2026-11-17,2026-11-24",
+       "src": "trvl"
+      }
+     ]
+    },
+    {
+     "month": "2026-12",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-01",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-02",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-03",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-04",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-05",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-06",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-07",
+     "flight": {
+      "date": "2027-07-01",
+      "return": "2027-07-08",
+      "price": 650,
+      "sources": {
+       "trvl": 650
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20EZE%20on%202027-07-01%20through%202027-07-08",
+      "seen": "2026-11-11T00:10+00:00"
+     },
+     "days": {
+      "2027-07-01": 650,
+      "2027-07-02": 650,
+      "2027-07-03": 650,
+      "2027-07-04": 705,
+      "2027-07-05": 705,
+      "2027-07-06": 705,
+      "2027-07-07": 705,
+      "2027-07-08": 705,
+      "2027-07-09": 705,
+      "2027-07-10": 705,
+      "2027-07-11": 839,
+      "2027-07-12": 759,
+      "2027-07-13": 671,
+      "2027-07-14": 650,
+      "2027-07-15": 650,
+      "2027-07-16": 650,
+      "2027-07-17": 755,
+      "2027-07-18": 650,
+      "2027-07-19": 650,
+      "2027-07-20": 650,
+      "2027-07-21": 650,
+      "2027-07-22": 650,
+      "2027-07-23": 650,
+      "2027-07-24": 650,
+      "2027-07-25": 650,
+      "2027-07-26": 650,
+      "2027-07-27": 650,
+      "2027-07-28": 650,
+      "2027-07-29": 650,
+      "2027-07-30": 650,
+      "2027-07-31": 756
+     },
+     "hotels": [
+      {
+       "name": "PH Palermo Hostel",
+       "total": 531,
+       "rating": 4.7,
+       "reviews": 235,
+       "url": "https://www.google.com/travel/hotels/entity/ChkIjom8nbyFirthGg0vZy8xMWwyeDNfZGtjEAE?q=Palermo%2C+Buenos+Aires+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxAHGAESBwjrDxAHGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Miliño Apart Hotel",
+       "total": 637,
+       "rating": 4.0,
+       "reviews": 792,
+       "url": "https://www.google.com/travel/hotels/entity/ChgIwaCU45L1j_W1ARoLL2cvMXRkazZjMzcQAQ?q=Palermo%2C+Buenos+Aires+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxAHGAESBwjrDxAHGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Palermo Bridge",
+       "total": 1099,
+       "rating": 4.5,
+       "reviews": 930,
+       "url": "https://www.google.com/travel/hotels/entity/ChkIzvnes5eXyI1HGg0vZy8xMWdwbmhkYmNzEAE?q=Palermo%2C+Buenos+Aires+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxAHGAESBwjrDxAHGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      }
+     ]
+    },
+    {
+     "month": "2027-08",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-09",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-10",
+     "flight": null,
+     "days": {}
+    }
+   ],
+   "activities": [
+    {
+     "name": "Avventura gastronomica locale a Buenos Aires con Sherpa Food Tours",
+     "price": 87,
+     "orig": "81 EUR",
+     "rating": 5.0,
+     "reviews": 8395.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour privato della città di Buenos Aires con guida locale",
+     "price": 126,
+     "orig": "116 EUR",
+     "rating": 4.9,
+     "reviews": 4061.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Cucina argentina, degustazione di vino e manzo all'Argentina Experience",
+     "price": 97,
+     "orig": "90 EUR",
+     "rating": 5.0,
+     "reviews": 1671.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Intimate Underground Tango Show di Secreto Tango Society",
+     "price": 83,
+     "orig": "77 EUR",
+     "rating": 5.0,
+     "reviews": 1629.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Corso di cucina con Empanadas Steak & Flan di Argentine Experience",
+     "price": 64,
+     "orig": "59 EUR",
+     "rating": 5.0,
+     "reviews": 1534.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour storico di San Telmo con cibo di strada, bevande",
+     "price": 76,
+     "orig": "70 EUR",
+     "rating": 5.0,
+     "reviews": 1131.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Barbecue argentino con Betty e Marcelo a Buenos Aires",
+     "price": 118,
+     "orig": "109 EUR",
+     "rating": 5.0,
+     "reviews": 957.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Spettacolo di tango di Piazzolla",
+     "price": 24,
+     "orig": "22 EUR",
+     "rating": 4.6,
+     "reviews": 299.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Spettacolo di tango El Viejo Almacén",
+     "price": 34,
+     "orig": "31 EUR",
+     "rating": 4.4,
+     "reviews": 300.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Spettacolo di tango Porteño",
+     "price": 39,
+     "orig": "36 EUR",
+     "rating": 4.5,
+     "reviews": 141.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Spettacolo di tango Madero",
+     "price": 115,
+     "orig": "107 EUR",
+     "rating": 4.5,
+     "reviews": 137.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Biglietti Obelisco de Buenos Aires",
+     "price": 37,
+     "orig": "34 EUR",
+     "rating": 4.7,
+     "reviews": 115.0,
+     "url": null,
+     "src": "piqod"
+    }
+   ]
+  },
+  {
+   "id": "madrid",
+   "name": "Madrid",
+   "airport": "MAD",
+   "hotel_city": "Madrid, España",
+   "car": false,
+   "parks": [],
+   "months": [
+    {
+     "month": "2026-11",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2026-12",
+     "flight": {
+      "date": "2026-12-01",
+      "return": "2026-12-08",
+      "price": 762,
+      "sources": {
+       "viajante": 762
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MAD%20on%202026-12-01%20through%202026-12-08",
+      "seen": "2026-11-11T00:34+00:00"
+     },
+     "days": {
+      "2026-12-01": 762,
+      "2026-12-02": 895,
+      "2026-12-03": 788,
+      "2026-12-04": 878,
+      "2026-12-05": 841,
+      "2026-12-06": 987,
+      "2026-12-07": 841,
+      "2026-12-08": 946
+     },
+     "hotels": [
+      {
+       "name": "FAR HOME ATOCHA",
+       "total": 789,
+       "rating": 4.4,
+       "reviews": 1388,
+       "url": "https://www.google.com/travel/hotels/entity/ChkIn_qV79mN0LUeGg0vZy8xMWNteHg4eW50EAE?q=Madrid%2C+Espa%C3%B1a+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjqDxAMGAESBwjqDxAMGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Room007 Ventura Hostel",
+       "total": 810,
+       "rating": 4.0,
+       "reviews": 1276,
+       "url": "https://www.google.com/travel/hotels/entity/ChkI0ezZ2IyFhMKWARoML2cvMTJocXIwaDR2EAE?q=Madrid%2C+Espa%C3%B1a+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjqDxAMGAESBwjqDxAMGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "TOC Hostel Madrid",
+       "total": 850,
+       "rating": 4.3,
+       "reviews": 2249,
+       "url": "https://www.google.com/travel/hotels/entity/ChoIyb618p6V9qumARoNL2cvMTFiNjM4dDlibhAB?q=Madrid%2C+Espa%C3%B1a+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjqDxAMGAESBwjqDxAMGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      }
+     ]
+    },
+    {
+     "month": "2027-01",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-02",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-03",
+     "flight": {
+      "date": "2027-03-02",
+      "return": "2027-03-09",
+      "price": 775,
+      "sources": {
+       "viajante": 775
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MAD%20on%202027-03-02%20through%202027-03-09",
+      "seen": "2026-11-11T00:34+00:00"
+     },
+     "days": {
+      "2027-03-01": 844,
+      "2027-03-02": 775
+     },
+     "hotels": [
+      {
+       "name": "Way Hostel Madrid",
+       "total": 759,
+       "rating": 4.5,
+       "reviews": 1194,
+       "url": "https://www.google.com/travel/hotels/entity/ChcIlJfwxMzX5vdgGgsvZy8xdGdsam1kMRAB?q=Madrid%2C+Espa%C3%B1a+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxADGAISBwjrDxADGAkYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Vértice Roomspace Madrid",
+       "total": 822,
+       "rating": 4.0,
+       "reviews": 5189,
+       "url": "https://www.google.com/travel/hotels/entity/ChgIpuG7g6Kvlr22ARoLL2cvMXRmYmswbWoQAQ?q=Madrid%2C+Espa%C3%B1a+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxADGAISBwjrDxADGAkYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Far Home Bernabeu",
+       "total": 1061,
+       "rating": 4.4,
+       "reviews": 1962,
+       "url": "https://www.google.com/travel/hotels/entity/ChoIhcbThKapktOWARoNL2cvMTFoYnBzYjczehAB?q=Madrid%2C+Espa%C3%B1a+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxADGAISBwjrDxADGAkYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      }
+     ]
+    },
+    {
+     "month": "2027-04",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-05",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-06",
+     "flight": {
+      "date": "2027-06-01",
+      "return": "2027-06-08",
+      "price": 723,
+      "sources": {
+       "trvl": 723
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MAD%20on%202027-06-01%20through%202027-06-08",
+      "seen": "2026-11-11T00:34+00:00"
+     },
+     "days": {
+      "2027-06-01": 723,
+      "2027-06-02": 844,
+      "2027-06-03": 794,
+      "2027-06-04": 871,
+      "2027-06-05": 780,
+      "2027-06-06": 955,
+      "2027-06-07": 908,
+      "2027-06-08": 761,
+      "2027-06-09": 908,
+      "2027-06-10": 780,
+      "2027-06-11": 955,
+      "2027-06-12": 820,
+      "2027-06-13": 955,
+      "2027-06-14": 908,
+      "2027-06-15": 820,
+      "2027-06-16": 955,
+      "2027-06-17": 780,
+      "2027-06-18": 1018,
+      "2027-06-19": 873,
+      "2027-06-20": 1097,
+      "2027-06-21": 908,
+      "2027-06-22": 883,
+      "2027-06-23": 908,
+      "2027-06-24": 908,
+      "2027-06-25": 955,
+      "2027-06-26": 955,
+      "2027-06-27": 1018,
+      "2027-06-28": 1171,
+      "2027-06-29": 883,
+      "2027-06-30": 955
+     },
+     "hotels": [
+      {
+       "name": "Petit Hostel Palacio Real",
+       "total": 224,
+       "rating": 4.4,
+       "reviews": 1206,
+       "url": "https://www.google.com/travel/hotels/Madrid%2C%20Espa%C3%B1a?q=Madrid%2C+Espa%C3%B1a+hotels&dates=2027-06-01,2027-06-08",
+       "src": "trvl"
+      },
+      {
+       "name": "FAR HOME ATOCHA",
+       "total": 252,
+       "rating": 4.4,
+       "reviews": 1388,
+       "url": "https://www.google.com/travel/hotels/Madrid%2C%20Espa%C3%B1a?q=Madrid%2C+Espa%C3%B1a+hotels&dates=2027-06-01,2027-06-08",
+       "src": "trvl"
+      },
+      {
+       "name": "Room Gran Vía",
+       "total": 259,
+       "rating": 4.1,
+       "reviews": 1330,
+       "url": "https://www.google.com/travel/hotels/Madrid%2C%20Espa%C3%B1a?q=Madrid%2C+Espa%C3%B1a+hotels&dates=2027-06-01,2027-06-08",
+       "src": "trvl"
+      }
+     ]
+    },
+    {
+     "month": "2027-07",
+     "flight": {
+      "date": "2027-07-06",
+      "return": "2027-07-13",
+      "price": 883,
+      "sources": {
+       "trvl": 883,
+       "viajante": 883
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MAD%20on%202027-07-06%20through%202027-07-13",
+      "seen": "2026-11-11T00:34+00:00"
+     },
+     "days": {
+      "2027-07-01": 1005,
+      "2027-07-02": 1253,
+      "2027-07-03": 1127,
+      "2027-07-04": 1234,
+      "2027-07-05": 1190,
+      "2027-07-06": 883,
+      "2027-07-07": 1083,
+      "2027-07-08": 1092,
+      "2027-07-09": 1190,
+      "2027-07-10": 1269,
+      "2027-07-11": 1360,
+      "2027-07-12": 1190,
+      "2027-07-13": 1049,
+      "2027-07-14": 1190,
+      "2027-07-15": 1073,
+      "2027-07-16": 1190,
+      "2027-07-17": 1073,
+      "2027-07-18": 1127,
+      "2027-07-19": 1190,
+      "2027-07-20": 1073,
+      "2027-07-21": 1127,
+      "2027-07-22": 1060,
+      "2027-07-23": 1190,
+      "2027-07-24": 1059,
+      "2027-07-25": 1269,
+      "2027-07-26": 1127,
+      "2027-07-27": 1093,
+      "2027-07-28": 1226,
+      "2027-07-29": 1066,
+      "2027-07-30": 1079,
+      "2027-07-31": 1057
+     },
+     "hotels": [
+      {
+       "name": "Petit Hostel Palacio Real",
+       "total": 224,
+       "rating": 4.4,
+       "reviews": 1206,
+       "url": "https://www.google.com/travel/hotels/Madrid%2C%20Espa%C3%B1a?q=Madrid%2C+Espa%C3%B1a+hotels&dates=2027-07-06,2027-07-13",
+       "src": "trvl"
+      },
+      {
+       "name": "Room007 Ventura Hostel",
+       "total": 224,
+       "rating": 4.0,
+       "reviews": 1276,
+       "url": "https://www.google.com/travel/hotels/Madrid%2C%20Espa%C3%B1a?q=Madrid%2C+Espa%C3%B1a+hotels&dates=2027-07-06,2027-07-13",
+       "src": "trvl"
+      },
+      {
+       "name": "FAR HOME ATOCHA",
+       "total": 252,
+       "rating": 4.4,
+       "reviews": 1388,
+       "url": "https://www.google.com/travel/hotels/Madrid%2C%20Espa%C3%B1a?q=Madrid%2C+Espa%C3%B1a+hotels&dates=2027-07-06,2027-07-13",
+       "src": "trvl"
+      }
+     ]
+    },
+    {
+     "month": "2027-08",
+     "flight": {
+      "date": "2027-08-10",
+      "return": "2027-08-17",
+      "price": 794,
+      "sources": {
+       "trvl": 794,
+       "viajante": 794
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MAD%20on%202027-08-10%20through%202027-08-17",
+      "seen": "2026-11-11T00:34+00:00"
+     },
+     "days": {
+      "2027-08-01": 1190,
+      "2027-08-02": 1042,
+      "2027-08-03": 1057,
+      "2027-08-04": 1079,
+      "2027-08-05": 1003,
+      "2027-08-06": 1016,
+      "2027-08-07": 1055,
+      "2027-08-08": 1190,
+      "2027-08-09": 1153,
+      "2027-08-10": 794,
+      "2027-08-11": 1079,
+      "2027-08-12": 978,
+      "2027-08-13": 1016,
+      "2027-08-14": 978,
+      "2027-08-15": 1185,
+      "2027-08-16": 1158,
+      "2027-08-17": 952,
+      "2027-08-18": 1032,
+      "2027-08-19": 926,
+      "2027-08-20": 1111,
+      "2027-08-21": 962,
+      "2027-08-22": 1018,
+      "2027-08-23": 1010,
+      "2027-08-24": 1030,
+      "2027-08-25": 975,
+      "2027-08-26": 1013,
+      "2027-08-27": 1185,
+      "2027-08-28": 1047,
+      "2027-08-29": 1032,
+      "2027-08-30": 1121,
+      "2027-08-31": 956
+     },
+     "hotels": [
+      {
+       "name": "Petit Hostel Palacio Real",
+       "total": 224,
+       "rating": 4.4,
+       "reviews": 1206,
+       "url": "https://www.google.com/travel/hotels/Madrid%2C%20Espa%C3%B1a?q=Madrid%2C+Espa%C3%B1a+hotels&dates=2027-08-10,2027-08-17",
+       "src": "trvl"
+      },
+      {
+       "name": "Room007 Ventura Hostel",
+       "total": 224,
+       "rating": 4.0,
+       "reviews": 1276,
+       "url": "https://www.google.com/travel/hotels/Madrid%2C%20Espa%C3%B1a?q=Madrid%2C+Espa%C3%B1a+hotels&dates=2027-08-10,2027-08-17",
+       "src": "trvl"
+      },
+      {
+       "name": "FAR HOME ATOCHA",
+       "total": 252,
+       "rating": 4.4,
+       "reviews": 1388,
+       "url": "https://www.google.com/travel/hotels/Madrid%2C%20Espa%C3%B1a?q=Madrid%2C+Espa%C3%B1a+hotels&dates=2027-08-10,2027-08-17",
+       "src": "trvl"
+      }
+     ]
+    },
+    {
+     "month": "2027-09",
+     "flight": {
+      "date": "2027-09-23",
+      "return": "2027-09-30",
+      "price": 806,
+      "sources": {
+       "trvl": 806,
+       "viajante": 806
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20MAD%20on%202027-09-23%20through%202027-09-30",
+      "seen": "2026-11-11T00:34+00:00"
+     },
+     "days": {
+      "2027-09-01": 1037,
+      "2027-09-02": 999,
+      "2027-09-03": 1085,
+      "2027-09-04": 1047,
+      "2027-09-05": 1045,
+      "2027-09-06": 1041,
+      "2027-09-07": 1003,
+      "2027-09-08": 1002,
+      "2027-09-09": 999,
+      "2027-09-10": 1085,
+      "2027-09-11": 846,
+      "2027-09-12": 1129,
+      "2027-09-13": 857,
+      "2027-09-14": 833,
+      "2027-09-15": 929,
+      "2027-09-16": 832,
+      "2027-09-17": 1016,
+      "2027-09-18": 899,
+      "2027-09-19": 1016,
+      "2027-09-20": 980,
+      "2027-09-21": 845,
+      "2027-09-22": 1016,
+      "2027-09-23": 806,
+      "2027-09-24": 1016,
+      "2027-09-25": 886,
+      "2027-09-26": 1042,
+      "2027-09-27": 980,
+      "2027-09-28": 832,
+      "2027-09-29": 823,
+      "2027-09-30": 806
+     },
+     "hotels": [
+      {
+       "name": "Hostal acacias",
+       "total": 161,
+       "rating": 4.6,
+       "reviews": 386,
+       "url": "https://www.google.com/travel/hotels/Madrid%2C%20Espa%C3%B1a?q=Madrid%2C+Espa%C3%B1a+hotels&dates=2027-09-23,2027-09-30",
+       "src": "trvl"
+      },
+      {
+       "name": "Petit Hostel Palacio Real",
+       "total": 224,
+       "rating": 4.4,
+       "reviews": 1206,
+       "url": "https://www.google.com/travel/hotels/Madrid%2C%20Espa%C3%B1a?q=Madrid%2C+Espa%C3%B1a+hotels&dates=2027-09-23,2027-09-30",
+       "src": "trvl"
+      },
+      {
+       "name": "Room007 Ventura Hostel",
+       "total": 224,
+       "rating": 4.0,
+       "reviews": 1276,
+       "url": "https://www.google.com/travel/hotels/Madrid%2C%20Espa%C3%B1a?q=Madrid%2C+Espa%C3%B1a+hotels&dates=2027-09-23,2027-09-30",
+       "src": "trvl"
+      }
+     ]
+    },
+    {
+     "month": "2027-10",
+     "flight": null,
+     "days": {}
+    }
+   ],
+   "activities": [
+    {
+     "name": "Madrid Essenziale: Centro Storico, Plaza Mayor e Palazzo Reale",
+     "price": 3,
+     "orig": "2 EUR",
+     "rating": 5.0,
+     "reviews": 7764.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour a piedi di Madrid dalla Puerta del Sol al Parco del Retiro",
+     "price": 3,
+     "orig": "2 EUR",
+     "rating": 5.0,
+     "reviews": 2902.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tapas di Madrid e tour del vino con vista sul tetto e Guida locale",
+     "price": 95,
+     "orig": "88 EUR",
+     "rating": 5.0,
+     "reviews": 2434.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Madrid Tapas & Wine Tasting Food Tour – Bar locali per piccoli gruppi",
+     "price": 85,
+     "orig": "79 EUR",
+     "rating": 4.9,
+     "reviews": 5673.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour di Avila e Segovia con biglietti per i monumenti da Madrid",
+     "price": 68,
+     "orig": "63 EUR",
+     "rating": 4.8,
+     "reviews": 12226.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tre città in un giorno: Segovia, Avila e Toledo da Madrid",
+     "price": 83,
+     "orig": "76 EUR",
+     "rating": 4.8,
+     "reviews": 11440.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour di Toledo da Madrid: Cattedrale, Sinagoga e Chiesa di San Tomé",
+     "price": 85,
+     "orig": "79 EUR",
+     "rating": 4.8,
+     "reviews": 8173.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Museo del Prado: Biglietto d'ingresso",
+     "price": 19,
+     "orig": "18 EUR",
+     "rating": 4.7,
+     "reviews": 7187.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Biglietti d'ingresso al Parque Warner",
+     "price": 37,
+     "orig": "34 EUR",
+     "rating": 4.7,
+     "reviews": 6586.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Combo: Biglietti per il Parque Warner + Parque de Atracciones de Madrid",
+     "price": 59,
+     "orig": "55 EUR",
+     "rating": 4.7,
+     "reviews": 9113.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Biglietti per il tour dello stadio Santiago Bernabéu",
+     "price": 42,
+     "orig": "39 EUR",
+     "rating": 4.6,
+     "reviews": 9517.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Combo: Biglietti Salta la Fila del Palazzo Reale di Madrid + Ingresso al Museo del Prado",
+     "price": 42,
+     "orig": "39 EUR",
+     "rating": 4.6,
+     "reviews": 8300.0,
+     "url": null,
+     "src": "piqod"
+    }
+   ]
+  },
+  {
+   "id": "barcelona",
+   "name": "Barcelona",
+   "airport": "BCN",
+   "hotel_city": "Barcelona, España",
+   "car": false,
+   "parks": [],
+   "months": [
+    {
+     "month": "2026-11",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2026-12",
+     "flight": {
+      "date": "2026-12-02",
+      "return": "2026-12-09",
+      "price": 833,
+      "sources": {
+       "viajante": 833
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20BCN%20on%202026-12-02%20through%202026-12-09",
+      "seen": "2026-11-11T00:35+00:00"
+     },
+     "days": {
+      "2026-12-01": 848,
+      "2026-12-02": 833,
+      "2026-12-03": 894,
+      "2026-12-04": 877,
+      "2026-12-05": 877,
+      "2026-12-06": 877,
+      "2026-12-07": 1060,
+      "2026-12-08": 1111
+     },
+     "hotels": [
+      {
+       "name": "Factory Hostels Barcelona",
+       "total": 853,
+       "rating": 4.2,
+       "reviews": 785,
+       "url": "https://www.google.com/travel/hotels/entity/ChkIxYn6rOnxtMS3ARoML2cvMTJocDIwdF85EAE?q=Barcelona%2C+Espa%C3%B1a+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjqDxAMGAISBwjqDxAMGAkYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "HelloBCN Hostel Barcelona",
+       "total": 861,
+       "rating": 4.2,
+       "reviews": 964,
+       "url": "https://www.google.com/travel/hotels/entity/ChgItJOzmKfik-S5ARoLL2cvMXZ5NWQ4NW4QAQ?q=Barcelona%2C+Espa%C3%B1a+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjqDxAMGAISBwjqDxAMGAkYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "St Christopher's Barcelona",
+       "total": 873,
+       "rating": 4.2,
+       "reviews": 5192,
+       "url": "https://www.google.com/travel/hotels/entity/ChkIs_f1or2A77jJARoML2cvMXBwMnZkMGRjEAE?q=Barcelona%2C+Espa%C3%B1a+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjqDxAMGAISBwjqDxAMGAkYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      }
+     ]
+    },
+    {
+     "month": "2027-01",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-02",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-03",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-04",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-05",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-06",
+     "flight": {
+      "date": "2027-06-15",
+      "return": "2027-06-22",
+      "price": 741,
+      "sources": {
+       "trvl": 741,
+       "viajante": 1042
+      },
+      "check": true,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20BCN%20on%202027-06-15%20through%202027-06-22",
+      "seen": "2026-11-11T00:35+00:00"
+     },
+     "days": {
+      "2027-06-01": 829,
+      "2027-06-02": 829,
+      "2027-06-03": 825,
+      "2027-06-04": 950,
+      "2027-06-05": 775,
+      "2027-06-06": 856,
+      "2027-06-07": 893,
+      "2027-06-08": 775,
+      "2027-06-09": 856,
+      "2027-06-10": 775,
+      "2027-06-11": 1064,
+      "2027-06-12": 825,
+      "2027-06-13": 893,
+      "2027-06-14": 893,
+      "2027-06-15": 741,
+      "2027-06-16": 856,
+      "2027-06-17": 775,
+      "2027-06-18": 1105,
+      "2027-06-19": 975,
+      "2027-06-20": 1058,
+      "2027-06-21": 1013,
+      "2027-06-22": 925,
+      "2027-06-23": 1058,
+      "2027-06-24": 976,
+      "2027-06-25": 1013,
+      "2027-06-26": 1013,
+      "2027-06-27": 1105,
+      "2027-06-28": 1013,
+      "2027-06-29": 1013,
+      "2027-06-30": 1134
+     },
+     "hotels": [
+      {
+       "name": "St Christopher's Barcelona",
+       "total": 231,
+       "rating": 4.2,
+       "reviews": 5192,
+       "url": "https://www.google.com/travel/hotels/Barcelona%2C%20Espa%C3%B1a?q=Barcelona%2C+Espa%C3%B1a+hotels&dates=2027-06-15,2027-06-22",
+       "src": "trvl"
+      },
+      {
+       "name": "TOC Barcelona",
+       "total": 280,
+       "rating": 4.1,
+       "reviews": 2170,
+       "url": "https://www.google.com/travel/hotels/Barcelona%2C%20Espa%C3%B1a?q=Barcelona%2C+Espa%C3%B1a+hotels&dates=2027-06-15,2027-06-22",
+       "src": "trvl"
+      },
+      {
+       "name": "Free Hostels Barcelona",
+       "total": 329,
+       "rating": 4.2,
+       "reviews": 696,
+       "url": "https://www.google.com/travel/hotels/Barcelona%2C%20Espa%C3%B1a?q=Barcelona%2C+Espa%C3%B1a+hotels&dates=2027-06-15,2027-06-22",
+       "src": "trvl"
+      }
+     ]
+    },
+    {
+     "month": "2027-07",
+     "flight": {
+      "date": "2027-07-26",
+      "return": "2027-08-02",
+      "price": 876,
+      "sources": {
+       "trvl": 876
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20BCN%20on%202027-07-26%20through%202027-08-02",
+      "seen": "2026-11-11T00:35+00:00"
+     },
+     "days": {
+      "2027-07-01": 885,
+      "2027-07-02": 1255,
+      "2027-07-03": 1599,
+      "2027-07-04": 1260,
+      "2027-07-05": 1368,
+      "2027-07-06": 1255,
+      "2027-07-07": 1064,
+      "2027-07-08": 1148,
+      "2027-07-09": 1339,
+      "2027-07-10": 1218,
+      "2027-07-11": 1134,
+      "2027-07-12": 1116,
+      "2027-07-13": 881,
+      "2027-07-14": 1064,
+      "2027-07-15": 1148,
+      "2027-07-16": 1013,
+      "2027-07-17": 1066,
+      "2027-07-18": 1066,
+      "2027-07-19": 1066,
+      "2027-07-20": 1013,
+      "2027-07-21": 1064,
+      "2027-07-22": 1066,
+      "2027-07-23": 1134,
+      "2027-07-24": 1434,
+      "2027-07-25": 1434,
+      "2027-07-26": 876,
+      "2027-07-27": 1035,
+      "2027-07-28": 930,
+      "2027-07-29": 1196,
+      "2027-07-30": 1013,
+      "2027-07-31": 1094
+     },
+     "hotels": [
+      {
+       "name": "Mellow Hostel Barcelona",
+       "total": 913,
+       "rating": 4.0,
+       "reviews": 2222,
+       "url": "https://www.google.com/travel/hotels/entity/ChgIxayn8NTVp4TBARoLL2cvMXRqd2tzd2QQAQ?q=Barcelona%2C+Espa%C3%B1a+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxAHGBoSBwjrDxAIGAIYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Sun & Moon hostel",
+       "total": 1346,
+       "rating": 4.2,
+       "reviews": 2230,
+       "url": "https://www.google.com/travel/hotels/entity/ChkIz-bIjIeqkY5bGg0vZy8xMWZrcjE5M2NsEAE?q=Barcelona%2C+Espa%C3%B1a+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxAHGBoSBwjrDxAIGAIYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Room018BCN",
+       "total": 1509,
+       "rating": 4.1,
+       "reviews": 754,
+       "url": "https://www.google.com/travel/hotels/entity/ChgI2deaofCA6aJ6GgwvZy8xcTYybTZ3ZnEQAQ?q=Barcelona%2C+Espa%C3%B1a+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxAHGBoSBwjrDxAIGAIYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      }
+     ]
+    },
+    {
+     "month": "2027-08",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-09",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-10",
+     "flight": null,
+     "days": {}
+    }
+   ],
+   "activities": [
+    {
+     "name": "Tour della Costa Brava: kayak, snorkeling e salto sulla scogliera da Barcellona",
+     "price": 92,
+     "orig": "85 EUR",
+     "rating": 5.0,
+     "reviews": 5168.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Da Barcellona : mezza giornata Montserrat, tapas e tour del vino",
+     "price": 58,
+     "orig": "54 EUR",
+     "rating": 4.9,
+     "reviews": 8489.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour guidato di mezza giornata di Montserrat per piccoli gruppi da Barcellona",
+     "price": 58,
+     "orig": "54 EUR",
+     "rating": 4.9,
+     "reviews": 6933.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour a piedi per piccoli gruppi di tapas e vino di Barcellona",
+     "price": 75,
+     "orig": "69 EUR",
+     "rating": 4.9,
+     "reviews": 6905.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Gita giornaliera guidata a Montserrat, Girona e Costa Brava da Barcellona",
+     "price": 92,
+     "orig": "85 EUR",
+     "rating": 4.9,
+     "reviews": 7569.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Barcellona in 1 giorno: Sagrada Familia, Parco Guell, Città Vecchia e Pickup",
+     "price": 107,
+     "orig": "99 EUR",
+     "rating": 4.9,
+     "reviews": 19236.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour per piccoli gruppi di Girona e Costa Brava con prelievo da Barcellona",
+     "price": 107,
+     "orig": "99 EUR",
+     "rating": 4.9,
+     "reviews": 8496.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Sagrada Familia: Biglietto con accesso rapido",
+     "price": 37,
+     "orig": "34 EUR",
+     "rating": 4.8,
+     "reviews": 39961.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Sagrada Familia: Partecipa a un tour guidato locale",
+     "price": 62,
+     "orig": "58 EUR",
+     "rating": 4.8,
+     "reviews": 11679.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Casa Batlló: Biglietto d'ingresso",
+     "price": 31,
+     "orig": "29 EUR",
+     "rating": 4.7,
+     "reviews": 16661.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Casa Milà - La Pedrera: Biglietto d'ingresso + Audioguida",
+     "price": 31,
+     "orig": "29 EUR",
+     "rating": 4.7,
+     "reviews": 10434.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Sagrada Familia: Biglietto con accesso rapido + accesso facoltativo alla torre",
+     "price": 37,
+     "orig": "34 EUR",
+     "rating": 4.7,
+     "reviews": 56250.0,
+     "url": null,
+     "src": "piqod"
+    }
+   ]
+  },
+  {
+   "id": "paris",
+   "name": "París",
+   "airport": "CDG",
+   "hotel_city": "París, Francia",
+   "car": false,
+   "parks": [],
+   "months": [
+    {
+     "month": "2026-11",
+     "flight": {
+      "date": "2026-11-30",
+      "return": "2026-12-07",
+      "price": 882,
+      "sources": {
+       "trvl": 882
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20CDG%20on%202026-11-30%20through%202026-12-07",
+      "seen": "2026-11-11T00:35+00:00"
+     },
+     "days": {
+      "2026-11-14": 1206,
+      "2026-11-15": 1259,
+      "2026-11-16": 923,
+      "2026-11-17": 899,
+      "2026-11-18": 1043,
+      "2026-11-19": 1043,
+      "2026-11-20": 1181,
+      "2026-11-21": 1132,
+      "2026-11-22": 1140,
+      "2026-11-23": 1090,
+      "2026-11-24": 1075,
+      "2026-11-25": 1047,
+      "2026-11-26": 1030,
+      "2026-11-27": 1075,
+      "2026-11-28": 1075,
+      "2026-11-29": 1075,
+      "2026-11-30": 882
+     },
+     "hotels": [
+      {
+       "name": "JO&JOE Paris Gentilly",
+       "total": 927,
+       "rating": 4.4,
+       "reviews": 5429,
+       "url": "https://www.google.com/travel/hotels/entity/ChkIy5q-tZ-KsLYZGg0vZy8xMWd5MXR3Y2d6EAE?q=Par%C3%ADs%2C+Francia+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjqDxALGB4SBwjqDxAMGAcYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Glint Paris",
+       "total": 1075,
+       "rating": 4.5,
+       "reviews": 3329,
+       "url": "https://www.google.com/travel/hotels/entity/ChcIhPDt-4LWsolAGgsvZy8xdjZsNnQ2bRAB?q=Par%C3%ADs%2C+Francia+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjqDxALGB4SBwjqDxAMGAcYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Aparthotel Adagio Access Paris Quai d'Ivry",
+       "total": 1172,
+       "rating": 4.1,
+       "reviews": 2510,
+       "url": "https://www.google.com/travel/hotels/entity/ChgIsLmv6vf3z-G2ARoLL2cvMXRsdGxwbTMQAQ?q=Par%C3%ADs%2C+Francia+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjqDxALGB4SBwjqDxAMGAcYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      }
+     ]
+    },
+    {
+     "month": "2026-12",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-01",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-02",
+     "flight": {
+      "date": "2027-02-01",
+      "return": "2027-02-08",
+      "price": 976,
+      "sources": {
+       "viajante": 976
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20CDG%20on%202027-02-01%20through%202027-02-08",
+      "seen": "2026-11-11T00:35+00:00"
+     },
+     "days": {
+      "2027-02-01": 976,
+      "2027-02-02": 984
+     },
+     "hotels": [
+      {
+       "name": "Aparthotel Adagio Access Paris Quai d'Ivry",
+       "total": 962,
+       "rating": 4.1,
+       "reviews": 2510,
+       "url": "https://www.google.com/travel/hotels/entity/ChgIsLmv6vf3z-G2ARoLL2cvMXRsdGxwbTMQAQ?q=Par%C3%ADs%2C+Francia+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxACGAESBwjrDxACGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "JO&JOE Paris Gentilly",
+       "total": 997,
+       "rating": 4.4,
+       "reviews": 5429,
+       "url": "https://www.google.com/travel/hotels/entity/ChkIy5q-tZ-KsLYZGg0vZy8xMWd5MXR3Y2d6EAE?q=Par%C3%ADs%2C+Francia+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxACGAESBwjrDxACGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Residhome Saint Ouen",
+       "total": 1047,
+       "rating": 4.2,
+       "reviews": 366,
+       "url": "https://www.google.com/travel/hotels/entity/ChkIsdX2p9LUm-8WGg0vZy8xMWh6bjR5Nm0xEAE?q=Par%C3%ADs%2C+Francia+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjrDxACGAESBwjrDxACGAgYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      }
+     ]
+    },
+    {
+     "month": "2027-03",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-04",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-05",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-06",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-07",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-08",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-09",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-10",
+     "flight": null,
+     "days": {}
+    }
+   ],
+   "activities": [
+    {
+     "name": "Tour a piedi gratuito del centro di Parigi (suggerimento)",
+     "price": 3,
+     "orig": "3 EUR",
+     "rating": 5.0,
+     "reviews": 2212.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Museo del Louvre Premium Tour Guidato 6 OSPITI MAX Ingresso Incluso",
+     "price": 68,
+     "orig": "63 EUR",
+     "rating": 5.0,
+     "reviews": 7277.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Museo del Louvre Essential Tour Guidato Semi Privato 6 OSPITI MAX",
+     "price": 68,
+     "orig": "63 EUR",
+     "rating": 5.0,
+     "reviews": 4361.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Le migliori crociere private a Parigi con champagne e sorprese francesi",
+     "price": 431,
+     "orig": "399 EUR",
+     "rating": 5.0,
+     "reviews": 1848.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Parigi Mezza Giornata: 30 + Attrazioni, Torre Eiffel, Montmartre e Notre-Dame",
+     "price": 63,
+     "orig": "58 EUR",
+     "rating": 4.9,
+     "reviews": 3328.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Divora Parigi Ultimate Food Tour",
+     "price": 103,
+     "orig": "95 EUR",
+     "rating": 4.9,
+     "reviews": 3372.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Siti e Cimitero del D-Day in Normandia Gita di un giorno da Parigi con Pranzo",
+     "price": 113,
+     "orig": "105 EUR",
+     "rating": 4.8,
+     "reviews": 10636.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Museo d'Orsay: ingresso dedicato",
+     "price": 14,
+     "orig": "13 EUR",
+     "rating": 4.7,
+     "reviews": 17499.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Fondazione Louis Vuitton: Accesso Premium",
+     "price": 26,
+     "orig": "24 EUR",
+     "rating": 4.7,
+     "reviews": 15594.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Combo: Panthéon + Crociera panoramica di un'ora sulla Senna",
+     "price": 33,
+     "orig": "30 EUR",
+     "rating": 4.7,
+     "reviews": 18221.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Combo: Acquario di Parigi + Biglietti per Disneyland Paris",
+     "price": 76,
+     "orig": "70 EUR",
+     "rating": 4.6,
+     "reviews": 30269.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "biglietti combo: Disneyland® Paris + Crociera sulla Senna",
+     "price": 80,
+     "orig": "74 EUR",
+     "rating": 4.6,
+     "reviews": 29089.0,
+     "url": null,
+     "src": "piqod"
+    }
+   ]
+  },
+  {
+   "id": "roma",
+   "name": "Roma",
+   "airport": "FCO",
+   "hotel_city": "Roma, Italia",
+   "car": false,
+   "parks": [],
+   "months": [
+    {
+     "month": "2026-11",
+     "flight": {
+      "date": "2026-11-24",
+      "return": "2026-12-01",
+      "price": 996,
+      "sources": {
+       "trvl": 996
+      },
+      "check": false,
+      "url": "https://www.google.com/travel/flights?q=Flights%20from%20SJO%20to%20FCO%20on%202026-11-24%20through%202026-12-01",
+      "seen": "2026-11-11T00:11+00:00"
+     },
+     "days": {
+      "2026-11-14": 1078,
+      "2026-11-15": 1078,
+      "2026-11-16": 1078,
+      "2026-11-17": 1076,
+      "2026-11-18": 1064,
+      "2026-11-19": 1078,
+      "2026-11-20": 1126,
+      "2026-11-21": 1103,
+      "2026-11-22": 1126,
+      "2026-11-23": 1160,
+      "2026-11-24": 996,
+      "2026-11-25": 1022,
+      "2026-11-26": 1011,
+      "2026-11-27": 1021,
+      "2026-11-28": 1073,
+      "2026-11-29": 1042,
+      "2026-11-30": 996
+     },
+     "hotels": [
+      {
+       "name": "hu Roma camping in town",
+       "total": 714,
+       "rating": 4.1,
+       "reviews": 12138,
+       "url": "https://www.google.com/travel/hotels/entity/ChcIlKqRqemqp8s5GgsvZy8xdGt6am5ueRAB?q=Roma%2C+Italia+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjqDxALGBgSBwjqDxAMGAEYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Everest Inn Rome",
+       "total": 1099,
+       "rating": 4.0,
+       "reviews": 308,
+       "url": "https://www.google.com/travel/hotels/entity/ChcInLjUsoOe7oc4GgsvZy8xdHoyNnp0eRAB?q=Roma%2C+Italia+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjqDxALGBgSBwjqDxAMGAEYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      },
+      {
+       "name": "Daplace - La Locanda di Piazza del Popolo",
+       "total": 1147,
+       "rating": 4.1,
+       "reviews": 327,
+       "url": "https://www.google.com/travel/hotels/entity/ChkIwLWcpvCFw9kzGg0vZy8xMWNwNXF6ZmdyEAE?q=Roma%2C+Italia+hotels&hl=en&curr=USD&ts=CAESEgoCCAMKAggDCgIIAwoCCAMQARogCgIaABIaEhQKBwjqDxALGBgSBwjqDxAMGAEYBzICEAAqCwoHOgNVU0QgARoA",
+       "src": "viajante"
+      }
+     ]
+    },
+    {
+     "month": "2026-12",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-01",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-02",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-03",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-04",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-05",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-06",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-07",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-08",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-09",
+     "flight": null,
+     "days": {}
+    },
+    {
+     "month": "2027-10",
+     "flight": null,
+     "days": {}
+    }
+   ],
+   "activities": [
+    {
+     "name": "Rome Pasta e Tiramisù Class : Ravioli, Fettuccine & Fine Wine 5*",
+     "price": 32,
+     "orig": "29 EUR",
+     "rating": 5.0,
+     "reviews": 4764.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Vincitore 2026: Tour Gastronomico di Lusso a Trastevere a Roma con Vini Fino",
+     "price": 107,
+     "orig": "99 EUR",
+     "rating": 5.0,
+     "reviews": 3690.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Tour semi-privato di Roma in golf cart Max 6 con opzione privata",
+     "price": 125,
+     "orig": "116 EUR",
+     "rating": 5.0,
+     "reviews": 2881.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Roma Privata in Golf carrello: Oltre i Monumenti",
+     "price": 174,
+     "orig": "161 EUR",
+     "rating": 5.0,
+     "reviews": 5206.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Corso di cucina 3 in 1 a Roma: Fettuccine, Ravioli e Tiramisù",
+     "price": 56,
+     "orig": "52 EUR",
+     "rating": 4.9,
+     "reviews": 10926.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Vaticano salta fila, Cappella Sistina e San Pietro | Small Group",
+     "price": 107,
+     "orig": "99 EUR",
+     "rating": 4.9,
+     "reviews": 8541.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Vincitore 2026 Roma Twilight Trastevere Food Tour di Eating Europe",
+     "price": 112,
+     "orig": "104 EUR",
+     "rating": 4.9,
+     "reviews": 6911.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Combo: ingresso Salta la Fila con host ai Musei Vaticani e alla Cappella Sistina + Biglietti per l'ingresso rapido al Pantheon",
+     "price": 36,
+     "orig": "34 EUR",
+     "rating": 4.5,
+     "reviews": 39814.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Musei Vaticani: Biglietto con accesso rapido",
+     "price": 41,
+     "orig": "38 EUR",
+     "rating": 4.5,
+     "reviews": 36594.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Combo: Biglietti di sola andata per il Leonardo Express + Biglietti per i Musei Vaticani",
+     "price": 43,
+     "orig": "40 EUR",
+     "rating": 4.5,
+     "reviews": 39253.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Combo: pass per il Colosseo + Musei Vaticani",
+     "price": 50,
+     "orig": "46 EUR",
+     "rating": 4.5,
+     "reviews": 52091.0,
+     "url": null,
+     "src": "piqod"
+    },
+    {
+     "name": "Combo: biglietti per i Musei Vaticani e la Galleria Borghese",
+     "price": 68,
+     "orig": "63 EUR",
+     "rating": 4.5,
+     "reviews": 38469.0,
+     "url": null,
+     "src": "piqod"
     }
    ]
   }
