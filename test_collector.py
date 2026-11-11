@@ -31,11 +31,14 @@ def fake(url, tool, args):
     if tool == "get_city_highlights":
         return {"results": [{"name": "Kennedy Space Center", "from_price": 95, "rating": 9.4, "reviews": 3000},
                             {"name": "Malo", "price": 10, "rating": 3.1, "reviews": 900}]}
-    return {"tours": [{"title": "Airboat Everglades", "price": 45, "rating": 4.7, "review_count": 1200}]}
+    return {"tours": [{"title": "Airboat Everglades", "from_price": {"amount": 45, "currency": "USD"}, "rating": {"value": 4.7, "count": 1200}, "url": "t"},
+                      {"title": "Sin reseñas", "from_price": {"amount": 20, "currency": "USD"}, "rating": {"value": None, "count": 0}}]}
 c.mcp_call = fake
+c.translate_es = lambda x: x
 acts = c.activities({"name": "Orlando"})
 names = [a["name"] for a in acts]
-assert "Malo" not in names and len(acts) == 2, acts
+assert "Malo" not in names and "Sin reseñas" not in names and len(acts) == 2, acts
+assert [a for a in acts if a["name"] == "Airboat Everglades"][0]["reviews"] == 1200
 ksc = [a for a in acts if a["name"] == "Kennedy Space Center"][0]
 assert ksc["price"] == 86 and ksc["src"] == "piqod", ksc  # 80 EUR -> 86 USD, más barata que 95
 print("ok actividades")

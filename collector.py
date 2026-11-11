@@ -235,7 +235,7 @@ def cars(airport, pickup, dropoff, location=None):
 FX = {"USD": 1.0, "EUR": 1.08, "GBP": 1.27, "MXN": 0.055, "COP": 0.00025, "ARS": 0.001, "PEN": 0.27}  # ponytail: tasas fijas aprox., cambiar por API si hace falta exactitud
 NAME_K = ("title", "name", "product_name", "experience_name")
 PRICE_K = ("price", "from_price", "price_from", "min_price", "lowest_price", "price_usd", "amount")
-URL_K = ("booking_url", "url", "link", "deeplink", "product_url", "booking_link")
+URL_K = ("booking_url", "redirect_url", "checkout_url", "url", "link", "deeplink", "product_url", "booking_link")
 RATE_K = ("rating", "review_score", "average_rating", "rating_avg", "score")
 REV_K = ("review_count", "reviews_count", "num_reviews", "rating_count", "reviews")
 
@@ -248,8 +248,8 @@ def activities(dest):
     city = dest["name"].split(" / ")[0]
     slug = city.lower().replace(" ", "-").replace("á", "a").replace("é", "e").replace("í", "i").replace("ó", "o").replace("ú", "u")
     calls = [("piqod", "https://piqod.it/mcp", "get_destination_guide", {"place": city, "limit": 15}),
-             ("tickadoo", "https://mcp.tickadoo.com/mcp", "get_city_highlights", {"city": slug, "format": "json"}),
-             ("tickadoo", "https://mcp.tickadoo.com/mcp", "get_family_day", {"city": slug, "format": "json"}),
+             ("tickadoo", "https://mcp.tickadoo.com/mcp", "get_city_highlights", {"city": slug, "format": "json", "language": "es"}),
+             ("tickadoo", "https://mcp.tickadoo.com/mcp", "get_family_day", {"city": slug, "format": "json", "language": "es"}),
              ("tripways", "https://mcp.tripways.com/mcp", "search_tours", {"query": f"best things to do in {city}", "destination": city})]
     found = []
     for src, url, tool, args in calls:
@@ -264,18 +264,20 @@ def activities(dest):
             name, p = first(d, NAME_K), first(d, PRICE_K)
             cur = "USD"
             if isinstance(p, dict):
-                cur, p = p.get("currency") or cur, p.get("amount") or p.get("value")
+                cur = p.get("currency") or cur
+                p = p.get("amount") or p.get("value") or ((p.get("amount_minor") or 0) / 100)
             cur = (d.get("currency") or cur).upper() if isinstance(d.get("currency") or cur, str) else "USD"
             p = num(p)
             if not (isinstance(name, str) and p):
                 continue
-            rating = num(first(d, RATE_K))
-            if isinstance(first(d, RATE_K), dict):
-                rating = num(first(d, RATE_K).get("average") or first(d, RATE_K).get("value"))
+            r, revs = first(d, RATE_K), first(d, REV_K)
+            rating = num(r)
+            if isinstance(r, dict):  # tripways: {"value": 4.8, "count": 120}
+                rating, revs = num(r.get("average") or r.get("value")), r.get("count", revs)
             if rating and rating > 5:
                 rating /= 2
             found.append({"name": name.strip(), "price": round(p * FX.get(cur, 1.0)), "orig": f"{round(p)} {cur}",
-                          "rating": round(rating, 1) if rating else None, "reviews": num(first(d, REV_K)),
+                          "rating": round(rating, 1) if rating else None, "reviews": revs if isinstance(revs, (int, float)) else num(revs),
                           "url": first(d, URL_K), "src": src})
         log(f"  {src}.{tool}: {len(found) - n0} actividades")
         if len(found) == n0:
@@ -285,9 +287,26 @@ def activities(dest):
         k = "".join(ch for ch in a["name"].lower() if ch.isalnum())[:40]
         if k not in best or a["price"] < best[k]["price"]:
             best[k] = a
-    good = [a for a in best.values() if (a["rating"] or 4.5) >= 4.3 and (a["reviews"] or 50) >= 50]
+    good = [a for a in best.values()
+            if (a["rating"] is None or a["rating"] >= 4.3) and (a["reviews"] is None or a["reviews"] >= 50)]
     good.sort(key=lambda a: (-(a["rating"] or 4.5) * min((a["reviews"] or 50), 2000) ** 0.25, a["price"]))
-    return good[:12]
+    top = good[:12]
+    for a in top:
+        if a["src"] == "piqod":
+            a["name"] = translate_es(a["name"])
+    return top
+
+
+def translate_es(text):
+    """Traduce al español; si falla, deja el original."""
+    import urllib.parse, urllib.request
+    try:
+        u = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=es&dt=t&q=" + urllib.parse.quote(text)
+        r = json.load(urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": UA}), timeout=20))
+        return "".join(seg[0] for seg in r[0] if seg and seg[0]) or text
+    except Exception as e:
+        log("  traducción falló:", type(e).__name__)
+        return text
 
 
 def months_ahead(n):
