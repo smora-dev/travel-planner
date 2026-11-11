@@ -315,12 +315,19 @@ def activities(dest):
 
 
 def translate_es(text):
-    """Traduce al español; si falla, deja el original."""
+    """Traduce al español (Google público, si no MyMemory); si ambos fallan, deja el original."""
     import urllib.parse, urllib.request
+    q = urllib.parse.quote(text)
+    get = lambda u: json.load(urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": UA}), timeout=20))
     try:
-        u = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=es&dt=t&q=" + urllib.parse.quote(text)
-        r = json.load(urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": UA}), timeout=20))
+        r = get("https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=es&dt=t&q=" + q)
         return "".join(seg[0] for seg in r[0] if seg and seg[0]) or text
+    except Exception:
+        pass
+    try:
+        r = get(f"https://api.mymemory.translated.net/get?q={q}&langpair=it|es")
+        t = r.get("responseData", {}).get("translatedText")
+        return t if t and r.get("responseStatus") == 200 else text
     except Exception as e:
         log("  traducción falló:", type(e).__name__)
         return text

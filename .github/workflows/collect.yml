@@ -40,7 +40,7 @@ jobs:
       - name: Instalar fuentes (viajante, fli, trvl)
         run: |
           pip install -q viajante flights click
-          go install github.com/MikkoParkkola/trvl/cmd/trvl@latest
+          for i in 1 2 3; do go install github.com/MikkoParkkola/trvl/cmd/trvl@latest && break; sleep 20; done
           echo "$(go env GOPATH)/bin" >> $GITHUB_PATH
       - run: PAUSE=0 python test_collector.py
       - name: Buscar precios ${{ matrix.dest }}
