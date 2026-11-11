@@ -152,5 +152,9 @@
       "car": false,
       "parks": []
     }
+  ],
+  "extra_nights": [
+    4,
+    10
   ]
 }

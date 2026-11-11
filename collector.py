@@ -129,6 +129,23 @@ def best_day(days):
                    f"{(date.fromisoformat(ds) + timedelta(days=NIGHTS)).isoformat()}"}
 
 
+def alt_nights(airport, start, end):
+    """Otras duraciones (4, 10 noches...): mejor día del mes según el calendario de trvl.
+    ponytail: solo trvl para no triplicar consultas; hotel y carro se escalan por noche en el dashboard."""
+    out = {}
+    for n in CFG.get("extra_nights", []):
+        days = day_prices(run_json(["trvl", "dates", ORIGIN, airport, "--from", start.isoformat(), "--to",
+                                    end.isoformat(), "--round-trip", "--duration", str(n), "--currency", CUR,
+                                    "--format", "json"]))
+        days = {d: p for d, p in days.items() if start.isoformat() <= d <= end.isoformat()}
+        if days:
+            d = min(days, key=days.get)
+            ret = (date.fromisoformat(d) + timedelta(days=n)).isoformat()
+            out[str(n)] = {"date": d, "return": ret, "price": round(days[d]),
+                           "url": f"https://www.google.com/travel/flights?q=Flights%20from%20{ORIGIN}%20to%20{airport}%20on%20{d}%20through%20{ret}"}
+    return out
+
+
 # ---------- Hoteles ----------
 def hotels(city, checkin, checkout):
     """Mejores calidad-precio: rating >= mínimo, ordenados por precio. Cuarto para 4 personas."""
@@ -337,6 +354,7 @@ def collect(only):
             m = {"month": start.strftime("%Y-%m"), "flight": fl,
                  "days": {ds: round(min(v.values())) for ds, v in days.items()}}
             if fl:
+                m["alt"] = alt_nights(dest["airport"], start, end)
                 fl["url"] = fl["url"].replace("{AIRPORT}", dest["airport"])
                 fl["seen"] = now
                 m["hotels"] = hotels(dest["hotel_city"], fl["date"], fl["return"])
@@ -365,7 +383,8 @@ def merge():
     for p in glob.glob(os.path.join(DATA, "parts", "*.json")):
         d = json.load(open(p))
         parts[d["id"]] = d
-    out = {"updated_at": now, "demo": False, "currency": CUR, "nights": NIGHTS, "origin": ORIGIN, "destinations": []}
+    out = {"updated_at": now, "demo": False, "currency": CUR, "nights": NIGHTS, "extra_nights": CFG.get("extra_nights", []),
+           "origin": ORIGIN, "destinations": []}
     hist_rows, fresh = [], 0
     for dest in CFG["destinations"]:
         new = {m["month"]: m for m in parts.get(dest["id"], {}).get("months", [])}

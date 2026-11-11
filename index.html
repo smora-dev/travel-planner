@@ -62,10 +62,11 @@
   <div class="controls">
     <div class="tabs" id="tabs" role="group" aria-label="Destino"></div>
     <label>Personas <select id="people"></select></label>
+    <label>Duración <select id="nightsSel"></select> noches</label>
     <label><input type="checkbox" id="car" checked> Carro</label>
-    <label><input type="checkbox" id="parks" checked> Parques <input type="number" id="parkDays" min="0" max="10" value="2" aria-label="Días de parque"> días</label>
+    <label><input type="checkbox" id="parks" checked> Parques: <input type="number" id="parkDays" min="0" max="10" value="2" aria-label="Días de parque"> días de parque</label>
   </div>
-  <p class="muted">Costo total por persona: vuelo ida y vuelta + hotel <span id="nights"></span> noches + carro + parques. Verde = de los meses más baratos.</p>
+  <p class="muted">Costo total por persona: vuelo ida y vuelta + hotel <span id="nights"></span> noches + carro + parques + actividades marcadas. Verde = de los meses más baratos.</p>
   <div class="grid" id="grid"></div>
   <div id="detail"></div>
 </main>
@@ -81,7 +82,9 @@ const actsOf = () => (picked[dest.id] ||= new Set());
 for (let i = 1; i <= 9; i++) $('people').add(new Option(i, i, false, i === 4));
 
 function cost(m) {
-  if (!m.flight) return null;
+  const n = +$('nightsSel').value, base = DATA.nights, scale = n / base;
+  const f = n === base ? m.flight : m.alt?.[n];
+  if (!f || !m.flight) return null;
   const p = +$('people').value, rooms = Math.ceil(p / 4);
   const hotel = m.hotels?.[0];
   let carOpt = null;
@@ -93,14 +96,14 @@ function cost(m) {
   }
   const parkPP = $('parks').checked ? dest.parks.reduce((s, k) => s + (k.min + k.max) / 2, 0) * +$('parkDays').value : 0;
   const parts = {
-    flight: m.flight.price * p,
-    hotel: hotel ? hotel.total * rooms : 0,
-    car: carOpt ? carOpt.price : 0,
+    flight: f.price * p,
+    hotel: hotel ? hotel.total * rooms * scale : 0,
+    car: carOpt ? carOpt.price * scale : 0,
     parks: parkPP * p,
     acts: (dest.activities || []).filter(a => actsOf().has(a.name)).reduce((s, a) => s + a.price, 0) * p,
   };
   const total = Object.values(parts).reduce((a, b) => a + b, 0);
-  return { parts, total, pp: total / p, p, rooms, hotel, carOpt, parkPP };
+  return { parts, total, pp: total / p, p, rooms, hotel, carOpt, parkPP, f, n, scaled: n !== base };
 }
 
 function renderTabs() {
@@ -125,12 +128,13 @@ function render() {
     const b = document.createElement('button');
     if (!c) {
       b.className = 'm na'; b.disabled = true;
-      b.innerHTML = `<div class="mn">${MES(m.month)}</div><div class="d">Sin precios aún</div>`;
+      b.innerHTML = `<div class="mn">${MES(m.month)}</div><div class="d">Sin precios aún${m.flight ? ' para ' + $('nightsSel').value + ' noches' : ''}</div>`;
     } else {
       const lvl = c.pp <= t1 ? 0 : c.pp <= t2 ? 1 : 2;
       b.className = `m c${lvl}` + (m.month === selMonth ? ' sel' : '') + (m === best.m ? ' best' : '');
       b.innerHTML = `<div class="mn">${MES(m.month)}</div><div class="pp">${money(c.pp)}</div>
-        <div class="d">por persona · sale ${DIA(m.flight.date)}</div>
+        <div class="d">por persona · sale ${DIA(c.f.date)}</div>
+        <div class="d">✈️ ${money(c.f.price)} · 🏨 ${money(c.parts.hotel / c.p)} · 🚗 ${money(c.parts.car / c.p)}${c.parts.parks + c.parts.acts ? ' · 🎟️ ' + money((c.parts.parks + c.parts.acts) / c.p) : ''}</div>
         <span class="lv">${m === best.m ? '★ Mejor mes' : ['Barato', 'Medio', 'Caro'][lvl]}</span>`;
       b.onclick = () => { selMonth = m.month; render(); };
     }
@@ -140,12 +144,13 @@ function render() {
 }
 
 function renderDetail(m) {
-  if (!m || !m.flight) { $('detail').innerHTML = ''; return; }
-  const c = cost(m), f = m.flight;
-  const srcs = Object.entries(f.sources).map(([k, v]) => `${k}: ${money(v)}`).join(' · ');
+  const c = m && cost(m);
+  if (!c) { $('detail').innerHTML = ''; return; }
+  const f = { ...m.flight, ...c.f };
+  const srcs = Object.entries(c.scaled ? { trvl: c.f.price } : f.sources).map(([k, v]) => `${k}: ${money(v)}`).join(' · ');
   const hotels = (m.hotels || []).map((h, i) => `<div style="margin-bottom:8px">${i === 0 ? '⭐ ' : ''}<a href="${h.url || '#'}" target="_blank" rel="noopener">${h.name}</a><br>
-    <span class="muted">${money(h.total)} el cuarto (${DATA.nights} noches) · ${h.rating ?? '?'}★ · ${h.reviews ? h.reviews.toLocaleString() + ' reseñas' : ''} · ${h.src}</span></div>`).join('') || '<span class="muted">Sin hoteles con buena reseña encontrados</span>';
-  const car = c.carOpt ? `<a href="${c.carOpt.url || '#'}" target="_blank" rel="noopener">${c.carOpt.name || 'Carro'}</a> · ${c.carOpt.provider || ''}<br><span class="muted">${money(c.carOpt.price)} por ${DATA.nights} días · ${c.carOpt.seats ? 'hasta ' + c.carOpt.seats + ' personas c/u' : ''}${c.carOpt.free_cancel ? ' · cancelación gratis' : ''}</span>`
+    <span class="muted">${money(h.total * c.n / DATA.nights)} el cuarto (${c.n} noches${c.scaled ? ', estimado por noche' : ''}) · ${h.rating ?? '?'}★ · ${h.reviews ? h.reviews.toLocaleString() + ' reseñas' : ''} · ${h.src}</span></div>`).join('') || '<span class="muted">Sin hoteles con buena reseña encontrados</span>';
+  const car = c.carOpt ? `<a href="${c.carOpt.url || '#'}" target="_blank" rel="noopener">${c.carOpt.name || 'Carro'}</a> · ${c.carOpt.provider || ''}<br><span class="muted">${money(c.carOpt.price * c.n / DATA.nights)} por ${c.n} días${c.scaled ? ' (estimado)' : ''} · ${c.carOpt.seats ? 'hasta ' + c.carOpt.seats + ' personas c/u' : ''}${c.carOpt.free_cancel ? ' · cancelación gratis' : ''}</span>`
     : `<span class="muted">${$('car').checked ? 'Sin precio de carro' : 'No incluido'}</span>`;
   const parks = dest.parks.length && $('parks').checked
     ? dest.parks.map(k => `<div><a href="${k.url}" target="_blank" rel="noopener">${k.name}</a><br><span class="muted">${money(k.min)}–${money(k.max)} por día según la fecha (estimado al medio)</span></div>`).join('')
@@ -168,7 +173,7 @@ function renderDetail(m) {
     <h2>${dest.name} · ${MES(m.month)}</h2>
     <div class="muted">${c.p} personas · ${c.rooms} cuarto(s) · ${DIA(f.date)} → ${DIA(f.return)}</div>
     <div class="rows">
-      <div>✈️ Vuelos (${money(f.price)} c/u)</div><div>${money(c.parts.flight)}</div>
+      <div>✈️ Vuelos (${money(c.f.price)} c/u)</div><div>${money(c.parts.flight)}</div>
       <div>🏨 Hotel (${c.rooms} cuarto${c.rooms > 1 ? 's' : ''})</div><div>${money(c.parts.hotel)}</div>
       <div>🚗 Carro</div><div>${money(c.parts.car)}</div>
       <div>🎢 Parques</div><div>${money(c.parts.parks)}</div>
@@ -179,10 +184,10 @@ function renderDetail(m) {
     <div class="cols">
       <div class="box"><h3>✈️ Vuelo SJO → ${dest.airport}</h3>
         <a href="${f.url}" target="_blank" rel="noopener">Ver en Google Flights</a><br>
-        ${f.seen && f.seen.slice(0, 10) < DATA.updated_at.slice(0, 10) ? `<div class="warn">Precio del ${f.seen.slice(0, 10)} (hoy no se pudo actualizar)</div>` : ''}
+        ${f.seen && new Date(DATA.updated_at) - new Date(f.seen) > 36e5 * 30 ? `<div class="warn">Precio del ${f.seen.slice(0, 10)} (en la última búsqueda no se pudo actualizar)</div>` : ''}
         <span class="muted">Fuentes: ${srcs}</span>
         ${f.check ? '<div class="warn">⚠️ Las fuentes no coinciden (>10%). Confirmá el precio antes de comprar.</div>' : ''}
-        <h3 style="margin-top:12px">Precio por día (ida y vuelta, ${DATA.nights} noches)</h3><div class="cal">${cal}</div></div>
+        <h3 style="margin-top:12px">Precio por día de salida (ida y vuelta, ${DATA.nights} noches)</h3><div class="cal">${cal}</div></div>
       <div class="box"><h3>🏨 Hoteles (mejor calidad-precio, 4★+)</h3>${hotels}</div>
       <div class="box"><h3>🚗 Carro</h3>${car}<h3 style="margin-top:12px">🎢 Parques</h3>${parks}</div>
     </div>
@@ -193,11 +198,12 @@ function renderDetail(m) {
   });
 }
 
-['people', 'car', 'parks', 'parkDays'].forEach(id => $(id).addEventListener('input', render));
+['people', 'nightsSel', 'car', 'parks', 'parkDays'].forEach(id => $(id).addEventListener('input', render));
 
 fetch('data/latest.json?' + Date.now()).then(r => r.json()).then(d => {
   DATA = d; dest = d.destinations[0];
-  $('nights').textContent = d.nights;
+  [d.nights, ...(d.extra_nights || [])].sort((a, b) => a - b).forEach(n => $('nightsSel').add(new Option(n, n, false, n === d.nights)));
+  const syncN = () => $('nights').textContent = $('nightsSel').value; syncN(); $('nightsSel').addEventListener('input', syncN);
   $('sub').textContent = `Desde ${d.origin} · precios en ${d.currency} · actualizado ${new Date(d.updated_at).toLocaleString('es-CR')}`;
   if (d.demo) $('banner').innerHTML = '<div class="banner">⚠️ Datos de ejemplo. Se reemplazan solos con precios reales en la primera búsqueda del agente.</div>';
   render();
