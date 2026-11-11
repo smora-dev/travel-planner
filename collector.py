@@ -131,12 +131,16 @@ def best_day(days):
 
 def alt_nights(airport, start, end):
     """Otras duraciones (4, 10 noches...): mejor día del mes según el calendario de trvl.
-    ponytail: solo trvl para no triplicar consultas; hotel y carro se escalan por noche en el dashboard."""
+    ponytail: trvl (o fli si está bloqueado), sin viajante, para no triplicar consultas; hotel y carro se escalan por noche en el dashboard."""
     out = {}
     for n in CFG.get("extra_nights", []):
         days = day_prices(run_json(["trvl", "dates", ORIGIN, airport, "--from", start.isoformat(), "--to",
                                     end.isoformat(), "--round-trip", "--duration", str(n), "--currency", CUR,
                                     "--format", "json"]))
+        if not days:  # trvl bloqueado: fli
+            days = day_prices(run_json(["fli", "dates", ORIGIN, airport, "--from", start.isoformat(), "--to",
+                                        end.isoformat(), "--round", "--duration", str(n), "--currency", CUR,
+                                        "--format", "json"]))
         days = {d: p for d, p in days.items() if start.isoformat() <= d <= end.isoformat()}
         if days:
             d = min(days, key=days.get)
@@ -226,15 +230,18 @@ def mcp_call(url, tool, args):
 
 def cars(airport, pickup, dropoff, location=None):
     """Carro más barato que quepa: 'small' hasta 5 personas, 'van' para 6-9. Total por todo el alquiler."""
-    time.sleep(PAUSE)
-    try:
-        data = mcp_call(OCTO, "search", {"location": location or f"{airport} Airport", "pickup_date": pickup,
-                                         "dropoff_date": dropoff, "currency": CUR, "pickup_time": "12:00",
-                                         "dropoff_time": "12:00"})
-    except Exception as e:
-        log("  fallo octotrip", type(e).__name__, str(e)[:200])
-        return {}
-    offers = [o for o in (data or {}).get("results", []) if num(o.get("price"))]
+    offers, data = [], None
+    for loc in (location or [f"{airport} Airport"]):  # varias formas del lugar: la primera que dé carros
+        time.sleep(PAUSE)
+        try:
+            data = mcp_call(OCTO, "search", {"location": loc, "pickup_date": pickup, "dropoff_date": dropoff,
+                                             "currency": CUR, "pickup_time": "12:00", "dropoff_time": "12:00"})
+        except Exception as e:
+            log("  fallo octotrip", type(e).__name__, str(e)[:200])
+            continue
+        offers = [o for o in (data or {}).get("results", []) if num(o.get("price"))]
+        if offers:
+            break
     if not offers:
         log("  octotrip sin carros:", json.dumps(data)[:300])
     out = {}
