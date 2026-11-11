@@ -225,6 +225,65 @@ def cars(airport, pickup, dropoff):
     return out
 
 
+# ---------- Actividades (piqod + tickadoo + TripWays: gratis, sin key) ----------
+FX = {"USD": 1.0, "EUR": 1.08, "GBP": 1.27, "MXN": 0.055, "COP": 0.00025, "ARS": 0.001, "PEN": 0.27}  # ponytail: tasas fijas aprox., cambiar por API si hace falta exactitud
+NAME_K = ("title", "name", "product_name", "experience_name")
+PRICE_K = ("price", "from_price", "price_from", "min_price", "lowest_price", "price_usd", "amount")
+URL_K = ("booking_url", "url", "link", "deeplink", "product_url", "booking_link")
+RATE_K = ("rating", "review_score", "average_rating", "rating_avg", "score")
+REV_K = ("review_count", "reviews_count", "num_reviews", "rating_count", "reviews")
+
+
+def first(d, keys):
+    return next((d[k] for k in keys if d.get(k) not in (None, "", [])), None)
+
+
+def activities(dest):
+    city = dest["name"].split(" / ")[0]
+    slug = city.lower().replace(" ", "-").replace("á", "a").replace("é", "e").replace("í", "i").replace("ó", "o").replace("ú", "u")
+    calls = [("piqod", "https://piqod.it/mcp", "get_destination_guide", {"place": city, "limit": 15}),
+             ("tickadoo", "https://mcp.tickadoo.com/mcp", "get_city_highlights", {"city": slug, "format": "json"}),
+             ("tickadoo", "https://mcp.tickadoo.com/mcp", "get_family_day", {"city": slug, "format": "json"}),
+             ("tripways", "https://mcp.tripways.com/mcp", "search_tours", {"query": f"best things to do in {city}", "destination": city})]
+    found = []
+    for src, url, tool, args in calls:
+        time.sleep(PAUSE)
+        try:
+            data = mcp_call(url, tool, args)
+        except Exception as e:
+            log("  fallo", src, type(e).__name__, str(e)[:150])
+            continue
+        n0 = len(found)
+        for d in walk(data):
+            name, p = first(d, NAME_K), first(d, PRICE_K)
+            cur = "USD"
+            if isinstance(p, dict):
+                cur, p = p.get("currency") or cur, p.get("amount") or p.get("value")
+            cur = (d.get("currency") or cur).upper() if isinstance(d.get("currency") or cur, str) else "USD"
+            p = num(p)
+            if not (isinstance(name, str) and p):
+                continue
+            rating = num(first(d, RATE_K))
+            if isinstance(first(d, RATE_K), dict):
+                rating = num(first(d, RATE_K).get("average") or first(d, RATE_K).get("value"))
+            if rating and rating > 5:
+                rating /= 2
+            found.append({"name": name.strip(), "price": round(p * FX.get(cur, 1.0)), "orig": f"{round(p)} {cur}",
+                          "rating": round(rating, 1) if rating else None, "reviews": num(first(d, REV_K)),
+                          "url": first(d, URL_K), "src": src})
+        log(f"  {src}.{tool}: {len(found) - n0} actividades")
+        if len(found) == n0:
+            log("    muestra:", json.dumps(data)[:300])
+    best = {}
+    for a in found:  # misma actividad en varias fuentes: queda la más barata
+        k = "".join(ch for ch in a["name"].lower() if ch.isalnum())[:40]
+        if k not in best or a["price"] < best[k]["price"]:
+            best[k] = a
+    good = [a for a in best.values() if (a["rating"] or 4.5) >= 4.3 and (a["reviews"] or 50) >= 50]
+    good.sort(key=lambda a: (-(a["rating"] or 4.5) * min((a["reviews"] or 50), 2000) ** 0.25, a["price"]))
+    return good[:12]
+
+
 def months_ahead(n):
     t = date.today()
     y, m = t.year, t.month
@@ -259,15 +318,19 @@ def collect(only):
                 if dest.get("car"):
                     m["car"] = cars(dest["airport"], fl["date"], fl["return"])
             months.append(m)
+        acts = activities(dest)
+        log("  actividades:", len(acts))
         os.makedirs(os.path.join(DATA, "parts"), exist_ok=True)
-        json.dump({**dest, "months": months}, open(os.path.join(DATA, "parts", dest["id"] + ".json"), "w"),
+        json.dump({**dest, "months": months, "activities": acts}, open(os.path.join(DATA, "parts", dest["id"] + ".json"), "w"),
                   ensure_ascii=False)
 
 
 def merge():
     """Une data/parts/*.json en latest.json. Si un mes falló hoy, conserva el último precio bueno."""
     now = datetime.now(timezone.utc).isoformat(timespec="minutes")
+    old_acts = {}
     try:
+        old_acts = {d["id"]: d.get("activities", []) for d in json.load(open(os.path.join(DATA, "latest.json")))["destinations"]}
         old = {d["id"]: {m["month"]: m for m in d["months"]} for d in json.load(open(os.path.join(DATA, "latest.json")))["destinations"]}
         if json.load(open(os.path.join(DATA, "latest.json"))).get("demo"):
             old = {}
@@ -295,7 +358,8 @@ def merge():
             else:
                 m = m or {"month": k, "flight": None, "days": {}}
             months.append(m)
-        out["destinations"].append({**dest, "months": months})
+        acts = parts.get(dest["id"], {}).get("activities") or old_acts.get(dest["id"], [])
+        out["destinations"].append({**dest, "months": months, "activities": acts})
     log(f"merge: {fresh} meses con precio nuevo")
     if not fresh:
         log("Ninguna fuente devolvió precios; no se toca latest.json")

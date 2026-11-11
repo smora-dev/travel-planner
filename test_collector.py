@@ -23,3 +23,19 @@ c.PAUSE = 0
 r = c.cars("MCO", "2027-01-14", "2027-01-21")
 assert r["small"]["price"] == 210 and r["van"]["price"] == 480, r
 print("ok carros")
+
+# actividades: formatos distintos, dedupe por nombre, filtro de reseñas, conversión EUR
+def fake(url, tool, args):
+    if "piqod" in url:
+        return {"experiences": [{"title": "Kennedy Space Center", "price": {"amount": 80, "currency": "EUR"}, "rating": 4.8, "review_count": 9000, "url": "p"}]}
+    if tool == "get_city_highlights":
+        return {"results": [{"name": "Kennedy Space Center", "from_price": 95, "rating": 9.4, "reviews": 3000},
+                            {"name": "Malo", "price": 10, "rating": 3.1, "reviews": 900}]}
+    return {"tours": [{"title": "Airboat Everglades", "price": 45, "rating": 4.7, "review_count": 1200}]}
+c.mcp_call = fake
+acts = c.activities({"name": "Orlando"})
+names = [a["name"] for a in acts]
+assert "Malo" not in names and len(acts) == 2, acts
+ksc = [a for a in acts if a["name"] == "Kennedy Space Center"][0]
+assert ksc["price"] == 86 and ksc["src"] == "piqod", ksc  # 80 EUR -> 86 USD, más barata que 95
+print("ok actividades")

@@ -48,6 +48,8 @@
   .cal .h { color:var(--mute); font-weight:600; }
   .warn { color:var(--y2); font-weight:600; }
   .best { border:2px solid var(--g2); }
+  .acts { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:10px; }
+  .act { align-items:flex-start; border:1px solid var(--line); border-radius:8px; padding:8px; }
 </style>
 </head>
 <body>
@@ -73,6 +75,8 @@ const money = n => '$' + Math.round(n).toLocaleString('en-US');
 const MES = d => { const s = new Date(d + '-15T12:00').toLocaleDateString('es-CR', { month: 'long', year: 'numeric' }); return s[0].toUpperCase() + s.slice(1); };
 const DIA = d => new Date(d + 'T12:00').toLocaleDateString('es-CR', { weekday: 'short', day: 'numeric', month: 'short' });
 let DATA, dest, selMonth;
+const picked = {}; // actividades marcadas por destino
+const actsOf = () => (picked[dest.id] ||= new Set());
 
 for (let i = 1; i <= 9; i++) $('people').add(new Option(i, i, false, i === 4));
 
@@ -93,6 +97,7 @@ function cost(m) {
     hotel: hotel ? hotel.total * rooms : 0,
     car: carOpt ? carOpt.price : 0,
     parks: parkPP * p,
+    acts: (dest.activities || []).filter(a => actsOf().has(a.name)).reduce((s, a) => s + a.price, 0) * p,
   };
   const total = Object.values(parts).reduce((a, b) => a + b, 0);
   return { parts, total, pp: total / p, p, rooms, hotel, carOpt, parkPP };
@@ -145,6 +150,11 @@ function renderDetail(m) {
   const parks = dest.parks.length && $('parks').checked
     ? dest.parks.map(k => `<div><a href="${k.url}" target="_blank" rel="noopener">${k.name}</a><br><span class="muted">${money(k.min)}–${money(k.max)} por día según la fecha (estimado al medio)</span></div>`).join('')
     : '<span class="muted">No incluido</span>';
+  const acts = (dest.activities || []).length ? `<div class="acts">${dest.activities.map(a => `<label class="act">
+      <input type="checkbox" data-act="${a.name.replace(/"/g, '&quot;')}" ${actsOf().has(a.name) ? 'checked' : ''}>
+      <span><a href="${a.url || '#'}" target="_blank" rel="noopener">${a.name}</a><br>
+      <span class="muted">${money(a.price)} c/u${a.orig && !a.orig.endsWith('USD') ? ' (≈ ' + a.orig + ')' : ''} · ${a.rating ?? '?'}★${a.reviews ? ' · ' + Math.round(a.reviews).toLocaleString() + ' reseñas' : ''} · ${a.src}</span></span></label>`).join('')}</div>`
+    : '<span class="muted">Todavía no hay actividades para este destino (salen en la próxima búsqueda).</span>';
   // calendario del mes: precio de vuelo por día
   const first = new Date(m.month + '-01T12:00'), dim = new Date(first.getFullYear(), first.getMonth() + 1, 0).getDate();
   const vals = Object.values(m.days || {}); const lo = Math.min(...vals), hi = Math.max(...vals);
@@ -162,6 +172,7 @@ function renderDetail(m) {
       <div>🏨 Hotel (${c.rooms} cuarto${c.rooms > 1 ? 's' : ''})</div><div>${money(c.parts.hotel)}</div>
       <div>🚗 Carro</div><div>${money(c.parts.car)}</div>
       <div>🎢 Parques</div><div>${money(c.parts.parks)}</div>
+      <div>🎟️ Actividades (${actsOf().size})</div><div>${money(c.parts.acts)}</div>
       <div class="t">Total grupo</div><div class="t">${money(c.total)}</div>
       <div class="t">Por persona</div><div class="t">${money(c.pp)}</div>
     </div>
@@ -174,7 +185,12 @@ function renderDetail(m) {
         <h3 style="margin-top:12px">Precio por día (ida y vuelta, ${DATA.nights} noches)</h3><div class="cal">${cal}</div></div>
       <div class="box"><h3>🏨 Hoteles (mejor calidad-precio, 4★+)</h3>${hotels}</div>
       <div class="box"><h3>🚗 Carro</h3>${car}<h3 style="margin-top:12px">🎢 Parques</h3>${parks}</div>
-    </div></div>`;
+    </div>
+    <div class="box" style="margin-top:14px"><h3>🎟️ Qué hacer en ${dest.name} — marcá las que quieran y se suman al costo</h3>${acts}</div>
+    </div>`;
+  document.querySelectorAll('[data-act]').forEach(cb => cb.onchange = () => {
+    cb.checked ? actsOf().add(cb.dataset.act) : actsOf().delete(cb.dataset.act); render();
+  });
 }
 
 ['people', 'car', 'parks', 'parkDays'].forEach(id => $(id).addEventListener('input', render));
