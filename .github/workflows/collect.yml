@@ -2,7 +2,7 @@ name: Buscar precios
 
 on:
   schedule:
-    - cron: "0 8 * * *"   # 2:00 a.m. Costa Rica
+    - cron: "17 8 * * *"  # 2:17 a.m. Costa Rica (minuto impar: GitHub se salta menos)
   workflow_dispatch:      # botón "Run workflow" para correrlo a mano
 
 permissions:
