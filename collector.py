@@ -93,8 +93,8 @@ def flights_month(airport, start, end):
                                     "--duration", str(NIGHTS), "--currency", CUR, "--format", "json"])),
     }
     if not src["trvl"] and not src["fli"]:  # bloqueo temporal: espera y reintenta una vez
-        log("  sin datos, reintento en 90s")
-        time.sleep(90)
+        log("  sin datos (Google en enfriamiento), reintento en 5 min")
+        time.sleep(300)
         src["trvl"] = day_prices(run_json(["trvl", "dates", ORIGIN, airport, "--from", s, "--to", e, "--round-trip",
                                            "--duration", str(NIGHTS), "--currency", CUR, "--format", "json"]))
     if not src["fli"]:
@@ -190,8 +190,14 @@ def mcp_call(url, tool, args):
     post({"jsonrpc": "2.0", "method": "notifications/initialized"})
     res = post({"jsonrpc": "2.0", "id": 2, "method": "tools/call", "params": {"name": tool, "arguments": args}})
     res = (res or {}).get("result") or {}
-    if res.get("structuredContent"):
-        return res["structuredContent"]
+    sc = res.get("structuredContent")
+    if isinstance(sc, dict) and isinstance(sc.get("result"), str):
+        try:
+            return json.loads(sc["result"])
+        except ValueError:
+            pass
+    if sc:
+        return sc
     for c in res.get("content", []):
         if c.get("type") == "text":
             try:
@@ -201,11 +207,11 @@ def mcp_call(url, tool, args):
     return None
 
 
-def cars(airport, pickup, dropoff):
+def cars(airport, pickup, dropoff, location=None):
     """Carro más barato que quepa: 'small' hasta 5 personas, 'van' para 6-9. Total por todo el alquiler."""
     time.sleep(PAUSE)
     try:
-        data = mcp_call(OCTO, "search", {"location": f"{airport} Airport", "pickup_date": pickup,
+        data = mcp_call(OCTO, "search", {"location": location or f"{airport} Airport", "pickup_date": pickup,
                                          "dropoff_date": dropoff, "currency": CUR, "pickup_time": "12:00",
                                          "dropoff_time": "12:00"})
     except Exception as e:
@@ -316,7 +322,7 @@ def collect(only):
                 fl["seen"] = now
                 m["hotels"] = hotels(dest["hotel_city"], fl["date"], fl["return"])
                 if dest.get("car"):
-                    m["car"] = cars(dest["airport"], fl["date"], fl["return"])
+                    m["car"] = cars(dest["airport"], fl["date"], fl["return"], dest.get("car_location"))
             months.append(m)
         acts = activities(dest)
         log("  actividades:", len(acts))

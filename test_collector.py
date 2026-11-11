@@ -39,3 +39,9 @@ assert "Malo" not in names and len(acts) == 2, acts
 ksc = [a for a in acts if a["name"] == "Kennedy Space Center"][0]
 assert ksc["price"] == 86 and ksc["src"] == "piqod", ksc  # 80 EUR -> 86 USD, más barata que 95
 print("ok actividades")
+
+# OctoTrip real: el JSON viene como texto en structuredContent.result
+import json as _j
+c.mcp_call = lambda *a: _j.loads(_j.dumps({"results": [{"name": "Nissan Versa", "category": "Compact", "price": 107.27, "passengers": 5, "vendor": "ACARENT"}]}))
+assert c.cars("MCO", "2027-01-14", "2027-01-21")["small"]["price"] == 107
+print("ok octotrip")

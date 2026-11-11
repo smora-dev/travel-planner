@@ -69,7 +69,8 @@
       "airport": "LAS",
       "hotel_city": "Las Vegas Strip, NV",
       "car": true,
-      "parks": []
+      "parks": [],
+      "car_location": "Las Vegas Harry Reid International Airport"
     },
     {
       "id": "cancun",

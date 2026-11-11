@@ -28,6 +28,7 @@ jobs:
     timeout-minutes: 120
     strategy:
       fail-fast: false
+      max-parallel: 5   # menos máquinas a la vez = Google bloquea menos
       matrix:
         dest: ${{ fromJson(needs.setup.outputs.dests) }}
     steps:
@@ -38,7 +39,7 @@ jobs:
         with: { go-version: stable, cache: false }
       - name: Instalar fuentes (viajante, fli, trvl)
         run: |
-          pip install -q viajante flights
+          pip install -q viajante flights click
           go install github.com/MikkoParkkola/trvl/cmd/trvl@latest
           echo "$(go env GOPATH)/bin" >> $GITHUB_PATH
       - run: PAUSE=0 python test_collector.py
